@@ -1,7 +1,7 @@
 {
 	"id": "8cc13b2e-6f37-4bd4-93fe-5bd15aae826c",
-	"name": "Ken's Star Wars Conversion (v0.40)",
-	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned; Beastheart and Summoner have also been added but are still in their original Draw Steel form, awaiting a Star Wars pass.\n\nStill to do: reskin Beastheart and Summoner, decide whether to ban Summoner's Circle of Blight/Spring/Storms, and fill in the placeholder mechanical benefits on the Force Sensitivity Titles. See the Remaining Work To-Do List for full details.\n\nBuild v0.40 (2026-09-14) — work in progress, for testing only.",
+	"name": "Ken's Star Wars Conversion (v0.41)",
+	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned; Beastheart and Summoner have also been added but are still in their original Draw Steel form, awaiting a Star Wars pass.\n\nStill to do: reskin Beastheart and Summoner, decide whether to ban Summoner's Circle of Blight/Spring/Storms, and fill in the placeholder mechanical benefits on the Force Sensitivity Titles. See the Remaining Work To-Do List for full details.\n\nBuild v0.41 (2026-10-14) — work in progress, for testing only.",
 	"type": "Homebrew",
 	"adventures": [],
 	"ancestries": [
@@ -4554,7 +4554,7 @@
 		{
 			"id": "8bdfbb72-7152-4c4e-800a-dfa11ca0f922",
 			"name": "Inquisitor",
-			"description": "(Previously Censor)\n\nTerentateks and rogue droids fear you. Criminals run from the sight of your shadow. Agents of chaos and traitors to your order tremble at the sound of your voice. You carry the power of the Force, armed with wrath and sent out into the galaxy first to seek, then judge those whose actions—or even existence—threaten the order you serve.\n\nAs an inquisitor, you're at your best against the strongest foes. Your judgment terrifies wrongdoers, stops enemies in their tracks, and even hurls them across the battlefield.",
+			"description": "(Previously Censor)\n\nTerentateks and rogue droids fear you. Criminals run from the sight of your shadow. Agents of chaos and traitors to your order tremble at the sound of your voice. You carry the power of the Force, armed with wrath and sent out into the galaxy first to seek, then judge those whose actions—or even existence—threaten the order you serve. Force-users among your order often master Ionize, a technique for commanding electrical energy. You can overload circuits and short-circuit droids, turrets and other machinery, or shape the same current into a crackling barrier. It's most devastating against droids and electronics, but the current bites living foes too, which is why so many of your judgments strike as ion damage. Others achieve much the same with ion-charged weapons and gear.\n\nAs an inquisitor, you're at your best against the strongest foes. Your judgment terrifies wrongdoers, stops enemies in their tracks, and even hurls them across the battlefield.",
 			"type": "standard",
 			"subclassName": "Order",
 			"subclassCount": 1,
@@ -4670,13 +4670,13 @@
 						{
 							"id": "1c63450b-2a81-41c0-944f-732693f85d6c",
 							"name": "Judgment",
-							"description": "You focus your will and mark your foe with ion energy.",
+							"description": "You focus your will and mark your foe with Ion energy.",
 							"type": "Ability",
 							"data": {
 								"ability": {
 									"id": "1c63450b-2a81-41c0-944f-732693f85d6c",
 									"name": "Judgment",
-									"description": "You focus your will and mark your foe with ion energy.",
+									"description": "You focus your will and mark your foe with Ion energy.",
 									"type": {
 										"usage": "Maneuver",
 										"free": false,
@@ -4706,7 +4706,7 @@
 									"sections": [
 										{
 											"type": "text",
-											"text": "The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another inquisitor judges the target.\n\nWhenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal Ion Damage equal to twice your Presence score to them.\n\nWhen a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target.\n\nAdditionally, you can spend 1 wrath to take one of the following free triggered actions:\n\n* When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.\n* When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.\n* When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.\n* If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn.\n\nYou can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect."
+											"text": "The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another inquisitor judges the target.\n\nWhenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal ion damage equal to twice your Presence score to them.\n\nWhen a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target.\n\nAdditionally, you can spend 1 wrath to take one of the following free triggered actions:\n\n* When an adjacent creature judged by you starts to shift, you make a melee free strike against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.\n* When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.\n* When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.\n* If you damage a creature judged by you with a melee ability, the creature is taunted by you until the end of their next turn.\n\nYou can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect."
 										},
 										{
 											"type": "package",
@@ -4880,7 +4880,7 @@
 						{
 							"id": "f002feba-729a-45f1-8a8b-24779edb4cd3",
 							"name": "Look On My Work and Despair",
-							"description": "Your judgment has grown in power, instilling fear in those you condemn. Whenever you use your Judgment ability, you can spend 1 wrath, and if the target has P < [average], they are frightened of you (save ends). Additionally, whenever a creature judged by you is reduced to 0 Stamina and you use Judgment as a free triggered action, if the new target has P < [strong], they are frightened of you (save ends). If the target is already frightened of you, they instead take Ion Damage equal to twice your Presence score.",
+							"description": "Your judgment has grown in power, instilling fear in those you condemn. Whenever you use your Judgment ability, you can spend 1 wrath, and if the target has P < [average], they are frightened of you (save ends). Additionally, whenever a creature judged by you is reduced to 0 Stamina and you use Judgment as a free triggered action, if the new target has P < [strong], they are frightened of you (save ends). If the target is already frightened of you, they instead take ion damage equal to twice your Presence score.",
 							"type": "Text",
 							"data": null
 						},
@@ -5026,7 +5026,7 @@
 						{
 							"id": "34adfc9a-1dc1-4712-b73a-2187dff588ba",
 							"name": "Implement of Wrath",
-							"description": "Each time you finish a respite, you can choose one hero’s weapon, including your own, to channel supernatural power as an implement of your order’s wrath. The weapon becomes attuned and gains the following benefits until your next respite:\n\n* Strikes with the weapon deal extra Ion Damage equal to the wielder’s highest characteristic score.\n* Any creature struck by the weapon who has Ion Weakness and has P < [strong] is frightened and weakened (save ends).\n* Any minion targeted by a strike using the weapon dies. That minion’s Stamina maximum is removed from the minion Stamina pool before any damage is applied to the rest of the squad.\n* The weapon’s wielder can’t be made frightened.",
+							"description": "Each time you finish a respite, you can choose one hero’s weapon, including your own, to channel supernatural power as an implement of your order’s wrath. The weapon becomes attuned and gains the following benefits until your next respite:\n\n* Strikes with the weapon deal extra ion damage equal to the wielder’s highest characteristic score.\n* Any creature struck by the weapon who has ion weakness and has P < [strong] is frightened and weakened (save ends).\n* Any minion targeted by a strike using the weapon dies. That minion’s Stamina maximum is removed from the minion Stamina pool before any damage is applied to the rest of the squad.\n* The weapon’s wielder can’t be made frightened.",
 							"type": "Text",
 							"data": null
 						},
@@ -6853,7 +6853,7 @@
 																},
 																{
 																	"type": "text",
-																	"text": "This ability gains an edge against Terentateks, droids, and creatures not native to your current world. If you know the target’s true name, this ability has a double edge. While banished, the target is flung beyond reality and removed from the encounter map. A banished target can do nothing but make saving throws, and takes 10 Ion Damage each time they do so. If the target is reduced to 0 Stamina while banished, they are lost for good."
+																	"text": "This ability gains an edge against Terentateks, droids, and creatures not native to your current world. If you know the target’s true name, this ability has a double edge. While banished, the target is flung beyond reality and removed from the encounter map. A banished target can do nothing but make saving throws, and takes 10 ion damage each time they do so. If the target is reduced to 0 Stamina while banished, they are lost for good."
 																}
 															]
 														}
@@ -7877,7 +7877,7 @@
 		{
 			"id": "7b6bc671-2116-44ab-aeb0-a5ce85b4b9cf",
 			"name": "Warden",
-			"description": "(Previously Conduit)\n\nWhether it flows from the Force or simply from skill and hard-won training, a deep well of power moves through you. As a warden, you don't just keep your allies in the fight—you make them more effective, even as you turn that same power against your foes. Where others answer only to themselves, you answer to something greater.\n\nAs a warden, you heal and buff your allies, and debuff your foes while smiting them with your power. Something in you shines through in a crisis, filling your enemies with unease and making you more worldly and aware.",
+			"description": "(Previously Conduit)\n\nWhether it flows from the Force or simply from skill and hard-won training, a deep well of power moves through you. Those who follow the Force often learn Ionize, a technique for controlling electrical energy. You can shape it into energetic barriers around your allies, or overload the circuits of droids and other machines. It's especially effective against droids, though it can sear living foes too, and it's the source of much of your ion damage. Those who don't channel the same effect through ion-charged gear and hard training. As a warden, you don't just keep your allies in the fight—you make them more effective, even as you turn that same power against your foes. Where others answer only to themselves, you answer to something greater.\n\nAs a warden, you heal and buff your allies, and debuff your foes while smiting them with your power. Something in you shines through in a crisis, filling your enemies with unease and making you more worldly and aware.",
 			"type": "standard",
 			"subclassName": "",
 			"subclassCount": 0,
@@ -8108,7 +8108,7 @@
 										},
 										{
 											"type": "text",
-											"text": "You can have this ability deal Ion Damage."
+											"text": "You can have this ability deal ion damage."
 										}
 									]
 								}
@@ -8818,7 +8818,7 @@
 						{
 							"id": "56e2b203-6e61-466e-b175-a2ab7bff89d4",
 							"name": "Ascendant",
-							"description": "\nYou are infused with a measure of power reserved for the most worthy instruments of your training or connection to the Force. You have the following benefits:\n\n* You gain an edge on Presence tests made to interact with other creatures.\n* Whenever you deal damage to an enemy, you can spend a Recovery.\n* You have corruption immunity 10 or Ion Immunity 10 (your choice).\n* Your clothing and equipment changes in a way that reflects your status as a chosen champion of that power, such as ordinary robes turning into gold vestments or a simple dagger becoming a wicked blade with intricate etching.",
+							"description": "\nYou are infused with a measure of power reserved for the most worthy instruments of your training or connection to the Force. You have the following benefits:\n\n* You gain an edge on Presence tests made to interact with other creatures.\n* Whenever you deal damage to an enemy, you can spend a Recovery.\n* You have corruption immunity 10 or ion immunity 10 (your choice).\n* Your clothing and equipment changes in a way that reflects your status as a chosen champion of that power, such as ordinary robes turning into gold vestments or a simple dagger becoming a wicked blade with intricate etching.",
 							"type": "Text",
 							"data": null
 						},
@@ -49368,7 +49368,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Ion",
+																		"damageType": "Holy",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -49481,7 +49481,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Ion",
+																		"damageType": "Holy",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -49592,7 +49592,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Ion",
+																		"damageType": "Holy",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -49715,7 +49715,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Ion",
+																		"damageType": "Holy",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -49826,7 +49826,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Ion",
+																		"damageType": "Holy",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -49937,7 +49937,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Ion",
+																		"damageType": "Holy",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -50218,7 +50218,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Ion",
+																		"damageType": "Holy",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -50336,7 +50336,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Ion",
+																		"damageType": "Holy",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -50456,7 +50456,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Ion",
+																		"damageType": "Holy",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -50615,7 +50615,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Ion",
+																		"damageType": "Holy",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -50784,7 +50784,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Ion",
+																		"damageType": "Holy",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -50902,7 +50902,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Ion",
+																		"damageType": "Holy",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -53320,7 +53320,7 @@
 													"stamina": 0,
 													"stability": 3,
 													"freeStrikeDamage": 9,
-													"freeStrikeType": "Ion",
+													"freeStrikeType": "Holy",
 													"characteristics": [
 														{
 															"characteristic": "Might",
@@ -53583,7 +53583,7 @@
 																	"sections": [
 																		{
 																			"type": "text",
-																			"text": "9 Ion Damage. Each target is vertically pulled a number of squares equal to their size straight down, ignoring stability. If the target would be force moved into the ground, they are buried beneath the ground instead."
+																			"text": "9 holy damage. Each target is vertically pulled a number of squares equal to their size straight down, ignoring stability. If the target would be force moved into the ground, they are buried beneath the ground instead."
 																		}
 																	]
 																}
@@ -58374,7 +58374,7 @@
 				{
 					"id": "a6d42ac0-1c49-4d48-bff2-23d2911d43c1",
 					"name": "Corrupted Mentor Drawback",
-					"description": "You have Ion Weakness 1. Each time you use Corrupt Spirit, your Ion Weakness increases by 1, to a maximum equal to your recovery value. Whenever you take Ion Damage, this weakness resets to 1.",
+					"description": "You have ion weakness 1. Each time you use Corrupt Spirit, your ion weakness increases by 1, to a maximum equal to your recovery value. Whenever you take ion damage, this weakness resets to 1.",
 					"type": "Text",
 					"data": null
 				}
@@ -58859,7 +58859,7 @@
 				{
 					"id": "59ec6c4e-c900-4cde-b3b5-80d2be7372ba",
 					"name": "Fallen Immortal Benefit",
-					"description": "Whenever you use an ability that deals untyped damage, that ability can deal Ion Damage instead.",
+					"description": "Whenever you use an ability that deals untyped damage, that ability can deal ion damage instead.",
 					"type": "Text",
 					"data": null
 				},
@@ -64418,9 +64418,9 @@
 													"Intuition"
 												],
 												"bonus": 0,
-												"tier1": "4 + I Ion Damage; P < [weak], before taking damage, the target makes a free strike against a target you choose",
-												"tier2": "7 + I Ion Damage; P < [average], before taking damage, the target uses an ability of your choice and you choose any targets for that ability",
-												"tier3": "11 + I Ion Damage; P < [strong], before taking damage, the target shifts up to their speed to a location you choose, uses an ability of your choice, and you choose any targets for that ability"
+												"tier1": "4 + I ion damage; P < [weak], before taking damage, the target makes a free strike against a target you choose",
+												"tier2": "7 + I ion damage; P < [average], before taking damage, the target uses an ability of your choice and you choose any targets for that ability",
+												"tier3": "11 + I ion damage; P < [strong], before taking damage, the target shifts up to their speed to a location you choose, uses an ability of your choice, and you choose any targets for that ability"
 											}
 										}
 									]
@@ -66298,7 +66298,7 @@
 				{
 					"resource": "Piety",
 					"tag": "",
-					"trigger": "The first time in an encounter that an enemy within 10 squares takes fire or Ion Damage",
+					"trigger": "The first time in an encounter that an enemy within 10 squares takes fire or ion damage",
 					"value": "2",
 					"frequency": "Per Round",
 					"used": false
@@ -70502,7 +70502,7 @@
 						{
 							"id": "25e2888f-1351-424e-8e85-380cdda835ca",
 							"name": "Suited for Victory",
-							"description": "This blade takes on the size, shape, and make that the wielder wills into it. It can be a light, medium, or heavy weapon, and you can change its weapon type and appearance as a free maneuver. Any weapon ability that deals rolled damage using the Kyberheart Blade always deals Ion Damage. Any creature with weakness to Ion Damage who takes damage from this weapon is also frightened and weakened until the end of their next turn.",
+							"description": "This blade takes on the size, shape, and make that the wielder wills into it. It can be a light, medium, or heavy weapon, and you can change its weapon type and appearance as a free maneuver. Any weapon ability that deals rolled damage using the Kyberheart Blade always deals ion damage. Any creature with weakness to ion damage who takes damage from this weapon is also frightened and weakened until the end of their next turn.",
 							"type": "Text",
 							"data": null
 						},
@@ -78177,9 +78177,9 @@
 											"Presence"
 										],
 										"bonus": 0,
-										"tier1": "2 + M, R, I, or P Ion Damage",
-										"tier2": "4 + M, R, I, or P Ion Damage",
-										"tier3": "7 + M, R, I, or P Ion Damage"
+										"tier1": "2 + M, R, I, or P ion damage",
+										"tier2": "4 + M, R, I, or P ion damage",
+										"tier3": "7 + M, R, I, or P ion damage"
 									}
 								},
 								{
@@ -81294,7 +81294,7 @@
 				{
 					"id": "a1ee9de8-58e8-44fc-9e2d-09a39bf34adf",
 					"name": "Sacrifices",
-					"description": "You are to be dropped in a volcano, fed to a sacred monster, abandoned in a desert, or otherwise sacrificed to a higher power. You are bedecked with holy jewelry. Each hero earns 1 Wealth.",
+					"description": "You are to be dropped in a volcano, fed to a sacred monster, abandoned in a desert, or otherwise sacrificed to a higher power. You are bedecked with ceremonial jewelry. Each hero earns 1 Wealth.",
 					"type": "Text",
 					"data": null
 				},
@@ -81459,8 +81459,8 @@
 			"features": [
 				{
 					"id": "cc0caada-0823-48b2-a34a-4e9142d3a7aa",
-					"name": "Blessed Weapons",
-					"description": "Whenever you use a damage-dealing weapon ability, that ability can deal Ion Damage instead of its usual damage type.",
+					"name": "Ion-Charged Weapons",
+					"description": "Whenever you use a damage-dealing weapon ability, that ability can deal ion damage instead of its usual damage type.",
 					"type": "Text",
 					"data": null
 				},
@@ -81509,13 +81509,13 @@
 				},
 				{
 					"id": "d8697046-dfaa-4213-8d77-eb5c538e8db7",
-					"name": "Holy Terror",
+					"name": "Ion Terror",
 					"description": "Return to your grave!",
 					"type": "Ability",
 					"data": {
 						"ability": {
 							"id": "d8697046-dfaa-4213-8d77-eb5c538e8db7",
-							"name": "Holy Terror",
+							"name": "Ion Terror",
 							"description": "Return to your grave!",
 							"type": {
 								"usage": "Maneuver",
@@ -81546,7 +81546,7 @@
 							"sections": [
 								{
 									"type": "text",
-									"text": "Each target takes Ion Damage equal to your Reason, Intuition, or Presence score (your choice). Additionally, each target who has P < [strong] is frightened (save ends)."
+									"text": "Each target takes ion damage equal to your Reason, Intuition, or Presence score (your choice). Additionally, each target who has P < [strong] is frightened (save ends)."
 								}
 							]
 						}
@@ -82638,7 +82638,7 @@
 				{
 					"id": "fa1e60d0-cc63-4d08-88d9-2ad5d363c5b0",
 					"name": "Rampant Droid",
-					"description": "You return to life 1 minute after being killed with Stamina equal to your winded value. You gain corruption immunity equal to your level and the following benefit if you are killed by any other rampant droid. If you die again, you rise as a similar creature under the Director’s control.\n\t\t\t\t\t\nWhen you are reduced to 0 Stamina by damage that isn’t fire or Ion Damage and your body isn’t destroyed, you can regain half your Stamina and fall prone. Once you use this benefit, you can’t use it again until you earn 10 or more Victories.",
+					"description": "You return to life 1 minute after being killed with Stamina equal to your winded value. You gain corruption immunity equal to your level and the following benefit if you are killed by any other rampant droid. If you die again, you rise as a similar creature under the Director’s control.\n\t\t\t\t\t\nWhen you are reduced to 0 Stamina by damage that isn’t fire or ion damage and your body isn’t destroyed, you can regain half your Stamina and fall prone. Once you use this benefit, you can’t use it again until you earn 10 or more Victories.",
 					"type": "Text",
 					"data": null
 				}
@@ -82786,7 +82786,7 @@
 				{
 					"id": "89321574-6750-488a-9d34-d4769cb695a3",
 					"name": "Untouched by Corruption",
-					"description": "Whenever you use a damage-dealing ability, that ability can deal Ion Damage instead of its usual damage type.",
+					"description": "Whenever you use a damage-dealing ability, that ability can deal ion damage instead of its usual damage type.",
 					"type": "Text",
 					"data": null
 				}
@@ -83121,7 +83121,7 @@
 											"feature": {
 												"id": "29b4db9e-da1a-4863-8ed1-b8ac2bf5ea8e",
 												"name": "Legendary Weapons",
-												"description": "Whenever you use a damage-dealing weapon ability, that ability can deal corruption or Ion Damage instead of its usual damage type.",
+												"description": "Whenever you use a damage-dealing weapon ability, that ability can deal corruption or ion damage instead of its usual damage type.",
 												"type": "Text",
 												"data": null
 											},
@@ -83197,7 +83197,7 @@
 				{
 					"id": "1961a4ac-f03f-450a-a55f-0819ee2750f3",
 					"name": "Perfect Protection",
-					"description": "A characteristic of your choice increases by 1 (to a maximum of 6). The Director chooses a damage type that is dealt by or thematically related to the artifact—for instance, holy for the Thousand-Year Blade, psychic for the ancient holocron scepter, or corruption for the Mortal Coil. You have immunity all to the chosen damage type.",
+					"description": "A characteristic of your choice increases by 1 (to a maximum of 6). The Director chooses a damage type that is dealt by or thematically related to the artifact—for instance, ion for the Kyberheart Blade, psychic for the ancient holocron scepter, or corruption for the Mortal Coil. You have immunity all to the chosen damage type.",
 					"type": "Text",
 					"data": null
 				},
@@ -83297,7 +83297,7 @@
 				{
 					"id": "7fe47aab-51fe-454b-a480-afadc0579f40",
 					"name": "Effect",
-					"description": "A Force presence or other powerful being has determined that it is not yet your time to die. Your body fades away, but you reappear alive 24 hours later in a location of your choice. You regain all your Stamina and Recoveries, and your choice of your Intuition or Presence increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:\n\n* Holy Weapon: You have a leveled treasure of the Director’s choice.\n* Kill Me Once, Shame On You: Choose a creature keyword belonging to one of the creatures who defeated you. Any creature with that keyword takes a bane on ability rolls against you.\n* Memories of the Beyond: You have two skills of your choice.\n\nSpecial: If an Ithorian gains this title as a result of using their Doomsight trait, they lose that trait.",
+					"description": "A Force presence or other powerful being has determined that it is not yet your time to die. Your body fades away, but you reappear alive 24 hours later in a location of your choice. You regain all your Stamina and Recoveries, and your choice of your Intuition or Presence increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:\n\n* Relic Weapon: You have a leveled treasure of the Director’s choice.\n* Kill Me Once, Shame On You: Choose a creature keyword belonging to one of the creatures who defeated you. Any creature with that keyword takes a bane on ability rolls against you.\n* Memories of the Beyond: You have two skills of your choice.\n\nSpecial: If an Ithorian gains this title as a result of using their Doomsight trait, they lose that trait.",
 					"type": "Text",
 					"data": null
 				},
@@ -83311,7 +83311,7 @@
 							{
 								"feature": {
 									"id": "89fa416c-51f8-477a-b523-838ea566dd31",
-									"name": "Holy Weapon",
+									"name": "Relic Weapon",
 									"description": "You have a leveled treasure of the Director’s choice.",
 									"type": "Item Choice",
 									"data": {
@@ -83765,7 +83765,7 @@
 				{
 					"id": "b8df5216-d2ab-4399-914e-3caa4f6be8a4",
 					"name": "Untouched by Corruption",
-					"description": "Whenever you use a damage-dealing ability, that ability can deal Ion Damage instead of its usual damage type.",
+					"description": "Whenever you use a damage-dealing ability, that ability can deal holy damage instead of its usual damage type.",
 					"type": "Text",
 					"data": null
 				}
@@ -83803,7 +83803,7 @@
 				{
 					"id": "f5340067-06e2-42e0-8b22-63745d4899ef",
 					"name": "Untouched by Corruption",
-					"description": "Whenever you use a damage-dealing ability, that ability can deal Ion Damage instead of its usual damage type.",
+					"description": "Whenever you use a damage-dealing ability, that ability can deal holy damage instead of its usual damage type.",
 					"type": "Text",
 					"data": null
 				}
@@ -84062,7 +84062,7 @@
 				{
 					"id": "33deae6d-d288-4662-bf41-ab936005b123",
 					"name": "Untouched by Corruption",
-					"description": "Whenever you use a damage-dealing ability, that ability can deal Ion Damage instead of its usual damage type.",
+					"description": "Whenever you use a damage-dealing ability, that ability can deal holy damage instead of its usual damage type.",
 					"type": "Text",
 					"data": null
 				}
