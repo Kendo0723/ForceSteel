@@ -1,7 +1,7 @@
 {
 	"id": "8cc13b2e-6f37-4bd4-93fe-5bd15aae826c",
-	"name": "Ken's Star Wars Conversion (v0.43)",
-	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned; Beastheart and Summoner have also been added but are still in their original Draw Steel form, awaiting a Star Wars pass.\n\nStill to do: reskin Beastheart and Summoner, decide whether to ban Summoner's Circle of Blight/Spring/Storms, and fill in the placeholder mechanical benefits on the Force Sensitivity Titles. See the Remaining Work To-Do List for full details.\n\nBuild v0.43 (2026-10-15) — work in progress, for testing only.",
+	"name": "Ken's Star Wars Conversion (v0.44)",
+	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned; Beastheart and Summoner have also been added but are still in their original Draw Steel form, awaiting a Star Wars pass.\n\nStill to do: reskin Beastheart and Summoner, decide whether to ban Summoner's Circle of Blight/Spring/Storms, and fill in the placeholder mechanical benefits on the Force Sensitivity Titles. See the Remaining Work To-Do List for full details.\n\nBuild v0.44 (2026-10-15) — work in progress, for testing only.",
 	"type": "Homebrew",
 	"adventures": [],
 	"ancestries": [
@@ -44,7 +44,7 @@
 				},
 				{
 					"id": "7227d9be-0f62-4460-9df0-f74afc131b3c",
-					"name": "Zabrak Traits",
+					"name": "Purchased Traits",
 					"description": "",
 					"type": "Choice",
 					"data": {
@@ -336,7 +336,7 @@
 				},
 				{
 					"id": "bd63db84-be49-4397-99bc-e2548b1182cb",
-					"name": "Rodian Traits",
+					"name": "Purchased Traits",
 					"description": "",
 					"type": "Choice",
 					"data": {
@@ -767,7 +767,7 @@
 				},
 				{
 					"id": "40a1e30b-aaa1-4af5-a385-4922df617783",
-					"name": "Tognath Traits",
+					"name": "Purchased Traits",
 					"description": "",
 					"type": "Choice",
 					"data": {
@@ -866,7 +866,7 @@
 				},
 				{
 					"id": "d84b942f-c26c-42a4-97b6-e0f11a4bef74",
-					"name": "Twi'lek Features",
+					"name": "Purchased Traits",
 					"description": "",
 					"type": "Choice",
 					"data": {
@@ -995,7 +995,7 @@
 				},
 				{
 					"id": "d028d87e-018f-4dec-a9e2-bf8937649bd5",
-					"name": "Nightsister Traits",
+					"name": "Purchased Traits",
 					"description": "",
 					"type": "Choice",
 					"data": {
@@ -1141,7 +1141,7 @@
 				},
 				{
 					"id": "072fafd3-204b-4d4d-9a83-663c3058825c",
-					"name": "Ithorian Traits",
+					"name": "Purchased Traits",
 					"description": "",
 					"type": "Choice",
 					"data": {
@@ -1298,7 +1298,7 @@
 				},
 				{
 					"id": "25342a41-829f-4de0-854c-ae2b3cb30563",
-					"name": "Human Traits",
+					"name": "Purchased Traits",
 					"description": "",
 					"type": "Choice",
 					"data": {
@@ -1444,7 +1444,7 @@
 				},
 				{
 					"id": "eb9745a0-aee8-4072-9938-5a325685f476",
-					"name": "Kaminoan Traits",
+					"name": "Purchased Traits",
 					"description": "",
 					"type": "Choice",
 					"data": {
@@ -1575,7 +1575,7 @@
 				},
 				{
 					"id": "21822a54-23de-4a05-824e-973bc4b61f07",
-					"name": "Wookiee Traits",
+					"name": "Purchased Traits",
 					"description": "",
 					"type": "Choice",
 					"data": {
@@ -1715,7 +1715,7 @@
 				},
 				{
 					"id": "1370798d-57e8-45f9-8c43-f9462adc74ba",
-					"name": "Sullustan Traits",
+					"name": "Purchased Traits",
 					"description": "",
 					"type": "Choice",
 					"data": {
@@ -1924,7 +1924,7 @@
 				},
 				{
 					"id": "75f39b7c-e7ed-476e-9681-e9ce0c793bc2",
-					"name": "Droid Traits",
+					"name": "Purchased Traits",
 					"description": "",
 					"type": "Choice",
 					"data": {
@@ -2105,7 +2105,7 @@
 				},
 				{
 					"id": "3ca98e13-1340-4c99-99ce-4b4761a0f697",
-					"name": "Ardennian Traits",
+					"name": "Purchased Traits",
 					"description": "",
 					"type": "Choice",
 					"data": {
@@ -4973,7 +4973,7 @@
 							"type": "Heroic Resource Gain",
 							"data": {
 								"tag": "deal-damage 2",
-								"trigger": "The first time each round that you deal damage to a creature judged by you",
+								"trigger": "You deal damage to a creature judged by you",
 								"value": "2",
 								"replacesTags": [
 									"deal-damage"
@@ -13389,10 +13389,10 @@
 					],
 					"distance": [
 						{
-							"type": "Cube",
-							"value": 4,
+							"type": "Ranged",
+							"value": 10,
 							"value2": 0,
-							"within": 10,
+							"within": 0,
 							"special": "",
 							"qualifier": ""
 						}
@@ -15292,7 +15292,7 @@
 							"type": "Heroic Resource Gain",
 							"data": {
 								"tag": "take-damage 2",
-								"trigger": "The first time each combat round that you take damage",
+								"trigger": "You take damage",
 								"value": "2",
 								"replacesTags": [
 									"take-damage"
@@ -15620,7 +15620,7 @@
 							"type": "Heroic Resource Gain",
 							"data": {
 								"tag": "take-damage 3",
-								"trigger": "The first time each combat round that you take damage",
+								"trigger": "You take damage",
 								"value": "3",
 								"replacesTags": [
 									"take-damage",
@@ -43784,7 +43784,7 @@
 							"type": "Heroic Resource Gain",
 							"data": {
 								"tag": "deal-damage-companion 2",
-								"trigger": "The first time in a round that a creature adjacent to your companion takes damage",
+								"trigger": "A creature adjacent to your companion takes damage",
 								"value": "3",
 								"frequency": "Per Round",
 								"used": false,
@@ -48585,7 +48585,7 @@
 														}
 													],
 													"target": "One ally",
-													"cost": 0,
+													"cost": 3,
 													"repeatable": false,
 													"minLevel": 1,
 													"sections": [
@@ -66159,55 +66159,65 @@
 					"level": 7,
 					"features": [
 						{
-							"id": "39f14527-9cd6-4656-a602-051747c0a763",
-							"name": "Covenant of the Heart",
-							"description": "You can maintain bonds with up to three willing creatures using your Invocation of the Heart feature.",
-							"type": "Text",
-							"data": null
-						},
-						{
-							"id": "be416a1c-3436-45c3-b124-501895617ead",
-							"name": "Guided to Your Side",
-							"description": "You concentrate on a friend and teleport to them.",
-							"type": "Ability",
+							"id": "957106cc-b339-4f4f-8c9b-3858e9942e1f",
+							"name": "Covenant of the Heart, Guided to Your Side",
+							"description": "",
+							"type": "Multiple Features",
 							"data": {
-								"ability": {
-									"id": "be416a1c-3436-45c3-b124-501895617ead",
-									"name": "Guided to Your Side",
-									"description": "You concentrate on a friend and teleport to them.",
-									"type": {
-										"usage": "Main Action",
-										"free": false,
-										"trigger": "",
-										"time": "",
-										"qualifiers": [],
-										"freeStrike": false
+								"features": [
+									{
+										"id": "39f14527-9cd6-4656-a602-051747c0a763",
+										"name": "Covenant of the Heart",
+										"description": "You can maintain bonds with up to three willing creatures using your Invocation of the Heart feature.",
+										"type": "Text",
+										"data": null
 									},
-									"keywords": [
-										"Magic",
-										"Ranged"
-									],
-									"distance": [
-										{
-											"type": "Ranged",
-											"value": 10,
-											"value2": 0,
-											"within": 0,
-											"special": "",
-											"qualifier": ""
+									{
+										"id": "be416a1c-3436-45c3-b124-501895617ead",
+										"name": "Guided to Your Side",
+										"description": "You concentrate on a friend and teleport to them.",
+										"type": "Ability",
+										"data": {
+											"ability": {
+												"id": "be416a1c-3436-45c3-b124-501895617ead",
+												"name": "Guided to Your Side",
+												"description": "You concentrate on a friend and teleport to them.",
+												"type": {
+													"usage": "Main Action",
+													"free": false,
+													"trigger": "",
+													"time": "",
+													"qualifiers": [],
+													"freeStrike": false
+												},
+												"keywords": [
+													"Magic",
+													"Ranged"
+												],
+												"distance": [
+													{
+														"type": "Ranged",
+														"value": 10,
+														"value2": 0,
+														"within": 0,
+														"special": "",
+														"qualifier": ""
+													}
+												],
+												"target": "Self and each ally",
+												"cost": 0,
+												"repeatable": false,
+												"minLevel": 1,
+												"sections": [
+													{
+														"type": "text",
+														"text": "Each target is teleported to unoccupied spaces within 5 squares of a willing creature who you are bonded to with your Invocation of the Heart feature. You don’t need line of effect to the bonded creature but you must be on the same world."
+													}
+												]
+											}
 										}
-									],
-									"target": "Self and each ally",
-									"cost": 0,
-									"repeatable": false,
-									"minLevel": 1,
-									"sections": [
-										{
-											"type": "text",
-											"text": "Each target is teleported to unoccupied spaces within 5 squares of a willing creature who you are bonded to with your Invocation of the Heart feature. You don’t need line of effect to the bonded creature but you must be on the same world."
-										}
-									]
-								}
+									}
+								]
 							}
 						}
 					]
@@ -67020,11 +67030,11 @@
 									],
 									"distance": [
 										{
-											"type": "Line",
-											"value": 4,
-											"value2": 1,
-											"within": 1,
-											"special": "",
+											"type": "Special",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "Three 10x1 lines within 1",
 											"qualifier": ""
 										}
 									],
