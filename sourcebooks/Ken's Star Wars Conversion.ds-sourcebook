@@ -1,7 +1,7 @@
 {
 	"id": "8cc13b2e-6f37-4bd4-93fe-5bd15aae826c",
-	"name": "Ken's Star Wars Conversion (v0.41)",
-	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned; Beastheart and Summoner have also been added but are still in their original Draw Steel form, awaiting a Star Wars pass.\n\nStill to do: reskin Beastheart and Summoner, decide whether to ban Summoner's Circle of Blight/Spring/Storms, and fill in the placeholder mechanical benefits on the Force Sensitivity Titles. See the Remaining Work To-Do List for full details.\n\nBuild v0.41 (2026-10-14) — work in progress, for testing only.",
+	"name": "Ken's Star Wars Conversion (v0.43)",
+	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned; Beastheart and Summoner have also been added but are still in their original Draw Steel form, awaiting a Star Wars pass.\n\nStill to do: reskin Beastheart and Summoner, decide whether to ban Summoner's Circle of Blight/Spring/Storms, and fill in the placeholder mechanical benefits on the Force Sensitivity Titles. See the Remaining Work To-Do List for full details.\n\nBuild v0.43 (2026-10-15) — work in progress, for testing only.",
 	"type": "Homebrew",
 	"adventures": [],
 	"ancestries": [
@@ -4616,14 +4616,14 @@
 									},
 									{
 										"tag": "take-damage",
-										"trigger": "The first time each round that a creature judged by you deals damage to you",
+										"trigger": "A creature judged by you deals damage to you",
 										"value": "1",
 										"frequency": "Per Round",
 										"used": false
 									},
 									{
 										"tag": "deal-damage",
-										"trigger": "The first time each round that you deal damage to a creature judged by you",
+										"trigger": "You deal damage to a creature judged by you",
 										"value": "1",
 										"frequency": "Per Round",
 										"used": false
@@ -4638,7 +4638,7 @@
 						{
 							"id": "fad1acd5-977c-443f-bf63-bfb7855740f9",
 							"name": "Interpersonal / Lore Skills",
-							"description": "",
+							"description": "Choose 2 from Interpersonal skills, Lore skills.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -4950,7 +4950,7 @@
 						{
 							"id": "7a20cf24-5ed4-45d5-a1e7-0fbeceb88680",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -5130,7 +5130,7 @@
 						{
 							"id": "f10b42e9-dd1a-4dc0-8703-051db31fe859",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -5244,7 +5244,7 @@
 						{
 							"id": "a476a39c-353d-4ac2-ae0c-5af536123701",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -5276,10 +5276,10 @@
 								"type": "epic",
 								"gains": [
 									{
-										"tag": "",
+										"tag": "respite",
 										"trigger": "Finish a respite",
 										"value": "XP gained",
-										"frequency": "Per Round",
+										"frequency": "At Will",
 										"used": false
 									}
 								],
@@ -6462,7 +6462,7 @@
 								{
 									"id": "3c6baf04-5c13-4727-a8b7-ad8ce01c37b9",
 									"name": "Skill",
-									"description": "",
+									"description": "Choose a skill from any list.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -6504,9 +6504,35 @@
 								{
 									"id": "18f6054a-86a6-466a-b31c-a0eedffa07f2",
 									"name": "A Sense for Truth",
-									"description": "You are trained in secret techniques from your order that allow you to discern the truth with supernatural precision. If a creature is of a lower level than you, you automatically know when they are lying, though you don’t necessarily know the actual truth behind their lie. Additionally, you gain an edge on tests made to detect lies or hidden motives.",
-									"type": "Text",
-									"data": null
+									"description": "You are trained in secret techniques from your order that allow you to discern the truth with supernatural precision.",
+									"type": "Multiple Features",
+									"data": {
+										"features": [
+											{
+												"id": "c67cb7c3-9424-416d-bee5-f8f6bb72607d",
+												"name": "A Sense for Truth",
+												"description": "If a creature is of a lower level than you, you automatically know when they are lying, though you don’t necessarily know the actual truth behind their lie.",
+												"type": "Text",
+												"data": null
+											},
+											{
+												"id": "222603c9-d38e-49ff-904a-031dac196fea",
+												"name": "A Sense for Truth",
+												"description": "",
+												"type": "Roll Modifier",
+												"data": {
+													"modifier": "Edge",
+													"rollType": "Test",
+													"skills": [
+														"Read Person"
+													],
+													"skillLists": [],
+													"characteristics": [],
+													"condition": "When detecting lies or hidden motives"
+												}
+											}
+										]
+									}
 								},
 								{
 									"id": "0341924d-663f-4af9-9957-c0fd1e1e5ffb",
@@ -6950,7 +6976,7 @@
 								{
 									"id": "5913c4d7-271b-47f0-87e5-075aa5fb92fc",
 									"name": "Skill",
-									"description": "",
+									"description": "Choose a skill from any list.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -7400,7 +7426,7 @@
 								{
 									"id": "8401de3e-7cb0-44e4-bb52-990e0ba14cf7",
 									"name": "Skill",
-									"description": "",
+									"description": "Choose a skill from any list.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -7443,8 +7469,18 @@
 									"id": "a7449247-8179-41df-8389-7a9b253495ce",
 									"name": "Stalwart Example",
 									"description": "You exhibit a small spark of the Force’s power, causing creatures to trust or fear you, depending on what you need. You gain an edge on tests made to intimidate or persuade others.",
-									"type": "Text",
-									"data": null
+									"type": "Roll Modifier",
+									"data": {
+										"modifier": "Edge",
+										"rollType": "Test",
+										"skills": [
+											"Intimidate",
+											"Persuade"
+										],
+										"skillLists": [],
+										"characteristics": [],
+										"condition": ""
+									}
 								},
 								{
 									"id": "8e91219e-5066-4dbe-bb68-3f3b2f743e62",
@@ -7946,7 +7982,7 @@
 						{
 							"id": "7793d00a-024b-4213-816c-899ead7ddb6e",
 							"name": "Interpersonal / Lore Skills",
-							"description": "",
+							"description": "Choose 2 from Interpersonal skills, Lore skills.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -7988,7 +8024,7 @@
 							"description": "\nYou can gain more Devotion by focusing yourself—but beware! Doing so can be taxing. Before you roll to gain Devotion at the start of your turn, you can focus (no action required). If you do, your roll gains the following additional effects:\n\n* If the roll is a 1, you gain 1 additional Devotion but strain yourself! You take psychic damage equal to 1d6 + your level, which can’t be reduced in any way.\n* If the roll is a 2, you gain 1 additional Devotion.\n* If the roll is a 3, you gain 2 additional Devotion and can activate a domain effect of your choice.",
 							"type": "Package",
 							"data": {
-								"tag": "conduit-channel"
+								"tag": "conduit-prayer"
 							}
 						},
 						{
@@ -8450,8 +8486,16 @@
 											"id": "8ecb6ce2-1627-47ae-b25c-c289adad7875",
 											"name": "Bastion Ward",
 											"description": "Your training or connection to the Force grants you an unshakable presence that protects you at all times. You gain a +1 bonus to saving throws.",
-											"type": "Text",
-											"data": null
+											"type": "Bonus",
+											"data": {
+												"field": "Save",
+												"value": 1,
+												"valueFromController": null,
+												"valueCharacteristics": [],
+												"valueCharacteristicMultiplier": 1,
+												"valuePerLevel": 0,
+												"valuePerEchelon": 0
+											}
 										},
 										"value": 1
 									},
@@ -8647,7 +8691,7 @@
 								"trigger": "You gain Devotion from a domain effect.",
 								"value": "1",
 								"replacesTags": [],
-								"frequency": "Per Round",
+								"frequency": "At Will",
 								"used": false
 							}
 						},
@@ -8747,7 +8791,7 @@
 						{
 							"id": "790040b1-476b-4f89-b5db-37e4339630a3",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -8920,7 +8964,7 @@
 						{
 							"id": "8232f1c8-2753-4cb3-80a3-730683f4e0c0",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -9016,9 +9060,38 @@
 						{
 							"id": "f8d35c23-810f-4dc8-935a-eea6842f4022",
 							"name": "Commissioned",
-							"description": "Your training or connection to the Force elevates the power flowing through you. Your characteristic scores are treated as 1 higher for the purpose of resisting potencies. Additionally, while you have 5 or more Victories, you speak with unmistakable authority. You have a double edge on Presence tests made to influence other creatures.",
-							"type": "Text",
-							"data": null
+							"description": "Your training or connection to the Force elevates the power flowing through you.",
+							"type": "Multiple Features",
+							"data": {
+								"features": [
+									{
+										"id": "2268015a-6284-47b3-ab3a-c3ba678edaf1",
+										"name": "Commissioned",
+										"description": "",
+										"type": "Potency Resistance",
+										"data": {
+											"characteristics": [],
+											"value": 1
+										}
+									},
+									{
+										"id": "15205ca0-5571-4ea8-9607-19525118a29a",
+										"name": "Commissioned",
+										"description": "",
+										"type": "Roll Modifier",
+										"data": {
+											"modifier": "Double Edge",
+											"rollType": "Test",
+											"skills": [],
+											"skillLists": [],
+											"characteristics": [
+												"Presence"
+											],
+											"condition": "While you have 5 or more Victories, when influencing other creatures"
+										}
+									}
+								]
+							}
 						},
 						{
 							"id": "4115a713-6438-43f4-b394-9781d66eec79",
@@ -9127,10 +9200,10 @@
 								"type": "epic",
 								"gains": [
 									{
-										"tag": "",
+										"tag": "respite",
 										"trigger": "Finish a respite",
 										"value": "XP gained",
-										"frequency": "Per Round",
+										"frequency": "At Will",
 										"used": false
 									}
 								],
@@ -9165,7 +9238,7 @@
 						{
 							"id": "1e13f5dc-d2e8-4e2c-ad5c-2e933e0eebf1",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -10519,7 +10592,7 @@
 									},
 									{
 										"tag": "take-damage",
-										"trigger": "The first time in a round that you or a creature within 10 of you takes damage that isn’t untyped or ion",
+										"trigger": "You or a creature within 10 of you takes damage that isn’t untyped or ion",
 										"value": "1",
 										"frequency": "Per Round",
 										"used": false
@@ -10534,7 +10607,7 @@
 						{
 							"id": "0d6ef0e2-9eae-4889-9a26-59309170400b",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -10555,7 +10628,7 @@
 						{
 							"id": "a5fa0890-4a8f-4a57-a985-9d0bb08c21e6",
 							"name": "Crafting / Lore Skills",
-							"description": "",
+							"description": "Choose 3 from Crafting skills, Lore skills.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -10893,8 +10966,16 @@
 											"id": "242a7d6a-1d97-4b7f-b24e-5e0ef5c955b4",
 											"name": "Ward of Delightful Consequences",
 											"description": "A protective field of void magic absorbs violence aimed at you, then lets you hurl it back at your enemies. The first time each round that you take damage, you gain 1 surge.",
-											"type": "Text",
-											"data": null
+											"type": "Surge Gain",
+											"data": {
+												"tag": "take-damage",
+												"trigger": "You take damage",
+												"value": "1",
+												"frequency": "Per Round",
+												"used": false,
+												"replacesTags": [],
+												"condition": ""
+											}
 										},
 										"value": 1
 									},
@@ -11410,7 +11491,7 @@
 							"type": "Heroic Resource Gain",
 							"data": {
 								"tag": "take-damage 2",
-								"trigger": "The first time in a round that you or a creature within 10 of you takes damage that isn’t untyped or ion",
+								"trigger": "You or a creature within 10 of you takes damage that isn’t untyped or ion",
 								"value": "2",
 								"replacesTags": [
 									"take-damage"
@@ -11440,7 +11521,7 @@
 						{
 							"id": "28fc6749-e175-46d1-900c-4790e9c42ca1",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -11602,7 +11683,7 @@
 						{
 							"id": "9cc84eae-2b8e-47ce-afc7-f70443cf3e34",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -11707,10 +11788,10 @@
 								"type": "epic",
 								"gains": [
 									{
-										"tag": "",
+										"tag": "respite",
 										"trigger": "Finish a respite",
 										"value": "XP gained",
-										"frequency": "Per Round",
+										"frequency": "At Will",
 										"used": false
 									}
 								],
@@ -11830,7 +11911,7 @@
 						{
 							"id": "0ed8fb30-1b80-4def-b7c2-7c743b0eda4a",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -13747,14 +13828,14 @@
 					"sections": [
 						{
 							"type": "text",
-							"text": "You create a fissure in the ground adjacent to you that is a 10 × 2 line and 6 squares deep. Each creature in the area who is prone and size 2 or smaller falls in. Other creatures can enter the fissure or can shift to the nearest unoccupied space of their choice outside it."
+							"text": "You conjure an energetic shield that protects the target until the end of your next turn. While the shield is active, the target can take the Defend main action as a maneuver on each of their turns. The target gains 30 temporary Stamina that lasts until depleted or until the effect ends. If this temporary Stamina disappears, the effect ends and the shield bursts, dealing 10 damage to each enemy within 5 squares of the target."
 						},
 						{
 							"type": "field",
 							"name": "Persist",
 							"value": 2,
 							"repeatable": false,
-							"effect": "At the start of your turn, you can use a maneuver to use this ability again without spending essence."
+							"effect": "The effect lasts until the start of your next turn."
 						}
 					]
 				},
@@ -15011,16 +15092,16 @@
 									},
 									{
 										"tag": "take-damage",
-										"trigger": "The first time each combat round that you take damage",
+										"trigger": "You take damage",
 										"value": "1",
 										"frequency": "Per Round",
 										"used": false
 									},
 									{
 										"tag": "winded",
-										"trigger": "The first time you become winded or are dying in an encounter",
+										"trigger": "You become winded or are dying",
 										"value": "1d3",
-										"frequency": "Per Round",
+										"frequency": "Per Encounter",
 										"used": false
 									}
 								],
@@ -15033,7 +15114,7 @@
 						{
 							"id": "1d3a865d-c726-42ed-8201-067e42f02a2f",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -15054,7 +15135,7 @@
 						{
 							"id": "40b9134f-51d9-48e5-91f2-f34fd36a1405",
 							"name": "Exploration / Intrigue Skills",
-							"description": "",
+							"description": "Choose 2 from Exploration skills, Intrigue skills.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -15255,7 +15336,7 @@
 						{
 							"id": "292d31a0-e068-4d5b-9faf-e9d84c667718",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -15411,7 +15492,7 @@
 						{
 							"id": "3cb26b68-7333-424e-b75f-b0c60421d493",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -15558,10 +15639,10 @@
 								"type": "epic",
 								"gains": [
 									{
-										"tag": "",
+										"tag": "respite",
 										"trigger": "Finish a respite",
 										"value": "XP gained",
-										"frequency": "Per Round",
+										"frequency": "At Will",
 										"used": false
 									}
 								],
@@ -15574,7 +15655,7 @@
 						{
 							"id": "7a9cc708-53c9-4f78-b7dc-9755c5fe6225",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -16374,7 +16455,7 @@
 					"description": "You quickly strike back at a foe.",
 					"type": {
 						"usage": "Triggered Action",
-						"free": false,
+						"free": true,
 						"trigger": "A creature causes you to be winded or dying, or damages you while you are winded or dying.",
 						"time": "",
 						"qualifiers": [],
@@ -16706,7 +16787,7 @@
 								{
 									"id": "4265a41d-2f1a-422c-82c1-151492e11a8c",
 									"name": "Skill",
-									"description": "",
+									"description": "Choose a skill from any list.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -16740,7 +16821,7 @@
 								{
 									"id": "2f928aa6-64a3-431d-881f-020424975094",
 									"name": "Primordial Strength",
-									"description": "\nWhenever you damage an object with a weapon strike, the strike deals extra damage equal to your Might score. Additionally, whenever you push another creature into an object, the creature takes extra damage equal to your Might score.\n\nAs your ferocity grows, you gain benefits as noted on the Berserker Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.\n\n* **Ferocity 2**: Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Might score.\n* **Ferocity 4**: The first time you push a creature on a turn, you gain 1 surge.\n* **Ferocity 6**: You gain an edge on Might tests and the Knockback maneuver.",
+									"description": "\nWhenever you damage an object with a weapon strike, the strike deals extra damage equal to your Might score. Additionally, whenever you push another creature into an object, the creature takes extra damage equal to your Might score.",
 									"type": "Text",
 									"data": null
 								},
@@ -16794,6 +16875,111 @@
 												}
 											]
 										}
+									}
+								},
+								{
+									"id": "a6d2a212-cd49-4114-8114-b86f592f029c",
+									"name": "Growing Ferocity",
+									"description": "As your ferocity grows, you gain benefits as noted on the Berserker Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.",
+									"type": "Multiple Features",
+									"data": {
+										"features": [
+											{
+												"id": "e69b9c6e-4da8-4840-afe8-05d157a8e7ce",
+												"name": "Ferocity 2",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Ferocity",
+													"value": 2,
+													"level": 1,
+													"feature": {
+														"id": "057ad419-b864-4371-8de5-0a5369ab1481",
+														"name": "Growing Ferocity (Ferocity 2)",
+														"description": "Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Might score.",
+														"type": "Text",
+														"data": null
+													}
+												}
+											},
+											{
+												"id": "189eec9f-3cff-4eb8-9556-5f3cc125129f",
+												"name": "Ferocity 4",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Ferocity",
+													"value": 4,
+													"level": 1,
+													"feature": {
+														"id": "b20c41e3-e44e-4f6c-a148-e2c871144915",
+														"name": "Growing Ferocity (Ferocity 4)",
+														"description": "",
+														"type": "Surge Gain",
+														"data": {
+															"tag": "push",
+															"trigger": "You push a creature",
+															"value": "1",
+															"frequency": "Per Round",
+															"used": false,
+															"replacesTags": [],
+															"condition": ""
+														}
+													}
+												}
+											},
+											{
+												"id": "4208ba6b-c453-4e3e-ad09-5dc1316486c7",
+												"name": "Ferocity 6",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Ferocity",
+													"value": 6,
+													"level": 1,
+													"feature": {
+														"id": "511caa0b-43fb-4d83-87c1-389a580cc045",
+														"name": "Growing Ferocity (Ferocity 6)",
+														"description": "",
+														"type": "Multiple Features",
+														"data": {
+															"features": [
+																{
+																	"id": "4c91eebe-a818-4ea0-a561-9bfe128ebd03",
+																	"name": "Growing Ferocity (Ferocity 6)",
+																	"description": "",
+																	"type": "Roll Modifier",
+																	"data": {
+																		"modifier": "Edge",
+																		"rollType": "Test",
+																		"skills": [],
+																		"skillLists": [],
+																		"characteristics": [
+																			"Might"
+																		],
+																		"condition": ""
+																	}
+																},
+																{
+																	"id": "c013ab5e-f589-45e8-9fbb-1a8a61429b6d",
+																	"name": "Growing Ferocity (Ferocity 6)",
+																	"description": "",
+																	"type": "Roll Modifier",
+																	"data": {
+																		"modifier": "Edge",
+																		"rollType": "Knockback",
+																		"skills": [],
+																		"skillLists": [],
+																		"characteristics": [],
+																		"condition": ""
+																	}
+																}
+															]
+														}
+													}
+												}
+											}
+										]
 									}
 								}
 							]
@@ -16966,9 +17152,30 @@
 								{
 									"id": "dd8ac060-d4e7-41bb-91db-872dbfea6d90",
 									"name": "Growing Ferocity Improvement",
-									"description": "**8 Ferocity:** The first time you push a creature on a turn, you gain 2 surges.",
-									"type": "Text",
-									"data": null
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Ferocity",
+										"value": 8,
+										"level": 1,
+										"feature": {
+											"id": "36dba80d-ca99-4062-8b1b-cd72673b6d35",
+											"name": "Growing Ferocity (Ferocity 8)",
+											"description": "",
+											"type": "Surge Gain",
+											"data": {
+												"tag": "push 2",
+												"trigger": "You push a creature",
+												"value": "2",
+												"frequency": "Per Round",
+												"used": false,
+												"replacesTags": [
+													"push"
+												],
+												"condition": ""
+											}
+										}
+									}
 								}
 							]
 						},
@@ -17128,9 +17335,53 @@
 								{
 									"id": "2bdffb32-65ef-42cf-8ee6-0bd3a5e80cde",
 									"name": "Growing Ferocity Improvement",
-									"description": "**10 Ferocity:** You have a double edge on Might tests and the Knockback maneuver.",
-									"type": "Text",
-									"data": null
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Ferocity",
+										"value": 10,
+										"level": 1,
+										"feature": {
+											"id": "dbd3a8f6-b31e-4454-b65a-5565c4764e5b",
+											"name": "Growing Ferocity (Ferocity 10)",
+											"description": "",
+											"type": "Multiple Features",
+											"data": {
+												"features": [
+													{
+														"id": "3869c94e-164b-4c51-9de7-c835319db904",
+														"name": "Growing Ferocity (Ferocity 10)",
+														"description": "",
+														"type": "Roll Modifier",
+														"data": {
+															"modifier": "Double Edge",
+															"rollType": "Test",
+															"skills": [],
+															"skillLists": [],
+															"characteristics": [
+																"Might"
+															],
+															"condition": ""
+														}
+													},
+													{
+														"id": "a6584621-5515-4adf-a1e9-5ac91bed00d6",
+														"name": "Growing Ferocity (Ferocity 10)",
+														"description": "",
+														"type": "Roll Modifier",
+														"data": {
+															"modifier": "Double Edge",
+															"rollType": "Knockback",
+															"skills": [],
+															"skillLists": [],
+															"characteristics": [],
+															"condition": ""
+														}
+													}
+												]
+											}
+										}
+									}
 								}
 							]
 						},
@@ -17293,9 +17544,20 @@
 								{
 									"id": "e31cf8ff-1ffa-47a8-8b24-088441819dd9",
 									"name": "Growing Ferocity Improvement",
-									"description": "**12 Ferocity:** Whenever you use a heroic ability, you gain 10 temporary Stamina. Additionally, whenever you make a power roll that imposes forced movement on a target, the forced movement distance gains a bonus equal to your Might score.",
-									"type": "Text",
-									"data": null
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Ferocity",
+										"value": 12,
+										"level": 1,
+										"feature": {
+											"id": "5f2852b7-6f42-4312-ada3-c3b6665b63c3",
+											"name": "Growing Ferocity (Ferocity 12)",
+											"description": "Whenever you use a heroic ability, you gain 10 temporary Stamina. Additionally, whenever you make a power roll that imposes forced movement on a target, the forced movement distance gains a bonus equal to your Might score.",
+											"type": "Text",
+											"data": null
+										}
+									}
 								}
 							]
 						}
@@ -17315,7 +17577,7 @@
 								{
 									"id": "25f884f6-5131-4f4c-b3f7-3a25949c9450",
 									"name": "Skill",
-									"description": "",
+									"description": "Choose a skill from any list.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -17349,7 +17611,7 @@
 								{
 									"id": "1686a784-4c3c-4c11-8d40-6860c8da519b",
 									"name": "Primordial Cunning",
-									"description": "\nYou are never surprised. Additionally, whenever you would push a target with forced movement, you can slide them instead.\n\nAs your ferocity grows, you gain benefits as noted on the Reaver Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.\n\n* **Ferocity 2**: Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Agility score.\n* **Ferocity 4**: The first time you slide a creature on a turn, you gain 1 surge.\n* **Ferocity 6**: You gain an edge on Agility tests and the Knockback maneuver.",
+									"description": "\nYou are never surprised. Additionally, whenever you would push a target with forced movement, you can slide them instead.",
 									"type": "Text",
 									"data": null
 								},
@@ -17400,6 +17662,111 @@
 												}
 											]
 										}
+									}
+								},
+								{
+									"id": "2d5f8d11-1f1b-45c2-92f3-e96631e5e822",
+									"name": "Growing Ferocity",
+									"description": "As your ferocity grows, you gain benefits as noted on the Reaver Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.",
+									"type": "Multiple Features",
+									"data": {
+										"features": [
+											{
+												"id": "9695382b-1c53-4568-9d7b-c2147ff2c2d8",
+												"name": "Ferocity 2",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Ferocity",
+													"value": 2,
+													"level": 1,
+													"feature": {
+														"id": "d3e3b2a3-9d96-40ec-b949-5533bef6970b",
+														"name": "Growing Ferocity (Ferocity 2)",
+														"description": "Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Agility score.",
+														"type": "Text",
+														"data": null
+													}
+												}
+											},
+											{
+												"id": "2f5f7905-ce99-432b-b0d4-02c8cddaf75e",
+												"name": "Ferocity 4",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Ferocity",
+													"value": 4,
+													"level": 1,
+													"feature": {
+														"id": "b7de2523-9091-4bcd-b12d-063b9c08c856",
+														"name": "Growing Ferocity (Ferocity 4)",
+														"description": "",
+														"type": "Surge Gain",
+														"data": {
+															"tag": "slide",
+															"trigger": "You slide a creature",
+															"value": "1",
+															"frequency": "Per Round",
+															"used": false,
+															"replacesTags": [],
+															"condition": ""
+														}
+													}
+												}
+											},
+											{
+												"id": "cf8bdec1-143a-4d4f-8773-8fd0eedc8313",
+												"name": "Ferocity 6",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Ferocity",
+													"value": 6,
+													"level": 1,
+													"feature": {
+														"id": "d3e990e8-85e7-4a7c-aa13-5e86c585e5a2",
+														"name": "Growing Ferocity (Ferocity 6)",
+														"description": "",
+														"type": "Multiple Features",
+														"data": {
+															"features": [
+																{
+																	"id": "9c195168-2e68-4547-9762-8c9ef689e3c6",
+																	"name": "Growing Ferocity (Ferocity 6)",
+																	"description": "",
+																	"type": "Roll Modifier",
+																	"data": {
+																		"modifier": "Edge",
+																		"rollType": "Test",
+																		"skills": [],
+																		"skillLists": [],
+																		"characteristics": [
+																			"Agility"
+																		],
+																		"condition": ""
+																	}
+																},
+																{
+																	"id": "bae5d167-9a57-42aa-94e6-09ecc232623e",
+																	"name": "Growing Ferocity (Ferocity 6)",
+																	"description": "",
+																	"type": "Roll Modifier",
+																	"data": {
+																		"modifier": "Edge",
+																		"rollType": "Knockback",
+																		"skills": [],
+																		"skillLists": [],
+																		"characteristics": [],
+																		"condition": ""
+																	}
+																}
+															]
+														}
+													}
+												}
+											}
+										]
 									}
 								}
 							]
@@ -17580,8 +17947,44 @@
 									"id": "b58d03e3-b756-472a-a255-dd17b18f8373",
 									"name": "See Through Your Tricks",
 									"description": "You have a double edge on tests made to search for hidden creatures, discern hidden motives, or detect lies. You also have a double edge on tests made to gamble!",
-									"type": "Text",
-									"data": null
+									"type": "Multiple Features",
+									"data": {
+										"features": [
+											{
+												"id": "7edc43f5-09fa-4c32-9efc-05cab723edda",
+												"name": "See Through Your Tricks",
+												"description": "",
+												"type": "Roll Modifier",
+												"data": {
+													"modifier": "Double Edge",
+													"rollType": "Test",
+													"skills": [
+														"Search",
+														"Read Person"
+													],
+													"skillLists": [],
+													"characteristics": [],
+													"condition": "When searching for hidden creatures, discerning hidden motives, or detecting lies"
+												}
+											},
+											{
+												"id": "0cd22e3c-8109-4abe-85a0-343ed8e2e017",
+												"name": "See Through Your Tricks",
+												"description": "",
+												"type": "Roll Modifier",
+												"data": {
+													"modifier": "Double Edge",
+													"rollType": "Test",
+													"skills": [
+														"Gamble"
+													],
+													"skillLists": [],
+													"characteristics": [],
+													"condition": ""
+												}
+											}
+										]
+									}
 								}
 							]
 						},
@@ -17591,9 +17994,30 @@
 								{
 									"id": "e10ce886-d748-4ff3-9166-fd054e3906f6",
 									"name": "Growing Ferocity Improvement",
-									"description": "**8 Ferocity:** The first time you slide a creature on a turn, you gain 2 surges.",
-									"type": "Text",
-									"data": null
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Ferocity",
+										"value": 8,
+										"level": 1,
+										"feature": {
+											"id": "dd680d60-d5bc-4581-a1b8-3b550fbd2156",
+											"name": "Growing Ferocity (Ferocity 8)",
+											"description": "",
+											"type": "Surge Gain",
+											"data": {
+												"tag": "slide 2",
+												"trigger": "You slide a creature",
+												"value": "2",
+												"frequency": "Per Round",
+												"used": false,
+												"replacesTags": [
+													"slide"
+												],
+												"condition": ""
+											}
+										}
+									}
 								}
 							]
 						},
@@ -17603,9 +18027,35 @@
 								{
 									"id": "4b66e50f-57f8-41ce-8474-ab33eb273753",
 									"name": "Unfettered",
-									"description": "At the start of your turn, you can end any restrained condition on you. Additionally, you have a double edge on tests made to escape being confined or imprisoned.",
-									"type": "Text",
-									"data": null
+									"description": "",
+									"type": "Multiple Features",
+									"data": {
+										"features": [
+											{
+												"id": "e38da618-b856-408c-9c78-71bb5f375b77",
+												"name": "Unfettered",
+												"description": "At the start of your turn, you can end any restrained condition on you.",
+												"type": "Text",
+												"data": null
+											},
+											{
+												"id": "a007ea3b-bf93-4c17-89b5-9ba5ac30433e",
+												"name": "Unfettered",
+												"description": "",
+												"type": "Roll Modifier",
+												"data": {
+													"modifier": "Double Edge",
+													"rollType": "Test",
+													"skills": [
+														"Escape Artist"
+													],
+													"skillLists": [],
+													"characteristics": [],
+													"condition": "When escaping being confined or imprisoned"
+												}
+											}
+										]
+									}
 								}
 							]
 						},
@@ -17747,9 +18197,53 @@
 								{
 									"id": "13b9bbbd-b097-433c-8fb7-337c9583f5bd",
 									"name": "Growing Ferocity Improvement",
-									"description": "**10 Ferocity:** You have a double edge on Agility tests and the Knockback maneuver.",
-									"type": "Text",
-									"data": null
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Ferocity",
+										"value": 10,
+										"level": 1,
+										"feature": {
+											"id": "585ffeae-1c67-45ff-ab64-df79f3c73d92",
+											"name": "Growing Ferocity (Ferocity 10)",
+											"description": "",
+											"type": "Multiple Features",
+											"data": {
+												"features": [
+													{
+														"id": "5dadffa8-8e9d-4793-b058-07fb5a877aee",
+														"name": "Growing Ferocity (Ferocity 10)",
+														"description": "",
+														"type": "Roll Modifier",
+														"data": {
+															"modifier": "Double Edge",
+															"rollType": "Test",
+															"skills": [],
+															"skillLists": [],
+															"characteristics": [
+																"Agility"
+															],
+															"condition": ""
+														}
+													},
+													{
+														"id": "15fa5122-7074-4792-9b8d-ec8dfdda1404",
+														"name": "Growing Ferocity (Ferocity 10)",
+														"description": "",
+														"type": "Roll Modifier",
+														"data": {
+															"modifier": "Double Edge",
+															"rollType": "Knockback",
+															"skills": [],
+															"skillLists": [],
+															"characteristics": [],
+															"condition": ""
+														}
+													}
+												]
+											}
+										}
+									}
 								}
 							]
 						},
@@ -17912,9 +18406,20 @@
 								{
 									"id": "b2ae7e8e-4deb-48c1-882c-c9872de1b822",
 									"name": "Growing Ferocity Improvement",
-									"description": "**12 Ferocity:** Whenever you use a heroic ability, you gain 10 temporary Stamina. Additionally, whenever you make a power roll that imposes forced movement on a target, the forced movement distance gains a bonus equal to your Agility score.",
-									"type": "Text",
-									"data": null
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Ferocity",
+										"value": 12,
+										"level": 1,
+										"feature": {
+											"id": "42616038-8bf9-4225-881a-e66e12283386",
+											"name": "Growing Ferocity (Ferocity 12)",
+											"description": "Whenever you use a heroic ability, you gain 10 temporary Stamina. Additionally, whenever you make a power roll that imposes forced movement on a target, the forced movement distance gains a bonus equal to your Agility score.",
+											"type": "Text",
+											"data": null
+										}
+									}
 								}
 							]
 						}
@@ -17934,7 +18439,7 @@
 								{
 									"id": "f80020d1-1e1d-4516-b9b0-91f9c5c7e8e7",
 									"name": "Skill",
-									"description": "",
+									"description": "Choose a skill from any list.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -17969,8 +18474,17 @@
 									"id": "d0be53da-75eb-456f-a2c9-8df1bfb945db",
 									"name": "Relentless Hunter",
 									"description": "You gain an edge on tests made using the Track skill.",
-									"type": "Text",
-									"data": null
+									"type": "Roll Modifier",
+									"data": {
+										"modifier": "Edge",
+										"rollType": "Test",
+										"skills": [
+											"Track"
+										],
+										"skillLists": [],
+										"characteristics": [],
+										"condition": ""
+									}
 								},
 								{
 									"id": "b3c5120d-26d1-4681-be1c-be10b8bf422b",
@@ -18609,14 +19123,14 @@
 									},
 									{
 										"tag": "action",
-										"trigger": "The first time each combat round that an enemy in the area of your Ascetic Field ability uses a main action",
+										"trigger": "An enemy in the area of your Ascetic Field ability uses a main action",
 										"value": "1",
 										"frequency": "Per Round",
 										"used": false
 									},
 									{
 										"tag": "malice",
-										"trigger": "The first time each combat round that the Director uses an ability that costs Malice",
+										"trigger": "The Director uses an ability that costs Malice",
 										"value": "1",
 										"frequency": "Per Round",
 										"used": false
@@ -18631,7 +19145,7 @@
 						{
 							"id": "0fc3d9de-dd73-478f-8812-6322e2c0aa95",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -18652,7 +19166,7 @@
 						{
 							"id": "b60ad165-e2e9-451d-b9d5-283063e02924",
 							"name": "Interpersonal / Lore Skills",
-							"description": "",
+							"description": "Choose 2 from Interpersonal skills, Lore skills.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -19181,7 +19695,7 @@
 							"type": "Heroic Resource Gain",
 							"data": {
 								"tag": "action 2",
-								"trigger": "The first time each combat round that an enemy in the area of your Ascetic Field ability uses a main action",
+								"trigger": "An enemy in the area of your Ascetic Field ability uses a main action",
 								"value": "2",
 								"replacesTags": [
 									"action"
@@ -19193,7 +19707,7 @@
 						{
 							"id": "87cdc95e-6890-405a-a0e6-09792bc77a61",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -19252,8 +19766,16 @@
 							"id": "431b5517-976f-4c5c-90e7-019fa856cdac",
 							"name": "Elemental Buffer",
 							"description": "Whenever you reduce acid, cold, corruption, fire, lightning, poison, or sonic damage with damage immunity, you gain 2 surges that can be used only to increase the damage of your next strike.",
-							"type": "Text",
-							"data": null
+							"type": "Surge Gain",
+							"data": {
+								"tag": "reduce-damage",
+								"trigger": "Whenever you reduce acid, cold, corruption, fire, lightning, poison, or sonic damage with damage immunity",
+								"value": "2",
+								"frequency": "At Will",
+								"used": false,
+								"replacesTags": [],
+								"condition": "These surges can be used only to increase the damage of your next strike."
+							}
 						},
 						{
 							"id": "86320eaf-f3ad-4cd1-8261-a15ee2e60574",
@@ -19351,7 +19873,7 @@
 						{
 							"id": "51020986-0e59-4967-b1c1-b2b2c1fce172",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -19499,10 +20021,10 @@
 								"type": "epic",
 								"gains": [
 									{
-										"tag": "",
+										"tag": "respite",
 										"trigger": "Finish a respite",
 										"value": "XP gained",
-										"frequency": "Per Round",
+										"frequency": "At Will",
 										"used": false
 									}
 								],
@@ -19533,7 +20055,7 @@
 						{
 							"id": "eab79aa3-0084-4540-a69b-e373d7423eba",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -20848,7 +21370,7 @@
 								{
 									"id": "ec94ad8f-2946-4b3a-8fce-62e9b989345d",
 									"name": "Lore Skill",
-									"description": "",
+									"description": "Choose a skill from Lore skills.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -20863,16 +21385,102 @@
 								{
 									"id": "f115fe7d-4ff1-45e0-8ecb-cea76168f2c9",
 									"name": "Chronokinetic Mastery",
-									"description": "",
+									"description": "As your discipline grows, your psionic mastery of your body intensifies, granting benefits from the Chronokinetic Mastery table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.",
 									"type": "Multiple Features",
 									"data": {
 										"features": [
 											{
-												"id": "91ce1498-8007-42bc-89ee-2a887cba3890",
-												"name": "Chronokinetic Mastery",
-												"description": "\nAs your discipline grows, your psionic mastery of your body intensifies, granting benefits from the Chronokinetic Mastery table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.\n\n| Discipline     | Benefit                                                                                                                                                                                    |\n|:---------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| 2              | Whenever you use the Knockback maneuver, you can use the Disengage move action as a free triggered action either before or after the maneuver.                                             |\n| 4              | The first time on a turn that you willingly move 1 or more squares as part of an ability, you gain 1 surge.                                                                                |\n| 6              | You gain an edge on the Grab and Knockback maneuvers.                                                                                                                                      |\n| 8 (4th level)  | The first time on a turn that you willingly move 1 or more squares as part of an ability, you gain 2 surges.                                                                               |\n| 10 (7th level) | You have a double edge on the Grab and Knockback maneuvers.                                                                                                                                |\n| 12 (10th level)| Whenever you force move a target, the forced movement distance gains a bonus equal to your Intuition score. Additionally, whenever you use a heroic ability, you gain 10 temporary Stamina.|",
-												"type": "Text",
-												"data": null
+												"id": "589720a7-8f0a-4027-b0da-4221b83e2049",
+												"name": "Chronokinetic Mastery 2",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Discipline",
+													"value": 2,
+													"level": 1,
+													"feature": {
+														"id": "c19318bf-9de3-4bce-834f-f40649be1c4e",
+														"name": "Chronokinetic Mastery (Discipline 2)",
+														"description": "Whenever you use the Knockback maneuver, you can use the Disengage move action as a free triggered action either before or after the maneuver.",
+														"type": "Text",
+														"data": null
+													}
+												}
+											},
+											{
+												"id": "5c432811-9691-40c0-8468-a566e7303cca",
+												"name": "Chronokinetic Mastery 4",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Discipline",
+													"value": 4,
+													"level": 1,
+													"feature": {
+														"id": "e8d6f2e9-feaa-4526-a599-022a7e6a25c5",
+														"name": "Chronokinetic Mastery (Discipline 4)",
+														"description": "",
+														"type": "Surge Gain",
+														"data": {
+															"tag": "move",
+															"trigger": "You willingly move 1 or more squares as part of an ability",
+															"value": "1",
+															"frequency": "Per Round",
+															"used": false,
+															"replacesTags": [],
+															"condition": ""
+														}
+													}
+												}
+											},
+											{
+												"id": "b8c866cc-a23f-47c5-b7de-ba1c24286418",
+												"name": "Chronokinetic Mastery 6",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Discipline",
+													"value": 6,
+													"level": 1,
+													"feature": {
+														"id": "8bb69a4e-1f6d-4ce1-8888-fa331abb46b4",
+														"name": "Chronokinetic Mastery (Discipline 6)",
+														"description": "",
+														"type": "Multiple Features",
+														"data": {
+															"features": [
+																{
+																	"id": "078bb32f-3823-45e0-b6c2-9207714d2e01",
+																	"name": "Chronokinetic Mastery (Discipline 6)",
+																	"description": "",
+																	"type": "Roll Modifier",
+																	"data": {
+																		"modifier": "Edge",
+																		"rollType": "Grab",
+																		"skills": [],
+																		"skillLists": [],
+																		"characteristics": [],
+																		"condition": ""
+																	}
+																},
+																{
+																	"id": "b553d70a-0f48-4741-a7c4-c42aca4ece3c",
+																	"name": "Chronokinetic Mastery (Discipline 6)",
+																	"description": "",
+																	"type": "Roll Modifier",
+																	"data": {
+																		"modifier": "Edge",
+																		"rollType": "Knockback",
+																		"skills": [],
+																		"skillLists": [],
+																		"characteristics": [],
+																		"condition": ""
+																	}
+																}
+															]
+														}
+													}
+												}
 											},
 											{
 												"id": "8239a6d5-027b-42b6-94e9-41516f99ade0",
@@ -21024,7 +21632,36 @@
 						},
 						{
 							"level": 4,
-							"features": []
+							"features": [
+								{
+									"id": "d9fcfecc-6341-4bc7-bfb4-9d97f8174162",
+									"name": "Chronokinetic Mastery Improvement",
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Discipline",
+										"value": 8,
+										"level": 1,
+										"feature": {
+											"id": "768be270-4f87-4ef7-ad17-d808d042a5b5",
+											"name": "Chronokinetic Mastery (Discipline 8)",
+											"description": "",
+											"type": "Surge Gain",
+											"data": {
+												"tag": "move 2",
+												"trigger": "You willingly move 1 or more squares as part of an ability",
+												"value": "2",
+												"frequency": "Per Round",
+												"used": false,
+												"replacesTags": [
+													"move"
+												],
+												"condition": ""
+											}
+										}
+									}
+								}
+							]
 						},
 						{
 							"level": 5,
@@ -21166,7 +21803,57 @@
 						},
 						{
 							"level": 7,
-							"features": []
+							"features": [
+								{
+									"id": "113d5327-7774-4d5d-be15-86072e576bf9",
+									"name": "Chronokinetic Mastery Improvement",
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Discipline",
+										"value": 10,
+										"level": 1,
+										"feature": {
+											"id": "0842f74b-b11d-40c8-b971-d49daee8e5df",
+											"name": "Chronokinetic Mastery (Discipline 10)",
+											"description": "",
+											"type": "Multiple Features",
+											"data": {
+												"features": [
+													{
+														"id": "cf236610-9c3a-4c1f-8a12-218e0a2acf90",
+														"name": "Chronokinetic Mastery (Discipline 10)",
+														"description": "",
+														"type": "Roll Modifier",
+														"data": {
+															"modifier": "Double Edge",
+															"rollType": "Grab",
+															"skills": [],
+															"skillLists": [],
+															"characteristics": [],
+															"condition": ""
+														}
+													},
+													{
+														"id": "cbb60901-2461-49d5-af68-590c29aa406a",
+														"name": "Chronokinetic Mastery (Discipline 10)",
+														"description": "",
+														"type": "Roll Modifier",
+														"data": {
+															"modifier": "Double Edge",
+															"rollType": "Knockback",
+															"skills": [],
+															"skillLists": [],
+															"characteristics": [],
+															"condition": ""
+														}
+													}
+												]
+											}
+										}
+									}
+								}
+							]
 						},
 						{
 							"level": 8,
@@ -21307,7 +21994,26 @@
 						},
 						{
 							"level": 10,
-							"features": []
+							"features": [
+								{
+									"id": "badaccfc-4bb3-41f6-a701-89e91edb07ba",
+									"name": "Chronokinetic Mastery Improvement",
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Discipline",
+										"value": 12,
+										"level": 1,
+										"feature": {
+											"id": "f0466614-05de-4b8c-ad3d-7cc9686a8c87",
+											"name": "Chronokinetic Mastery (Discipline 12)",
+											"description": "Whenever you force move a target, the forced movement distance gains a bonus equal to your Intuition score. Additionally, whenever you use a heroic ability, you gain 10 temporary Stamina.",
+											"type": "Text",
+											"data": null
+										}
+									}
+								}
+							]
 						}
 					],
 					"abilities": [],
@@ -21325,7 +22031,7 @@
 								{
 									"id": "bd2160fd-9fd7-4485-a6f4-9943cc8cd32d",
 									"name": "Crafting Skill",
-									"description": "",
+									"description": "Choose a skill from Crafting skills.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -21340,16 +22046,102 @@
 								{
 									"id": "4bf940d4-41ef-4a64-921a-fde34360a080",
 									"name": "Cryokinetic Mastery",
-									"description": "",
+									"description": "As your discipline grows, you strengthen the psionic power suffusing you, granting benefits from the Cryokinetic Mastery table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.",
 									"type": "Multiple Features",
 									"data": {
 										"features": [
 											{
-												"id": "0d588e76-b3c3-4d47-8a96-1622275d1706",
-												"name": "Cryokinetic Mastery",
-												"description": "\nAs your discipline grows, you strengthen the psionic power suffusing you, granting benefits from the Cryokinetic Mastery table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.\n\n| Discipline     | Benefit                                                                                                                                                                                          |\n|:---------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| 2              | Whenever you use the Knockback maneuver, you can target one additional creature. Additionally, whenever you deal untyped damage with a psionic ability, you can change it to cold damage instead.|\n| 4              | The first time on a turn that you grab a creature or an enemy moves 1 or more squares in the area of your Ascetic Field ability, you gain 1 surge.                                                  |\n| 6              | You gain an edge on the Grab and Knockback maneuvers.                                                                                                                                            |\n| 8 (4th level)  | The first time on a turn that you grab a creature or an enemy moves 1 or more squares in the area of your Ascetic Field ability, you gain 2 surges.                                                 |\n| 10 (7th level) | You have a double edge on the Grab and Knockback maneuvers.                                                                                                                                      |\n| 12 (10th level)| Whenever you force move a target, the forced movement distance gains a bonus equal to your Intuition score. Additionally, whenever you use a heroic ability, you gain 10 temporary Stamina.      |",
-												"type": "Text",
-												"data": null
+												"id": "8a725049-607a-411e-a122-474545a52151",
+												"name": "Cryokinetic Mastery 2",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Discipline",
+													"value": 2,
+													"level": 1,
+													"feature": {
+														"id": "7d206dea-778d-46bc-9ad4-9efb2ae22a95",
+														"name": "Cryokinetic Mastery (Discipline 2)",
+														"description": "Whenever you use the Knockback maneuver, you can target one additional creature. Additionally, whenever you deal untyped damage with a psionic ability, you can change it to cold damage instead.",
+														"type": "Text",
+														"data": null
+													}
+												}
+											},
+											{
+												"id": "d37d4954-7a85-494b-8c80-06fe31205b31",
+												"name": "Cryokinetic Mastery 4",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Discipline",
+													"value": 4,
+													"level": 1,
+													"feature": {
+														"id": "bbb35fc3-3820-4c02-8dfb-dec7881f4cce",
+														"name": "Cryokinetic Mastery (Discipline 4)",
+														"description": "",
+														"type": "Surge Gain",
+														"data": {
+															"tag": "grab-or-move",
+															"trigger": "You grab a creature or an enemy moves 1 or more squares in the area of your Ascetic Field ability",
+															"value": "1",
+															"frequency": "Per Round",
+															"used": false,
+															"replacesTags": [],
+															"condition": ""
+														}
+													}
+												}
+											},
+											{
+												"id": "4c09d2fb-bb49-4b8c-9e61-6cdf064cd71b",
+												"name": "Cryokinetic Mastery 6",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Discipline",
+													"value": 6,
+													"level": 1,
+													"feature": {
+														"id": "3a7b3865-caff-4b35-ac89-0756c0a258ca",
+														"name": "Cryokinetic Mastery (Discipline 6)",
+														"description": "",
+														"type": "Multiple Features",
+														"data": {
+															"features": [
+																{
+																	"id": "6fc024eb-6dbb-47c7-afb8-75a76d04c0b9",
+																	"name": "Cryokinetic Mastery (Discipline 6)",
+																	"description": "",
+																	"type": "Roll Modifier",
+																	"data": {
+																		"modifier": "Edge",
+																		"rollType": "Grab",
+																		"skills": [],
+																		"skillLists": [],
+																		"characteristics": [],
+																		"condition": ""
+																	}
+																},
+																{
+																	"id": "1eff77ca-35dd-43e4-8100-3b265d3cabc6",
+																	"name": "Cryokinetic Mastery (Discipline 6)",
+																	"description": "",
+																	"type": "Roll Modifier",
+																	"data": {
+																		"modifier": "Edge",
+																		"rollType": "Knockback",
+																		"skills": [],
+																		"skillLists": [],
+																		"characteristics": [],
+																		"condition": ""
+																	}
+																}
+															]
+														}
+													}
+												}
 											},
 											{
 												"id": "6ba4c0b0-2164-436c-81bc-bc3d01a392d5",
@@ -21522,7 +22314,36 @@
 						},
 						{
 							"level": 4,
-							"features": []
+							"features": [
+								{
+									"id": "fd9cb679-1cad-45d9-9504-8a3f9893f3d0",
+									"name": "Cryokinetic Mastery Improvement",
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Discipline",
+										"value": 8,
+										"level": 1,
+										"feature": {
+											"id": "d7d5f740-37f0-44e0-9baa-eee45b548d3f",
+											"name": "Cryokinetic Mastery (Discipline 8)",
+											"description": "",
+											"type": "Surge Gain",
+											"data": {
+												"tag": "grab-or-move 2",
+												"trigger": "You grab a creature or an enemy moves 1 or more squares in the area of your Ascetic Field ability",
+												"value": "2",
+												"frequency": "Per Round",
+												"used": false,
+												"replacesTags": [
+													"grab-or-move"
+												],
+												"condition": ""
+											}
+										}
+									}
+								}
+							]
 						},
 						{
 							"level": 5,
@@ -21664,7 +22485,57 @@
 						},
 						{
 							"level": 7,
-							"features": []
+							"features": [
+								{
+									"id": "c682b52b-3186-4b31-b692-5a0fceae1819",
+									"name": "Cryokinetic Mastery Improvement",
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Discipline",
+										"value": 10,
+										"level": 1,
+										"feature": {
+											"id": "562dcbe2-b1e3-44c0-827e-4f521a344b95",
+											"name": "Cryokinetic Mastery (Discipline 10)",
+											"description": "",
+											"type": "Multiple Features",
+											"data": {
+												"features": [
+													{
+														"id": "b450b74a-0480-48a6-a5a2-f4045329b3be",
+														"name": "Cryokinetic Mastery (Discipline 10)",
+														"description": "",
+														"type": "Roll Modifier",
+														"data": {
+															"modifier": "Double Edge",
+															"rollType": "Grab",
+															"skills": [],
+															"skillLists": [],
+															"characteristics": [],
+															"condition": ""
+														}
+													},
+													{
+														"id": "95c0d6e3-4b33-4e8e-a310-4e43f35efe9e",
+														"name": "Cryokinetic Mastery (Discipline 10)",
+														"description": "",
+														"type": "Roll Modifier",
+														"data": {
+															"modifier": "Double Edge",
+															"rollType": "Knockback",
+															"skills": [],
+															"skillLists": [],
+															"characteristics": [],
+															"condition": ""
+														}
+													}
+												]
+											}
+										}
+									}
+								}
+							]
 						},
 						{
 							"level": 8,
@@ -21818,7 +22689,26 @@
 						},
 						{
 							"level": 10,
-							"features": []
+							"features": [
+								{
+									"id": "96bc10df-9d4f-4327-961a-1d94c6445f12",
+									"name": "Cryokinetic Mastery Improvement",
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Discipline",
+										"value": 12,
+										"level": 1,
+										"feature": {
+											"id": "47627fb8-15ab-4e49-a3c7-e279161f469b",
+											"name": "Cryokinetic Mastery (Discipline 12)",
+											"description": "Whenever you force move a target, the forced movement distance gains a bonus equal to your Intuition score. Additionally, whenever you use a heroic ability, you gain 10 temporary Stamina.",
+											"type": "Text",
+											"data": null
+										}
+									}
+								}
+							]
 						}
 					],
 					"abilities": [],
@@ -21836,7 +22726,7 @@
 								{
 									"id": "b2aa1a9a-962d-49cc-abad-b8cd109f7fcc",
 									"name": "Exploration Skill",
-									"description": "",
+									"description": "Choose a skill from Exploration skills.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -21851,16 +22741,102 @@
 								{
 									"id": "e8d1fde8-fc25-4570-85bf-e9b73bb5b716",
 									"name": "Metakinetic Mastery",
-									"description": "",
+									"description": "As your discipline grows, your psionic potential is amplified, granting benefits from the Metakinetic Mastery table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.",
 									"type": "Multiple Features",
 									"data": {
 										"features": [
 											{
-												"id": "18297390-3325-438c-a321-bfd067922796",
-												"name": "Metakinetic Mastery",
-												"description": "\nAs your discipline grows, your psionic potential is amplified, granting benefits from the Metakinetic Mastery table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.\n\n| Discipline | Benefit                                                                                                                                                                                        |\n|:-----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| 2              | Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Intuition score.                                                                         |\n| 4              | The first time in a combat round that you take damage or are force moved, you gain 1 surge, even if you resist the effect.                                                                 |\n| 6              | You gain an edge on the Grab and Knockback maneuvers.                                                                                                                                      |\n| 8 (4th level)  | The first time in a combat round that you take damage or are force moved, you gain 2 surges, even if you resist the effect.                                                                |\n| 10 (7th level) | You have a double edge on the Grab and Knockback maneuvers.                                                                                                                                |\n| 12 (10th level)| Whenever you force move a target, the forced movement distance gains a bonus equal to your Intuition score. Additionally, whenever you use a heroic ability, you gain 10 temporary Stamina.|",
-												"type": "Text",
-												"data": null
+												"id": "7b9007d6-e1d4-4aa2-a1e3-d3a286624799",
+												"name": "Metakinetic Mastery 2",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Discipline",
+													"value": 2,
+													"level": 1,
+													"feature": {
+														"id": "4ffff53c-a9dd-4a76-b4d8-f7766db325ef",
+														"name": "Metakinetic Mastery (Discipline 2)",
+														"description": "Whenever you use the Knockback maneuver, the forced movement distance gains a bonus equal to your Intuition score.",
+														"type": "Text",
+														"data": null
+													}
+												}
+											},
+											{
+												"id": "4094347c-7aa5-458a-82ae-62660984f4fa",
+												"name": "Metakinetic Mastery 4",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Discipline",
+													"value": 4,
+													"level": 1,
+													"feature": {
+														"id": "42c2a61c-37e3-4f3c-8484-63e937d84037",
+														"name": "Metakinetic Mastery (Discipline 4)",
+														"description": "",
+														"type": "Surge Gain",
+														"data": {
+															"tag": "take-damage",
+															"trigger": "You take damage or are force moved, even if you resist the effect",
+															"value": "1",
+															"frequency": "Per Round",
+															"used": false,
+															"replacesTags": [],
+															"condition": ""
+														}
+													}
+												}
+											},
+											{
+												"id": "770ed828-6329-473d-91be-7c25df10d22a",
+												"name": "Metakinetic Mastery 6",
+												"description": "",
+												"type": "Heroic Resource Threshold",
+												"data": {
+													"resource": "Discipline",
+													"value": 6,
+													"level": 1,
+													"feature": {
+														"id": "daddd840-c281-4d7e-a83c-1c0b4de4781f",
+														"name": "Metakinetic Mastery (Discipline 6)",
+														"description": "",
+														"type": "Multiple Features",
+														"data": {
+															"features": [
+																{
+																	"id": "2d30b35f-7f91-44d1-9dc9-84de343e29cd",
+																	"name": "Metakinetic Mastery (Discipline 6)",
+																	"description": "",
+																	"type": "Roll Modifier",
+																	"data": {
+																		"modifier": "Edge",
+																		"rollType": "Grab",
+																		"skills": [],
+																		"skillLists": [],
+																		"characteristics": [],
+																		"condition": ""
+																	}
+																},
+																{
+																	"id": "6c692dde-300d-4151-9941-680f69080875",
+																	"name": "Metakinetic Mastery (Discipline 6)",
+																	"description": "",
+																	"type": "Roll Modifier",
+																	"data": {
+																		"modifier": "Edge",
+																		"rollType": "Knockback",
+																		"skills": [],
+																		"skillLists": [],
+																		"characteristics": [],
+																		"condition": ""
+																	}
+																}
+															]
+														}
+													}
+												}
 											},
 											{
 												"id": "52e64f00-641d-4575-b864-c88bfa101cbf",
@@ -22024,7 +23000,36 @@
 						},
 						{
 							"level": 4,
-							"features": []
+							"features": [
+								{
+									"id": "bb9df0a0-af24-435a-80dc-d1e64b67fb53",
+									"name": "Metakinetic Mastery Improvement",
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Discipline",
+										"value": 8,
+										"level": 1,
+										"feature": {
+											"id": "b4197b65-f3ae-45e6-a1c2-17cbaca55d20",
+											"name": "Metakinetic Mastery (Discipline 8)",
+											"description": "",
+											"type": "Surge Gain",
+											"data": {
+												"tag": "take-damage 2",
+												"trigger": "You take damage or are force moved, even if you resist the effect",
+												"value": "2",
+												"frequency": "Per Round",
+												"used": false,
+												"replacesTags": [
+													"take-damage"
+												],
+												"condition": ""
+											}
+										}
+									}
+								}
+							]
 						},
 						{
 							"level": 5,
@@ -22164,7 +23169,57 @@
 						},
 						{
 							"level": 7,
-							"features": []
+							"features": [
+								{
+									"id": "bdb34ba1-f9ed-4663-964d-80287a6e8389",
+									"name": "Metakinetic Mastery Improvement",
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Discipline",
+										"value": 10,
+										"level": 1,
+										"feature": {
+											"id": "3bb22c33-527b-466f-afd9-af96145f1d28",
+											"name": "Metakinetic Mastery (Discipline 10)",
+											"description": "",
+											"type": "Multiple Features",
+											"data": {
+												"features": [
+													{
+														"id": "7d3dec21-2b1f-48de-ab10-ab41c6281515",
+														"name": "Metakinetic Mastery (Discipline 10)",
+														"description": "",
+														"type": "Roll Modifier",
+														"data": {
+															"modifier": "Double Edge",
+															"rollType": "Grab",
+															"skills": [],
+															"skillLists": [],
+															"characteristics": [],
+															"condition": ""
+														}
+													},
+													{
+														"id": "6afa7230-0390-446f-b33c-68648e04b8b4",
+														"name": "Metakinetic Mastery (Discipline 10)",
+														"description": "",
+														"type": "Roll Modifier",
+														"data": {
+															"modifier": "Double Edge",
+															"rollType": "Knockback",
+															"skills": [],
+															"skillLists": [],
+															"characteristics": [],
+															"condition": ""
+														}
+													}
+												]
+											}
+										}
+									}
+								}
+							]
 						},
 						{
 							"level": 8,
@@ -22307,7 +23362,26 @@
 						},
 						{
 							"level": 10,
-							"features": []
+							"features": [
+								{
+									"id": "6abb5df9-829e-4c15-9547-363d3bbea586",
+									"name": "Metakinetic Mastery Improvement",
+									"description": "",
+									"type": "Heroic Resource Threshold",
+									"data": {
+										"resource": "Discipline",
+										"value": 12,
+										"level": 1,
+										"feature": {
+											"id": "8a60dd9b-ba2d-47bd-86e6-e49eeb5eda52",
+											"name": "Metakinetic Mastery (Discipline 12)",
+											"description": "Whenever you force move a target, the forced movement distance gains a bonus equal to your Intuition score. Additionally, whenever you use a heroic ability, you gain 10 temporary Stamina.",
+											"type": "Text",
+											"data": null
+										}
+									}
+								}
+							]
 						}
 					],
 					"abilities": [],
@@ -22382,7 +23456,7 @@
 									},
 									{
 										"tag": "deal-damage",
-										"trigger": "The first time each combat round that you deal damage incorporating 1 or more surges",
+										"trigger": "You deal damage incorporating 1 or more surges",
 										"value": "1",
 										"frequency": "Per Round",
 										"used": false
@@ -22397,7 +23471,7 @@
 						{
 							"id": "39c47566-7741-4694-b63e-d7eb225e2a6d",
 							"name": "Skills",
-							"description": "",
+							"description": "Choose 2 from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -22419,7 +23493,7 @@
 						{
 							"id": "629f8efc-3626-4919-a294-052f62d2a947",
 							"name": "Skills",
-							"description": "",
+							"description": "Choose 5 from Criminal Underworld, Exploration skills, Interpersonal skills, Intrigue skills.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [
@@ -22797,7 +23871,7 @@
 						{
 							"id": "43ff61b5-a64c-4d44-a01e-2261ca478b79",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -22820,7 +23894,7 @@
 							"type": "Heroic Resource Gain",
 							"data": {
 								"tag": "deal-damage 2",
-								"trigger": "The first time each combat round that you deal damage incorporating 1 or more surges",
+								"trigger": "You deal damage incorporating 1 or more surges",
 								"value": "2",
 								"replacesTags": [
 									"deal-damage"
@@ -23012,7 +24086,7 @@
 						{
 							"id": "8fff6481-8714-4e61-a814-148686b660c8",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -23184,7 +24258,7 @@
 							"type": "Heroic Resource Gain",
 							"data": {
 								"tag": "deal-damage 3",
-								"trigger": "The first time each combat round that you deal damage incorporating 1 or more surges",
+								"trigger": "You deal damage incorporating 1 or more surges",
 								"value": "3",
 								"replacesTags": [
 									"deal-damage",
@@ -23215,7 +24289,7 @@
 						{
 							"id": "7f94627f-11ba-4d02-b156-fc968f891937",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -23254,10 +24328,10 @@
 								"type": "epic",
 								"gains": [
 									{
-										"tag": "",
+										"tag": "respite",
 										"trigger": "Finish a respite",
 										"value": "XP gained",
-										"frequency": "Per Round",
+										"frequency": "At Will",
 										"used": false
 									}
 								],
@@ -24468,7 +25542,7 @@
 								{
 									"id": "7dc58075-5dfb-4e90-811d-a4b589fcff1f",
 									"name": "Skill",
-									"description": "",
+									"description": "Choose a skill from any list.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -25056,7 +26130,7 @@
 								{
 									"id": "fe4dbd17-868a-485f-b44f-ec2a8e66264d",
 									"name": "Skill",
-									"description": "",
+									"description": "Choose a skill from any list.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -25703,7 +26777,7 @@
 								{
 									"id": "b8aa87ea-4829-4b7f-96da-05c4232bbf40",
 									"name": "Skill",
-									"description": "",
+									"description": "Choose a skill from any list.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -26320,14 +27394,14 @@
 									},
 									{
 										"tag": "deal-damage",
-										"trigger": "The first time each round that you or an ally damages a creature you have marked",
+										"trigger": "You or an ally damages a creature you have marked",
 										"value": "1",
 										"frequency": "Per Round",
 										"used": false
 									},
 									{
 										"tag": "ability",
-										"trigger": "The first time in a round that an ally within 10 squares of you uses a heroic ability",
+										"trigger": "An ally within 10 squares of you uses a heroic ability",
 										"value": "1",
 										"frequency": "Per Round",
 										"used": false
@@ -26342,7 +27416,7 @@
 						{
 							"id": "832befc3-84fa-445b-899c-5034d3983229",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -26363,7 +27437,7 @@
 						{
 							"id": "28c6c24b-a139-45d0-9352-c7705d8faf6c",
 							"name": "Skills",
-							"description": "",
+							"description": "Choose 2 from Alertness, Architecture, Armorsmithing, Brag, Culture, Empathize, Gunsmithing, Mechanics, Xenology, Search, Strategy, Exploration skills.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [
@@ -26679,7 +27753,7 @@
 							"type": "Heroic Resource Gain",
 							"data": {
 								"tag": "deal-damage 2",
-								"trigger": "The first time each round that you or an ally damages a creature you have marked",
+								"trigger": "You or an ally damages a creature you have marked",
 								"value": "2",
 								"replacesTags": [
 									"deal-damage"
@@ -26692,8 +27766,15 @@
 							"id": "986a283d-93f2-4c3a-8435-ae5e8ce3561f",
 							"name": "Improved Field Arsenal",
 							"description": "Your expertise with weapons has grown. Whenever you use a signature ability from one of your equipped kits or make a free strike using a weapon from one of your equipped kits, you gain an edge.",
-							"type": "Text",
-							"data": null
+							"type": "Roll Modifier",
+							"data": {
+								"modifier": "Edge",
+								"rollType": "Ability Roll",
+								"skills": [],
+								"skillLists": [],
+								"characteristics": [],
+								"condition": "When you use a signature ability from one of your equipped kits, or make a free strike using a weapon from one of your equipped kits"
+							}
 						},
 						{
 							"id": "e1a72e9c-6075-4aae-a12b-d25e305c38fa",
@@ -26716,7 +27797,7 @@
 						{
 							"id": "a28c2d2a-ed33-42e9-84a3-305637ed6213",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -26865,7 +27946,7 @@
 						{
 							"id": "dba3202e-4da3-4255-a5ab-01de427401c4",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -26970,10 +28051,10 @@
 								"type": "epic",
 								"gains": [
 									{
-										"tag": "",
+										"tag": "respite",
 										"trigger": "Finish a respite",
 										"value": "XP gained",
-										"frequency": "Per Round",
+										"frequency": "At Will",
 										"used": false
 									}
 								],
@@ -27001,7 +28082,7 @@
 						{
 							"id": "d1347b30-febe-4c4e-9542-009ff46d7830",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -27903,7 +28984,7 @@
 								{
 									"id": "5a52b92c-4f7e-4001-86f8-00bc90d85353",
 									"name": "Intrigue Skill",
-									"description": "",
+									"description": "Choose a skill from Intrigue skills.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -28449,7 +29530,7 @@
 								{
 									"id": "df156900-bd9e-48ea-9db0-e6460cb95626",
 									"name": "Lore Skill",
-									"description": "",
+									"description": "Choose a skill from Lore skills.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -28719,9 +29800,35 @@
 								{
 									"id": "1367727a-5e97-4a1d-a130-435329f176b0",
 									"name": "I Predicted That",
-									"description": "Your expertise in history and lore allows you and your allies to outthink rivals in the present day. You and any ally within 10 squares of you gain an edge on Reason tests.",
-									"type": "Text",
-									"data": null
+									"description": "Your expertise in history and lore allows you and your allies to outthink rivals in the present day.",
+									"type": "Multiple Features",
+									"data": {
+										"features": [
+											{
+												"id": "991e0be3-3f78-458b-8c30-8093e460ae80",
+												"name": "I Predicted That",
+												"description": "You and any ally within 10 squares of you gain an edge on Reason tests.",
+												"type": "Text",
+												"data": null
+											},
+											{
+												"id": "cf3fc41b-9603-4eca-85a5-a1da22325c23",
+												"name": "I Predicted That",
+												"description": "",
+												"type": "Roll Modifier",
+												"data": {
+													"modifier": "Edge",
+													"rollType": "Test",
+													"skills": [],
+													"skillLists": [],
+													"characteristics": [
+														"Reason"
+													],
+													"condition": ""
+												}
+											}
+										]
+									}
 								}
 							]
 						},
@@ -29000,7 +30107,7 @@
 								{
 									"id": "55d84b66-5673-4746-a26b-1de71ef035cf",
 									"name": "Interpersonal Skill",
-									"description": "",
+									"description": "Choose a skill from Interpersonal skills.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -29644,7 +30751,7 @@
 									},
 									{
 										"tag": "move",
-										"trigger": "The first time each combat round that a creature is force moved",
+										"trigger": "A creature is force moved",
 										"value": "1",
 										"frequency": "Per Round",
 										"used": false
@@ -29659,7 +30766,7 @@
 						{
 							"id": "1e7999c2-9550-475a-86f5-f7f927789db2",
 							"name": "Skills",
-							"description": "",
+							"description": "Choose 2 from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -29681,7 +30788,7 @@
 						{
 							"id": "f735c1d5-1cb0-4ec5-90b1-10ea65d250ca",
 							"name": "Interpersonal / Lore Skills",
-							"description": "",
+							"description": "Choose 2 from Interpersonal skills, Lore skills.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -29761,7 +30868,7 @@
 						{
 							"id": "d141a396-4294-4f4b-a417-cde39084c7e7",
 							"name": "Language",
-							"description": "",
+							"description": "Choose a language.",
 							"type": "Language Choice",
 							"data": {
 								"options": [],
@@ -30274,7 +31381,7 @@
 										"type": "Heroic Resource Gain",
 										"data": {
 											"tag": "move 2",
-											"trigger": "The first time each combat round that a creature is force moved",
+											"trigger": "A creature is force moved",
 											"value": "2",
 											"replacesTags": [
 												"move"
@@ -30307,7 +31414,7 @@
 						{
 							"id": "9b804433-f270-4c8c-b799-e9a295a68ba2",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -30470,7 +31577,7 @@
 						{
 							"id": "e1cc2097-cf2d-446b-addf-c449eb4b2aae",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -30615,7 +31722,7 @@
 							"type": "Heroic Resource Gain",
 							"data": {
 								"tag": "move 3",
-								"trigger": "The first time each combat round that a creature is force moved",
+								"trigger": "A creature is force moved",
 								"value": "3",
 								"replacesTags": [
 									"move",
@@ -30711,7 +31818,7 @@
 						{
 							"id": "3ecc5eb8-b54b-4cc6-a445-d9c50df1e815",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -30736,10 +31843,10 @@
 								"type": "epic",
 								"gains": [
 									{
-										"tag": "",
+										"tag": "respite",
 										"trigger": "Finish a respite",
 										"value": "XP gained",
-										"frequency": "Per Round",
+										"frequency": "At Will",
 										"used": false
 									}
 								],
@@ -33709,9 +34816,33 @@
 								{
 									"id": "8b2e68c0-5a65-444a-aa60-7033ef744047",
 									"name": "Ease the Mind",
-									"description": "You gain an edge on tests made to stop combat and start a negotiation. Additionally, if you are present during a negotiation, any NPC who has a hostile or suspicious starting attitude has their patience increased by 1 (to a maximum of 5).",
-									"type": "Text",
-									"data": null
+									"description": "",
+									"type": "Multiple Features",
+									"data": {
+										"features": [
+											{
+												"id": "9b5d6bd1-e4b2-4dc4-af77-8a636a45d567",
+												"name": "Ease the Mind",
+												"description": "If you are present during a negotiation, any NPC who has a hostile or suspicious starting attitude has their patience increased by 1 (to a maximum of 5).",
+												"type": "Text",
+												"data": null
+											},
+											{
+												"id": "50e786b8-db31-402e-b4ae-adde779a76e1",
+												"name": "Ease the Mind",
+												"description": "",
+												"type": "Roll Modifier",
+												"data": {
+													"modifier": "Edge",
+													"rollType": "Test",
+													"skills": [],
+													"skillLists": [],
+													"characteristics": [],
+													"condition": "When stopping combat and starting a negotiation"
+												}
+											}
+										]
+									}
 								},
 								{
 									"id": "7acd8d28-2290-418c-a25e-3d2c17d9c795",
@@ -34310,7 +35441,7 @@
 						{
 							"id": "aa94ddb8-84ac-406a-9eb4-67df81a3e12e",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -34331,7 +35462,7 @@
 						{
 							"id": "4194b867-9a6b-4586-a480-b47e8e7e5669",
 							"name": "Interpersonal Skills",
-							"description": "",
+							"description": "Choose 2 from Interpersonal skills.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -34346,7 +35477,7 @@
 						{
 							"id": "fcf3b3d3-b67d-476e-8b4e-ad7b0b12b16c",
 							"name": "Intrigue / Lore Skill",
-							"description": "",
+							"description": "Choose a skill from Intrigue skills, Lore skills.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -34375,31 +35506,31 @@
 										"used": false
 									},
 									{
-										"tag": "",
-										"trigger": "The first time three or more heroes use an ability on the same turn",
+										"tag": "hero-ability",
+										"trigger": "Three or more heroes use an ability on the same turn",
 										"value": "2",
-										"frequency": "Per Round",
+										"frequency": "Per Encounter",
 										"used": false
 									},
 									{
-										"tag": "",
-										"trigger": "The first time any hero is made winded during the encounter",
+										"tag": "hero-winded",
+										"trigger": "Any hero is made winded",
 										"value": "2",
-										"frequency": "Per Round",
+										"frequency": "Per Encounter",
 										"used": false
 									},
 									{
-										"tag": "",
-										"trigger": "Whenever a creature within your line of effect rolls a natural 19 or 20",
+										"tag": "crit",
+										"trigger": "A creature within your line of effect rolls a natural 19 or 20",
 										"value": "3",
-										"frequency": "Per Round",
+										"frequency": "At Will",
 										"used": false
 									},
 									{
-										"tag": "",
-										"trigger": "When you or another hero dies",
+										"tag": "die",
+										"trigger": "You or another hero dies",
 										"value": "10",
-										"frequency": "Per Round",
+										"frequency": "At Will",
 										"used": false
 									}
 								],
@@ -34758,10 +35889,10 @@
 											"type": "Heroic Resource Gain",
 											"data": {
 												"tag": "crit-fail",
-												"trigger": "Whenever a creature rolls a natural 2 on a power roll.",
+												"trigger": "A creature rolls a natural 2 on a power roll.",
 												"value": "2",
 												"replacesTags": [],
-												"frequency": "Per Round",
+												"frequency": "At Will",
 												"used": false
 											}
 										},
@@ -34775,10 +35906,10 @@
 											"type": "Heroic Resource Gain",
 											"data": {
 												"tag": "villain-malice",
-												"trigger": "The first time the Director deals damage to a hero using a Villain action or an ability that costs Malice.",
+												"trigger": "The Director deals damage to a hero using a Villain action or an ability that costs Malice.",
 												"value": "2",
 												"replacesTags": [],
-												"frequency": "Per Round",
+												"frequency": "Per Encounter",
 												"used": false
 											}
 										},
@@ -34792,10 +35923,10 @@
 											"type": "Heroic Resource Gain",
 											"data": {
 												"tag": "falls",
-												"trigger": "The first time a hero unwillingly falls 5 or more squares.",
+												"trigger": "A hero unwillingly falls 5 or more squares.",
 												"value": "2",
 												"replacesTags": [],
-												"frequency": "Per Round",
+												"frequency": "Per Encounter",
 												"used": false
 											}
 										},
@@ -34809,10 +35940,10 @@
 											"type": "Heroic Resource Gain",
 											"data": {
 												"tag": "surges",
-												"trigger": "The first time a hero deals damage with 3 surges.",
+												"trigger": "A hero deals damage with 3 surges.",
 												"value": "2",
 												"replacesTags": [],
-												"frequency": "Per Round",
+												"frequency": "Per Encounter",
 												"used": false
 											}
 										},
@@ -34826,10 +35957,10 @@
 											"type": "Heroic Resource Gain",
 											"data": {
 												"tag": "last-recovery",
-												"trigger": "Whenever a hero spends their last Recovery.",
+												"trigger": "A hero spends their last Recovery.",
 												"value": "2",
 												"replacesTags": [],
-												"frequency": "Per Round",
+												"frequency": "At Will",
 												"used": false
 											}
 										},
@@ -34872,7 +36003,7 @@
 						{
 							"id": "6447577d-4e7b-4a9e-b17e-c630fcc0be2e",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -35067,7 +36198,7 @@
 						{
 							"id": "9ba63fcd-4c2d-4e58-943d-824d4679f83a",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -35149,13 +36280,13 @@
 							"description": "",
 							"type": "Heroic Resource",
 							"data": {
-								"type": "heroic",
+								"type": "epic",
 								"gains": [
 									{
-										"tag": "",
+										"tag": "respite",
 										"trigger": "Finish a respite",
 										"value": "XP gained",
-										"frequency": "Per Round",
+										"frequency": "At Will",
 										"used": false
 									}
 								],
@@ -35217,7 +36348,7 @@
 						{
 							"id": "4f01daf1-f1b8-41d8-8bad-ae96959ccc12",
 							"name": "Skill",
-							"description": "",
+							"description": "Choose a skill from any list.",
 							"type": "Skill Choice",
 							"data": {
 								"options": [],
@@ -36375,7 +37506,7 @@
 								{
 									"id": "3f6a9b9d-1020-4684-83d0-c1377783fb43",
 									"name": "Skill",
-									"description": "",
+									"description": "Choose a skill from any list.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -37044,7 +38175,7 @@
 								{
 									"id": "657207e0-26ed-404b-b98f-ed3d03b2141f",
 									"name": "Skill",
-									"description": "",
+									"description": "Choose a skill from any list.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -37721,7 +38852,7 @@
 								{
 									"id": "8c4a8ea4-ece1-4bca-adfa-8a7c4155de06",
 									"name": "Skill",
-									"description": "",
+									"description": "Choose a skill from any list.",
 									"type": "Skill Choice",
 									"data": {
 										"options": [],
@@ -37793,118 +38924,108 @@
 									}
 								},
 								{
-									"id": "b310803f-4b08-44df-802c-853e831ef6ef",
-									"name": "Virtuoso Performances",
-									"description": "You have the following performance abilities, which are usable with\nyour Routines feature.",
-									"type": "Multiple Features",
+									"id": "f85a3de7-2cab-408b-8f36-a8f33a6744eb",
+									"name": "“Thunder Mother”",
+									"description": "All for thunder motherrr! ♪ Run and hide for coverrr! ♪",
+									"type": "Ability",
 									"data": {
-										"features": [
-											{
-												"id": "f85a3de7-2cab-408b-8f36-a8f33a6744eb",
-												"name": "“Thunder Mother”",
-												"description": "All for thunder motherrr! ♪ Run and hide for coverrr! ♪",
-												"type": "Ability",
-												"data": {
-													"ability": {
-														"id": "f85a3de7-2cab-408b-8f36-a8f33a6744eb",
-														"name": "“Thunder Mother”",
-														"description": "All for thunder motherrr! ♪ Run and hide for coverrr! ♪",
-														"type": {
-															"usage": "No Action",
-															"free": false,
-															"trigger": "",
-															"time": "",
-															"qualifiers": [],
-															"freeStrike": false
-														},
-														"keywords": [
-															"Magic",
-															"Performance",
-															"Ranged",
-															"Strike"
-														],
-														"distance": [
-															{
-																"type": "Ranged",
-																"value": 10,
-																"value2": 0,
-																"within": 0,
-																"special": "",
-																"qualifier": ""
-															}
-														],
-														"target": "One creature",
-														"cost": 0,
-														"repeatable": false,
-														"minLevel": 1,
-														"sections": [
-															{
-																"type": "text",
-																"text": "At the end of each combat round while this performance is active, you can make a power roll against the target that ignores cover. You can’t target the same creature twice with this effect."
-															},
-															{
-																"type": "roll",
-																"roll": {
-																	"characteristic": [
-																		"Presence"
-																	],
-																	"bonus": 0,
-																	"tier1": "Lightning damage equal to your level",
-																	"tier2": "Lightning damage equal to 5 + your level",
-																	"tier3": "Lightning damage equal to 10 + your level"
-																}
-															}
-														]
-													}
-												}
+										"ability": {
+											"id": "f85a3de7-2cab-408b-8f36-a8f33a6744eb",
+											"name": "“Thunder Mother”",
+											"description": "All for thunder motherrr! ♪ Run and hide for coverrr! ♪",
+											"type": {
+												"usage": "No Action",
+												"free": false,
+												"trigger": "",
+												"time": "",
+												"qualifiers": [],
+												"freeStrike": false
 											},
-											{
-												"id": "52d8c4d4-d00c-4632-9ed8-d9e04713cdfb",
-												"name": "“Ballad of the Beast”",
-												"description": "Teeth are bare! ♪ Eyes black! ♪ No escaping the beast! ♪",
-												"type": "Ability",
-												"data": {
-													"ability": {
-														"id": "52d8c4d4-d00c-4632-9ed8-d9e04713cdfb",
-														"name": "“Ballad of the Beast”",
-														"description": "Teeth are bare! ♪ Eyes black! ♪ No escaping the beast! ♪",
-														"type": {
-															"usage": "No Action",
-															"free": false,
-															"trigger": "",
-															"time": "",
-															"qualifiers": [],
-															"freeStrike": false
-														},
-														"keywords": [
-															"Area",
-															"Magic",
-															"Performance"
+											"keywords": [
+												"Magic",
+												"Performance",
+												"Ranged",
+												"Strike"
+											],
+											"distance": [
+												{
+													"type": "Ranged",
+													"value": 10,
+													"value2": 0,
+													"within": 0,
+													"special": "",
+													"qualifier": ""
+												}
+											],
+											"target": "One creature",
+											"cost": 0,
+											"repeatable": false,
+											"minLevel": 1,
+											"sections": [
+												{
+													"type": "text",
+													"text": "At the end of each combat round while this performance is active, you can make a power roll against the target that ignores cover. You can’t target the same creature twice with this effect."
+												},
+												{
+													"type": "roll",
+													"roll": {
+														"characteristic": [
+															"Presence"
 														],
-														"distance": [
-															{
-																"type": "Aura",
-																"value": 5,
-																"value2": 0,
-																"within": 0,
-																"special": "",
-																"qualifier": ""
-															}
-														],
-														"target": "Self and each ally in the area",
-														"cost": 0,
-														"repeatable": false,
-														"minLevel": 1,
-														"sections": [
-															{
-																"type": "text",
-																"text": "While this performance is active, each target who starts their turn in the area gains 1 surge."
-															}
-														]
+														"bonus": 0,
+														"tier1": "Lightning damage equal to your level",
+														"tier2": "Lightning damage equal to 5 + your level",
+														"tier3": "Lightning damage equal to 10 + your level"
 													}
 												}
-											}
-										]
+											]
+										}
+									}
+								},
+								{
+									"id": "52d8c4d4-d00c-4632-9ed8-d9e04713cdfb",
+									"name": "“Ballad of the Beast”",
+									"description": "Teeth are bare! ♪ Eyes black! ♪ No escaping the beast! ♪",
+									"type": "Ability",
+									"data": {
+										"ability": {
+											"id": "52d8c4d4-d00c-4632-9ed8-d9e04713cdfb",
+											"name": "“Ballad of the Beast”",
+											"description": "Teeth are bare! ♪ Eyes black! ♪ No escaping the beast! ♪",
+											"type": {
+												"usage": "No Action",
+												"free": false,
+												"trigger": "",
+												"time": "",
+												"qualifiers": [],
+												"freeStrike": false
+											},
+											"keywords": [
+												"Area",
+												"Magic",
+												"Performance"
+											],
+											"distance": [
+												{
+													"type": "Aura",
+													"value": 5,
+													"value2": 0,
+													"within": 0,
+													"special": "",
+													"qualifier": ""
+												}
+											],
+											"target": "Self and each ally in the area",
+											"cost": 0,
+											"repeatable": false,
+											"minLevel": 1,
+											"sections": [
+												{
+													"type": "text",
+													"text": "While this performance is active, each target who starts their turn in the area gains 1 surge."
+												}
+											]
+										}
 									}
 								},
 								{
@@ -38636,7 +39757,7 @@
 		},
 		{
 			"id": "38e1c763-7664-4ee6-9d70-b41210e3eac3",
-			"name": "Beastheart",
+			"name": "SW Beastheart",
 			"description": "\nA beastheart never fights alone! You travel with a ferocious beast by your side — no trained pet, but an untamed creature such as a wolf, a basilisk, or even a young dragon. Bound to you by a primordial connection, your companion honors your wishes just as you are guided by their instincts. But beware! As battle rages on, your companion may succumb to a blood-soaked rampage, lashing out at enemies and friends alike.\n\nAs a beastheart, you face the world’s dangers alongside your wild companion. With your combined might, you rush into the thick of combat to challenge enemy champions or prowl around the outskirts to pick off vulnerable foes.",
 			"type": "master",
 			"subclassName": "Wild Nature",
@@ -46843,7 +47964,7 @@
 		},
 		{
 			"id": "820c435b-0168-4ca9-9302-7603a25ec429",
-			"name": "Summoner",
+			"name": "SW Summoner",
 			"description": "\nYou are the armada. The kings of old would trade armies for your abilities. You’ve undertaken the tradition that conjures an endless supply of warriors. You are the summoner, the mage who takes their dreams and makes them manifest.\n\nYou call forth minions to trudge fearlessly into the fray and provide support, holding the enemy at bay while you and your fellow heroes ready the counteroffensive. Your minions serve unflinchingly, unerringly, to their death or to yours.\n\nYou can also take advantage of powerful magic to buff your allies, whittle down your enemies, or enlist the fallen into your ranks. And when push comes to shove, you can call upon your champion to finish the fight.",
 			"type": "master",
 			"subclassName": "Circle",
