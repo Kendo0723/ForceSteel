@@ -1,7 +1,7 @@
 {
 	"id": "8cc13b2e-6f37-4bd4-93fe-5bd15aae826c",
-	"name": "Ken's Star Wars Conversion (v0.52)",
-	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned; Beastheart and Summoner have also been added but are still in their original Draw Steel form, awaiting a Star Wars pass.\n\nStill to do: reskin Beastheart and Summoner, decide whether to ban Summoner's Circle of Blight/Spring/Storms, and fill in the placeholder mechanical benefits on the Force Sensitivity Titles. See the Remaining Work To-Do List for full details.\n\nBuild v0.52 (2026-10-15) — work in progress, for testing only.",
+	"name": "Ken's Star Wars Conversion (v0.53)",
+	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned; Beastheart and Summoner have also been added but are still in their original Draw Steel form, awaiting a Star Wars pass.\n\nStill to do: reskin Beastheart and Summoner, decide whether to ban Summoner's Circle of Blight/Spring/Storms, and fill in the placeholder mechanical benefits on the Force Sensitivity Titles. See the Remaining Work To-Do List for full details.\n\nBuild v0.53 (2026-10-15) — work in progress, for testing only.",
 	"type": "Homebrew",
 	"adventures": [],
 	"ancestries": [
@@ -48982,7 +48982,7 @@
 						{
 							"id": "fa24c0ea-c3db-4cca-adb7-f7bd9a07f45a",
 							"name": "Return to the Source",
-							"description": "\nYou can translate yourself and your allies into the space that your minions come from, as if summoning in reverse, stepping through the World Between Worlds.\n\nWhen you take a respite, you pass through the World Between Worlds to your legion’s point of origin, as shown on the table. You can bring along any allies to gather resources or research details about that location’s denizens. You are seen as a native resident of the location, but your allies might be seen as intruders.\n\n| Legion             | Point of Origin                                       |\n|:-------------------|:------------------------------------------------------|\n| Abomination Legion | A world steeped in the dark side                      |\n| Scrap Legion       | A droid foundry or forgotten battlefield              |\n| Wild Legion        | A living world                                        |\n| Echo Legion        | The World Between Worlds itself                       |",
+							"description": "\nYou can translate yourself and your allies into the space that your minions come from, as if summoning in reverse, stepping through the World Between Worlds.\n\nWhen you take a respite, you pass through the World Between Worlds to your legion’s point of origin, as shown on the table. You can bring along any allies to gather resources or research details about that location’s denizens. You are seen as a native resident of the location, but your allies might be seen as intruders.\n\n| Legion             | Point of Origin                                       |\n|:-------------------|:------------------------------------------------------|\n| Abomination Legion | A world steeped in the dark side                      |\n| Scrap Legion       | A droid foundry or forgotten battlefield              |\n| Hex Legion         | A world of old magick                                 |\n| Echo Legion        | The World Between Worlds itself                       |",
 							"type": "Text",
 							"data": null
 						},
@@ -54732,8 +54732,8 @@
 				},
 				{
 					"id": "130c7cf3-89f4-400c-8f37-7d245ec28987",
-					"name": "Wild Legion",
-					"description": "You are a wildspeaker who beckons the native creatures of living worlds through the Force. Your portfolio features beasts given fleeting form, surrounded by strange and powerful energy.",
+					"name": "Hex Legion",
+					"description": "You are a hexcrafter in the Dathomiri tradition who calls familiars and spirit-hosts out of the Force. Your portfolio features small spirits bound to bog, brew and wing, surrounded by strange and powerful magick.",
 					"classID": "",
 					"featuresByLevel": [
 						{
@@ -54741,21 +54741,21 @@
 							"features": [
 								{
 									"id": "a34cd8db-58fb-49ee-bc4c-cd268501ba7b",
-									"name": "Communication",
-									"description": "You can communicate with creatures that have the Fey keyword even if you don’t share a language.",
+									"name": "Witch’s Tongue",
+									"description": "You can communicate with creatures that have the Fey keyword (your familiars and other bound spirits) even if you don’t share a language.",
 									"type": "Text",
 									"data": null
 								},
 								{
 									"id": "aa4bbf8f-067a-4348-96fb-290c90fc4902",
-									"name": "Fairy Whispers",
-									"description": "\nWhenever you send a minion to perform a task for you outside of combat, they can bring back a rumor from the destination to which you sent them. When the minion returns, make a **Reason test**:\n\n* **11-**: You learn an undoubtedly false common rumor.\n* **12-16**: You learn a common rumor that is most likely true.\n* **17+**: You learn an obscure rumor that could either be true or false.\n\nYou gain a bane on the test for each subsequent rumor you collect either on the same day or in the same location.",
+									"name": "Witch’s Whispers",
+									"description": "\nWhenever you send a minion to perform a task for you outside of combat, they can bring back a whispered rumor from the destination to which you sent them. When the minion returns, make a **Reason test**:\n\n* **11-**: You learn an undoubtedly false common rumor.\n* **12-16**: You learn a common rumor that is most likely true.\n* **17+**: You learn an obscure rumor that could either be true or false.\n\nYou gain a bane on the test for each subsequent rumor you collect either on the same day or in the same location.",
 									"type": "Text",
 									"data": null
 								},
 								{
 									"id": "0d5d594f-3b32-4542-9c61-60cbb687caa3",
-									"name": "Pixie Dust",
+									"name": "Spirit Dust",
 									"description": "",
 									"type": "Multiple Features",
 									"data": {
@@ -54777,8 +54777,8 @@
 											},
 											{
 												"id": "187a3bd8-af0a-4a3b-8ec9-1e42a76a8ac0",
-												"name": "Pixie Dust",
-												"description": "Whenever one of your fey minions dies within your Command Range, you can spend a Recovery to give temporary Stamina equal to twice your Reason score to each non-minion ally adjacent to the minion when they died.",
+												"name": "Spirit Dust",
+												"description": "Whenever one of your familiar minions dies within your Command Range, you can spend a Recovery to give temporary Stamina equal to twice your Reason score to each non-minion ally adjacent to the minion when they died.",
 												"type": "Text",
 												"data": null
 											}
@@ -54794,12 +54794,12 @@
 										"options": [
 											{
 												"id": "summoner-3-1-4a",
-												"name": "Nixie Soakreed",
-												"description": "These nixies are especially tiny. Their hair grows longer than their bodies and curls into reeds. The water soakreeds swim in tends to turn thick and cling to surfaces.",
+												"name": "Mire Wisp",
+												"description": "These wisps are especially small. Their hair-like tendrils grow longer than their bodies and curl into reeds. The water they drift through tends to turn thick and cling to surfaces.",
 												"monster": {
 													"id": "summoner-3-1-4a",
-													"name": "Nixie Soakreed",
-													"description": "These nixies are especially tiny. Their hair grows longer than their bodies and curls into reeds. The water soakreeds swim in tends to turn thick and cling to surfaces.",
+													"name": "Mire Wisp",
+													"description": "These wisps are especially small. Their hair-like tendrils grow longer than their bodies and curl into reeds. The water they drift through tends to turn thick and cling to surfaces.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -54849,22 +54849,22 @@
 													"features": [
 														{
 															"id": "summoner-3-1-4a-1",
-															"name": "Water Weird",
-															"description": "Once per turn during their move action, each nixie under your control can teleport to a body of water within 5. The soakreed can’t teleport into water created by their own soaking bog.",
+															"name": "Mist-Step",
+															"description": "Once per turn during their move action, each water spirit under your control can teleport to a body of water within 5. The mire wisp can’t teleport into water created by their own clinging mire.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-1-4a-2",
-															"name": "Soaking Bog",
-															"description": "The area within 1 square of the soakreed is filled with swampy water. An enemy that starts their turn in the area is A < [weak] slowed (EoT). The potency increases by 1 for each additional soaking bog the target occupies (maximum +2).",
+															"name": "Clinging Mire",
+															"description": "The area within 1 square of the mire wisp is filled with swampy water. An enemy that starts their turn in the area is A < [weak] slowed (EoT). The potency increases by 1 for each additional clinging mire the target occupies (maximum +2).",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-1-4a-3",
 															"name": "Minuscule",
-															"description": "The soakreed has cover while occupying a larger creature’s space.",
+															"description": "The mire wisp has cover while occupying a larger creature’s space.",
 															"type": "Text",
 															"data": null
 														}
@@ -54893,12 +54893,12 @@
 											},
 											{
 												"id": "summoner-3-1-4b",
-												"name": "Pixie Bellringer",
-												"description": "The bellringers are glowing pixies that jingle as they fly. Historically, these pixies worked alongside bowman to ensure their arrows struck true.",
+												"name": "Chime Familiar",
+												"description": "Chime familiars are glowing spirits that jingle as they fly. Historically, they worked alongside coven marksmen to ensure their shots struck true.",
 												"monster": {
 													"id": "summoner-3-1-4b",
-													"name": "Pixie Bellringer",
-													"description": "The bellringers are glowing pixies that jingle as they fly. Historically, these pixies worked alongside bowman to ensure their arrows struck true.",
+													"name": "Chime Familiar",
+													"description": "Chime familiars are glowing spirits that jingle as they fly. Historically, they worked alongside coven marksmen to ensure their shots struck true.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -54948,21 +54948,21 @@
 														{
 															"id": "summoner-3-1-4b-1",
 															"name": "Ringing Strike",
-															"description": "The bellringer’s free strikes grant an edge to the next strike made against the target, or a double edge if two or more bellringers strike the same target.",
+															"description": "The chime familiar’s free strikes grant an edge to the next strike made against the target, or a double edge if two or more chime familiars strike the same target.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-1-4b-2",
-															"name": "Fairy Chime",
-															"description": "Each ally within 1 square of a bellringer has a +1 to saving throws. Each enemy within 1 square of a bellringer has a −1 to saving throws.",
+															"name": "Witch’s Chime",
+															"description": "Each ally within 1 square of a chime familiar has a +1 to saving throws. Each enemy within 1 square of a chime familiar has a −1 to saving throws.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-1-4b-3",
 															"name": "Minuscule",
-															"description": "The bellringer has cover while occupying a larger creature’s space.",
+															"description": "The chime familiar has cover while occupying a larger creature’s space.",
 															"type": "Text",
 															"data": null
 														}
@@ -54991,12 +54991,12 @@
 											},
 											{
 												"id": "summoner-3-1-4c",
-												"name": "Sprite Dandeknight",
-												"description": "Dandeknights are sprite warriors whose dragonfly wingbeats emit a tonal drone. They’re usually clad in tassels that shift color as they swing their weapons.",
+												"name": "Fyrnock",
+												"description": "Fyrnocks are winged Dathomiri predators whose wingbeats emit a tonal drone. They’re usually draped in charms and tassels that shift color as they strike.",
 												"monster": {
 													"id": "summoner-3-1-4c",
-													"name": "Sprite Dandeknight",
-													"description": "Dandeknights are sprite warriors whose dragonfly wingbeats emit a tonal drone. They’re usually clad in tassels that shift color as they swing their weapons.",
+													"name": "Fyrnock",
+													"description": "Fyrnocks are winged Dathomiri predators whose wingbeats emit a tonal drone. They’re usually draped in charms and tassels that shift color as they strike.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -55042,22 +55042,22 @@
 													"features": [
 														{
 															"id": "summoner-3-1-4c-1",
-															"name": "Magic Strike",
-															"description": "When the dandeknight strikes, you can choose one of the following damage types: acid, cold, corruption, fire, lightning, poison, or sonic. The strike deals that damage.",
+															"name": "Hex Strike",
+															"description": "When the fyrnock strikes, you can choose one of the following damage types: acid, cold, corruption, fire, lightning, poison, or sonic. The strike deals that damage.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-1-4c-2",
 															"name": "Staccato Swings",
-															"description": "When the dandeknight makes a free strike, they can make two free strikes instead. The damage is added together and treated as a single strike if both strikes hit the same target.",
+															"description": "When the fyrnock makes a free strike, they can make two free strikes instead. The damage is added together and treated as a single strike if both strikes hit the same target.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-1-4c-3",
 															"name": "Minuscule",
-															"description": "The dandeknight has cover while occupying a larger creature’s space.",
+															"description": "The fyrnock has cover while occupying a larger creature’s space.",
 															"type": "Text",
 															"data": null
 														}
@@ -55098,12 +55098,12 @@
 										"options": [
 											{
 												"id": "summoner-3-1-5a",
-												"name": "Pixie Hydrain",
-												"description": "This pixie flies on a delicate array of vibrant flower petals for wings. The color drains from their wings as they call forth acid rain showers.",
+												"name": "Ichor Wisp",
+												"description": "This wisp drifts on a ring of luminous mist. The glow drains from it as it calls forth showers of burning or healing ichor.",
 												"monster": {
 													"id": "summoner-3-1-5a",
-													"name": "Pixie Hydrain",
-													"description": "This pixie flies on a delicate array of vibrant flower petals for wings. The color drains from their wings as they call forth acid rain showers.",
+													"name": "Ichor Wisp",
+													"description": "This wisp drifts on a ring of luminous mist. The glow drains from it as it calls forth showers of burning or healing ichor.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -55173,13 +55173,13 @@
 														},
 														{
 															"id": "summoner-3-1-5a-2",
-															"name": "Burning / Healing Rain",
+															"name": "Burning / Healing Ichor",
 															"description": "",
 															"type": "Ability",
 															"data": {
 																"ability": {
 																	"id": "summoner-3-1-5a-2",
-																	"name": "Burning / Healing Rain",
+																	"name": "Burning / Healing Ichor",
 																	"description": "",
 																	"type": {
 																		"usage": "Main Action",
@@ -55223,7 +55223,7 @@
 																		},
 																		{
 																			"type": "text",
-																			"text": "After the hydrain’s squad uses this ability, you or one ally within distance can spend a Recovery or end a condition."
+																			"text": "After the ichor wisp’s squad uses this ability, you or one ally within distance can spend a Recovery or end a condition."
 																		}
 																	]
 																}
@@ -55232,7 +55232,7 @@
 														{
 															"id": "summoner-3-1-5a-3",
 															"name": "Minuscule",
-															"description": "The hydrain has cover while occupying a larger creature’s space.",
+															"description": "The ichor wisp has cover while occupying a larger creature’s space.",
 															"type": "Text",
 															"data": null
 														}
@@ -55261,12 +55261,12 @@
 											},
 											{
 												"id": "summoner-3-1-5b",
-												"name": "Pixie Loftlilly",
-												"description": "Loftlillies lazily drift through the air in flower cups. They sip on toxic nectar to emit a powerful haze from their skin.",
+												"name": "Hexsmoke Familiar",
+												"description": "Hexsmoke familiars drift lazily on curls of smoke. They sip a toxic brew to emit a powerful haze from their skin.",
 												"monster": {
 													"id": "summoner-3-1-5b",
-													"name": "Pixie Loftlilly",
-													"description": "Loftlillies lazily drift through the air in flower cups. They sip on toxic nectar to emit a powerful haze from their skin.",
+													"name": "Hexsmoke Familiar",
+													"description": "Hexsmoke familiars drift lazily on curls of smoke. They sip a toxic brew to emit a powerful haze from their skin.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -55340,14 +55340,14 @@
 														{
 															"id": "summoner-3-1-5b-2",
 															"name": "Floating Toxins",
-															"description": "The area within 1 square of the loftlilly causes each enemy and object with a size equal to your Reason or smaller to float 1 square off the ground until they leave the area. A floating enemy that can’t fly is unable to shift, moves 2 additional squares from forced movement, and has a bane on strikes.",
+															"description": "The area within 1 square of the hexsmoke familiar causes each enemy and object with a size equal to your Reason or smaller to float 1 square off the ground until they leave the area. A floating enemy that can’t fly is unable to shift, moves 2 additional squares from forced movement, and has a bane on strikes.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-1-5b-3",
 															"name": "Minuscule",
-															"description": "The loftlilly has cover while occupying a larger creature’s space.",
+															"description": "The hexsmoke familiar has cover while occupying a larger creature’s space.",
 															"type": "Text",
 															"data": null
 														}
@@ -55376,12 +55376,12 @@
 											},
 											{
 												"id": "summoner-3-1-5c",
-												"name": "Sprite Orchiguard",
-												"description": "The orchiguard is a sprite surrounded by a wheel of shields. They are usually crushed by the pressures of their own impenetrable defenses before ever being felled by enemy hands.",
+												"name": "Coven Ward",
+												"description": "The coven ward is a small spirit surrounded by a wheel of shields. They are usually crushed by the pressures of their own impenetrable defenses before ever being felled by enemy hands.",
 												"monster": {
 													"id": "summoner-3-1-5c",
-													"name": "Sprite Orchiguard",
-													"description": "The orchiguard is a sprite surrounded by a wheel of shields. They are usually crushed by the pressures of their own impenetrable defenses before ever being felled by enemy hands.",
+													"name": "Coven Ward",
+													"description": "The coven ward is a small spirit surrounded by a wheel of shields. They are usually crushed by the pressures of their own impenetrable defenses before ever being felled by enemy hands.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -55431,15 +55431,15 @@
 													"features": [
 														{
 															"id": "summoner-3-1-5c-1",
-															"name": "Fairy Guard",
-															"description": "Each non-orchiguard ally takes half damage from abilities while within 1 square of the orchiguard. Whenever the orchiguard reduces damage this way, they take damage equal to half their maximum Stamina and their free strike damage increases by 1.",
+															"name": "Coven Guard",
+															"description": "Each ally other than a coven ward takes half damage from abilities while within 1 square of a coven ward. Whenever the coven ward reduces damage this way, they take damage equal to half their maximum Stamina and their free strike damage increases by 1.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-1-5c-2",
 															"name": "Minuscule",
-															"description": "The orchiguard has cover while occupying a larger creature’s space.",
+															"description": "The coven ward has cover while occupying a larger creature’s space.",
 															"type": "Text",
 															"data": null
 														}
@@ -55478,14 +55478,14 @@
 							"features": [
 								{
 									"id": "ca613486-01c0-473f-ac7e-9226dc2816f7",
-									"name": "Fixture: Glade Pond",
+									"name": "Fixture: Ichor Cauldron",
 									"description": "",
 									"type": "Fixture",
 									"data": {
 										"fixture": {
 											"id": "summoner-3-fixture",
-											"name": "Glade Pond",
-											"description": "The vibrant waters of Arcadia pour through a hole in reality and pool into a verdant cup of paradise. As the pond babbles, it causes the surrounding flora to grow and provides the fey places to hide.",
+											"name": "Ichor Cauldron",
+											"description": "The cauldron seethes with ichor drawn from old swamps. As it bubbles and steams, it makes the surrounding growth spread and gives familiars places to hide.",
 											"role": {
 												"type": "Ambusher",
 												"terrainType": "Hazard"
@@ -55502,14 +55502,14 @@
 														{
 															"id": "summoner-3-fixture-1-1",
 															"name": "Bubbling Boost",
-															"description": "You and each non-minion ally that enters one or more squares within 3 squares of the pond or starts their turn there has their speed increased by 2 until the end of their turn.",
+															"description": "You and each non-minion ally that enters one or more squares within 3 squares of the cauldron or starts their turn there has their speed increased by 2 until the end of their turn.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-fixture-1-2",
-															"name": "Overgrowth",
-															"description": "Each of your fey minions that ends their turn within 3 squares of the pond is hidden until the start of their next turn.",
+															"name": "Veil of Steam",
+															"description": "Each of your familiar minions that ends their turn within 3 squares of the cauldron is hidden until the start of their next turn.",
 															"type": "Text",
 															"data": null
 														}
@@ -55532,8 +55532,8 @@
 													"features": [
 														{
 															"id": "summoner-3-fixture-5-1",
-															"name": "Garden of Jest",
-															"description": "You can spend a Recovery the first time in a round a creature gains or starts their turn with a condition while you have line of effect to the pond. Alternatively, you can choose to enable an ally who also has line of effect to the boil to spend a Recovery instead.",
+															"name": "Brewer’s Mercy",
+															"description": "You can spend a Recovery the first time in a round a creature gains or starts their turn with a condition while you have line of effect to the cauldron. Alternatively, you can choose to enable an ally who also has line of effect to the cauldron to spend a Recovery instead.",
 															"type": "Text",
 															"data": null
 														}
@@ -55557,14 +55557,14 @@
 														{
 															"id": "summoner-3-fixture-9-1",
 															"name": "Size Increase",
-															"description": "The pond is now Size 3.",
+															"description": "The cauldron is now Size 3.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-fixture-9-2",
-															"name": "Folly Field",
-															"description": "Each non-fey enemy that starts their turn within 3 squares of the pond has a −1 penalty to saving throws and resisting potencies until the start of their next turn.",
+															"name": "Hex Field",
+															"description": "Each non-fey enemy that starts their turn within 3 squares of the cauldron has a −1 penalty to saving throws and resisting potencies until the start of their next turn.",
 															"type": "Text",
 															"data": null
 														}
@@ -55587,12 +55587,12 @@
 										"options": [
 											{
 												"id": "summoner-3-2-2a",
-												"name": "Nixie Hemloche",
-												"description": "Hemloches are spotted nixies whose long, wavy hair endlessly bobs and flows into the water surrounding them. Any sailor caught in a whirlpool created by hemloches knows that their ship won’t survive the encounter.",
+												"name": "Drowning Spirit",
+												"description": "Drowning spirits are pale, spotted shapes whose long, wavy hair endlessly bobs and flows into the water around them. Any traveler caught in a whirlpool made by drowning spirits knows they won’t survive the encounter.",
 												"monster": {
 													"id": "summoner-3-2-2a",
-													"name": "Nixie Hemloche",
-													"description": "Hemloches are spotted nixies whose long, wavy hair endlessly bobs and flows into the water surrounding them. Any sailor caught in a whirlpool created by hemloches knows that their ship won’t survive the encounter.",
+													"name": "Drowning Spirit",
+													"description": "Drowning spirits are pale, spotted shapes whose long, wavy hair endlessly bobs and flows into the water around them. Any traveler caught in a whirlpool made by drowning spirits knows they won’t survive the encounter.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -55642,22 +55642,22 @@
 													"features": [
 														{
 															"id": "summoner-3-2-2a-1",
-															"name": "Water Weird",
-															"description": "Once per turn during their move action, each nixie under your control can teleport to a body of water within 6. The hemloche can’t teleport into water created by their own whirling waves.",
+															"name": "Mist-Step",
+															"description": "Once per turn during their move action, each water spirit under your control can teleport to a body of water within 6. The drowning spirit can’t teleport into water created by their own dragging currents.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-2-2a-2",
-															"name": "Whirling Waves",
-															"description": "The area within 1 square of the hemloche is filled with churning water and is considered difficult terrain. At the end of the hemloche’s turn, the hemloche can choose to slide each enemy in the affected area 3 squares. An enemy that takes damage while being force moved is also M < [average] knocked prone.",
+															"name": "Dragging Currents",
+															"description": "The area within 1 square of the drowning spirit is filled with churning water and is considered difficult terrain. At the end of the drowning spirit’s turn, they can choose to slide each enemy in the affected area 3 squares. An enemy that takes damage while being force moved is also M < [average] knocked prone.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-2-2a-3",
 															"name": "Minuscule",
-															"description": "The hemloche has cover while occupying a larger creature’s space.",
+															"description": "The drowning spirit has cover while occupying a larger creature’s space.",
 															"type": "Text",
 															"data": null
 														}
@@ -55686,12 +55686,12 @@
 											},
 											{
 												"id": "summoner-3-2-2b",
-												"name": "Sprite Foxglow",
-												"description": "Foxglows are masked sprites that leave behind an evanescent trail of tiny glowing orbs as they fly. They beat their wings at a frequency that completely blocks out all nearby noise.",
+												"name": "Shroud Familiar",
+												"description": "Shroud familiars are masked spirits that leave behind a fading trail of tiny glowing orbs as they drift. They beat their wings at a frequency that completely blocks out all nearby noise.",
 												"monster": {
 													"id": "summoner-3-2-2b",
-													"name": "Sprite Foxglow",
-													"description": "Foxglows are masked sprites that leave behind an evanescent trail of tiny glowing orbs as they fly. They beat their wings at a frequency that completely blocks out all nearby noise.",
+													"name": "Shroud Familiar",
+													"description": "Shroud familiars are masked spirits that leave behind a fading trail of tiny glowing orbs as they drift. They beat their wings at a frequency that completely blocks out all nearby noise.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -55763,22 +55763,22 @@
 														},
 														{
 															"id": "summoner-3-2-2b-2",
-															"name": "Flash Strike",
-															"description": "The foxglow’s melee strikes inflict I < [strong] dazed (EoT) if they were hidden when they make the strike.",
+															"name": "Veiled Strike",
+															"description": "The shroud familiar’s melee strikes inflict I < [strong] dazed (EoT) if they were hidden when they make the strike.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-2-2b-3",
-															"name": "Quiet Flight",
-															"description": "The area within 2 squares of the foxglow is completely silent. Each enemy has a bane on tests made to search for the foxglow and allies hidden in the affected area.",
+															"name": "Silent Veil",
+															"description": "The area within 2 squares of the shroud familiar is completely silent. Each enemy has a bane on tests made to search for the shroud familiar and allies hidden in the affected area.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-2-2b-4",
 															"name": "Minuscule",
-															"description": "The foxglow has cover while occupying a larger creature’s space.",
+															"description": "The shroud familiar has cover while occupying a larger creature’s space.",
 															"type": "Text",
 															"data": null
 														}
@@ -55807,12 +55807,12 @@
 											},
 											{
 												"id": "summoner-3-2-2c",
-												"name": "Pixie Rosenthall",
-												"description": "The collective of blood-eyed pixie warriors that make up a rosenthall are also known as rosies. It’s said that some rosenthall armies contain thousands of pixies and can span half the length of a wode.",
+												"name": "Fyrnock Swarm",
+												"description": "The red-eyed collective of fyrnocks that makes up a swarm. It’s said that some swarms contain thousands of fyrnocks and can darken the sky across half a valley.",
 												"monster": {
 													"id": "summoner-3-2-2c",
-													"name": "Pixie Rosenthall",
-													"description": "The collective of blood-eyed pixie warriors that make up a rosenthall are also known as rosies. It’s said that some rosenthall armies contain thousands of pixies and can span half the length of a wode.",
+													"name": "Fyrnock Swarm",
+													"description": "The red-eyed collective of fyrnocks that makes up a swarm. It’s said that some swarms contain thousands of fyrnocks and can darken the sky across half a valley.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -55863,13 +55863,13 @@
 													"features": [
 														{
 															"id": "summoner-3-2-2c-1",
-															"name": "Stickerbush Symphony",
+															"name": "Thorn-Wing Chorus",
 															"description": "",
 															"type": "Ability",
 															"data": {
 																"ability": {
 																	"id": "summoner-3-2-2c-1",
-																	"name": "Stickerbush Symphony",
+																	"name": "Thorn-Wing Chorus",
 																	"description": "",
 																	"type": {
 																		"usage": "Main Action",
@@ -55922,7 +55922,7 @@
 														{
 															"id": "summoner-3-2-2c-2",
 															"name": "Swarm",
-															"description": "The rosenthall can move through squares as if they were size 1T, and can occupy other creatures’ spaces. At the start of the rosenthall’s turn, they deal 2 damage to each enemy whose space they share.",
+															"description": "The fyrnock swarm can move through squares as if they were size 1T, and can occupy other creatures’ spaces. At the start of the swarm’s turn, they deal 2 damage to each enemy whose space they share.",
 															"type": "Text",
 															"data": null
 														}
@@ -55969,14 +55969,14 @@
 							"features": [
 								{
 									"id": "2f96d349-3434-418d-8471-09a7a26823ab",
-									"name": "Flash Powder",
-									"description": "\nEach ally that gains temporary Stamina from your Pixie Dust feature also gains one of the following effects until the end of their next turn (or for 10 minutes if used outside of combat):\n\n* **Flight**: Their speed gains the Fly keyword.\n* **Vanish**: They become invisible.\n* **Water Weird**: As a free maneuver once per turn, they can teleport to a body of water within 5 squares of them.\n* **Panacea**: They can end one condition affecting them or stand up.",
+									"name": "Hex Powder",
+									"description": "\nEach ally that gains temporary Stamina from your Spirit Dust feature also gains one of the following effects until the end of their next turn (or for 10 minutes if used outside of combat):\n\n* **Flight**: Their speed gains the Fly keyword.\n* **Vanish**: They become invisible.\n* **Mist-Step**: As a free maneuver once per turn, they can teleport to a body of water within 5 squares of them.\n* **Panacea**: They can end one condition affecting them or stand up.",
 									"type": "Text",
 									"data": null
 								},
 								{
 									"id": "6376b237-6ba6-4075-8586-449bf01cbeb9",
-									"name": "Pixie Lift",
+									"name": "Witch’s Flight",
 									"description": "\nYour speed gains the Fly and Hover keywords. You lose the Hover keyword from this feature while you are dazed, dying, or you fly more than 1 square above the surface of the ground.\n\nIf your speed previously had the Fly keyword, you can now fly while sneaking an additional number of squares equal to your Reason.",
 									"type": "Text",
 									"data": null
@@ -55990,12 +55990,12 @@
 										"options": [
 											{
 												"id": "summoner-3-5-3a",
-												"name": "Nixie Corallia",
-												"description": "Corallias are saltwater nixies with coarse, coral-like skin and curly hair with hooked ends. Their salty tears are used to bless sacred places and ward off the dark side.",
+												"name": "Brew Spirit",
+												"description": "Brew spirits are cauldron-born, with coarse, coral-like skin and curly, hooked hair. Their salty tears are used to bless sacred places and ward off corruption.",
 												"monster": {
 													"id": "summoner-3-5-3a",
-													"name": "Nixie Corallia",
-													"description": "Corallias are saltwater nixies with coarse, coral-like skin and curly hair with hooked ends. Their salty tears are used to bless sacred places and ward off the dark side.",
+													"name": "Brew Spirit",
+													"description": "Brew spirits are cauldron-born, with coarse, coral-like skin and curly, hooked hair. Their salty tears are used to bless sacred places and ward off corruption.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -56067,22 +56067,22 @@
 														},
 														{
 															"id": "summoner-3-5-3a-2",
-															"name": "Water Weird",
-															"description": "Once per turn during their move action, each nixie under your control can teleport to a body of water within 6. The corallia can’t teleport into water created by their own seafoam pool.",
+															"name": "Mist-Step",
+															"description": "Once per turn during their move action, each water spirit under your control can teleport to a body of water within 6. The brew spirit can’t teleport into water created by their own cleansing brew.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-5-3a-3",
-															"name": "Seafoam Pool",
-															"description": "The area within 2 squares of the corallia is filled with purifying saltwater that disables the effects of difficult terrain created by enemies. At the end of the corallia’s turn, the corallia can scrub you or an ally in the affected area and end one condition.",
+															"name": "Cleansing Brew",
+															"description": "The area within 2 squares of the brew spirit is filled with purifying brew that disables the effects of difficult terrain created by enemies. At the end of the brew spirit’s turn, the brew spirit can scrub you or an ally in the affected area and end one condition.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-5-3a-4",
 															"name": "Minuscule",
-															"description": "The corallia has cover while occupying a larger creature’s space.",
+															"description": "The brew spirit has cover while occupying a larger creature’s space.",
 															"type": "Text",
 															"data": null
 														}
@@ -56111,12 +56111,12 @@
 											},
 											{
 												"id": "summoner-3-5-3b",
-												"name": "Pixie Belladonix",
-												"description": "The belladonix are found among the elite guard of fey monarchs and carry themselves like royalty. Their moth-like wings ooze with vibrant colors and are barbed; the poison within threatening to completely shift the reality of their victims.",
+												"name": "Nightshade Familiar",
+												"description": "Nightshade familiars carry themselves like the coven’s elite guard. Their moth-like wings ooze with vibrant colors and are barbed; the poison within threatens to completely shift the reality of their victims.",
 												"monster": {
 													"id": "summoner-3-5-3b",
-													"name": "Pixie Belladonix",
-													"description": "The belladonix are found among the elite guard of fey monarchs and carry themselves like royalty. Their moth-like wings ooze with vibrant colors and are barbed; the poison within threatening to completely shift the reality of their victims.",
+													"name": "Nightshade Familiar",
+													"description": "Nightshade familiars carry themselves like the coven’s elite guard. Their moth-like wings ooze with vibrant colors and are barbed; the poison within threatens to completely shift the reality of their victims.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -56248,7 +56248,7 @@
 														{
 															"id": "summoner-3-5-3b-3",
 															"name": "Minuscule",
-															"description": "The belladonix has cover while occupying a larger creature’s space.",
+															"description": "The nightshade familiar has cover while occupying a larger creature’s space.",
 															"type": "Text",
 															"data": null
 														}
@@ -56277,12 +56277,12 @@
 											},
 											{
 												"id": "summoner-3-5-3c",
-												"name": "Sprite Olyender",
-												"description": "These brawny sprites wear heavy beetle armor and have a halo hovering away from their backs where their wings used to be. The faster the halo spins, the more power the olyender generates, enabling them to stand toe to toe with giants.",
+												"name": "Rancor Spirit",
+												"description": "These brawny spirits wear heavy rancor-hide armor and have a halo hovering away from their backs where their wings used to be. The faster the halo spins, the more power the spirit generates, enabling them to stand toe to toe with giants.",
 												"monster": {
 													"id": "summoner-3-5-3c",
-													"name": "Sprite Olyender",
-													"description": "These brawny sprites wear heavy beetle armor and have a halo hovering away from their backs where their wings used to be. The faster the halo spins, the more power the olyender generates, enabling them to stand toe to toe with giants.",
+													"name": "Rancor Spirit",
+													"description": "These brawny spirits wear heavy rancor-hide armor and have a halo hovering away from their backs where their wings used to be. The faster the halo spins, the more power the spirit generates, enabling them to stand toe to toe with giants.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -56350,21 +56350,21 @@
 														{
 															"id": "summoner-3-5-3c-2",
 															"name": "Warrior’s Toss",
-															"description": "The olyender’s melee strikes inflict push 4. If the target is force moved into an object, they are M < [average] knocked prone and can’t stand (save ends).",
+															"description": "The rancor spirit’s melee strikes inflict push 4. If the target is force moved into an object, they are M < [average] knocked prone and can’t stand (save ends).",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-5-3c-3",
 															"name": "Use Their Might",
-															"description": "When targeting a creature with a grab or forced movement, the olyender’s size is considered one larger than the target.",
+															"description": "When targeting a creature with a grab or forced movement, the rancor spirit’s size is considered one larger than the target.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-5-3c-4",
 															"name": "Minuscule",
-															"description": "The olyender has cover while occupying a larger creature’s space.",
+															"description": "The rancor spirit has cover while occupying a larger creature’s space.",
 															"type": "Text",
 															"data": null
 														}
@@ -56426,8 +56426,8 @@
 								},
 								{
 									"id": "998caffe-46db-4cde-af1f-58c25374c848",
-									"name": "Celestial Grace",
-									"description": "The area affected by your Pixie Dust feature and any of your fey minions’ traits that affect adjacent creatures and/or the area within 1 or more squares of them increase that distance by 1 square.",
+									"name": "Great Mother’s Grace",
+									"description": "The area affected by your Spirit Dust feature and any of your familiar minions’ traits that affect adjacent creatures and/or the area within 1 or more squares of them increase that distance by 1 square.",
 									"type": "Text",
 									"data": null
 								},
@@ -56440,12 +56440,12 @@
 										"summons": [
 											{
 												"id": "summoner-3-8-2a",
-												"name": "Celestial Attendant",
-												"description": "\nYour champion is an Attendant of a celestial. Whenever you call on their assistance, you must formally welcome and introduce them to the occasion. You can’t be certain if this is truly the blessing of a celestial you’ve previously allied yourself with, or if you’ve received someone else’s power—neither circumstance puts you in any less danger.\n\nThe celestial Attendant wants to swarm the map with pixies while limiting their foes’ ability to do anything about it. A single neurotoxic strike is all it takes to move everyone into position.",
+												"name": "Aspect of the Great Mother",
+												"description": "\nYour champion is an Aspect of the Great Mother. Whenever you call on their assistance, you must formally welcome and introduce them to the occasion. You can’t be certain if this is truly the blessing of a Great Mother you’ve previously allied yourself with, or if you’ve received someone else’s power; neither circumstance puts you in any less danger.\n\nThe Aspect wants to swarm the map with familiars while limiting their foes’ ability to do anything about it. A single neurotoxic strike is all it takes to move everyone into position.",
 												"monster": {
 													"id": "summoner-3-8-2a",
-													"name": "Celestial Attendant",
-													"description": "\nYour champion is an Attendant of a celestial. Whenever you call on their assistance, you must formally welcome and introduce them to the occasion. You can’t be certain if this is truly the blessing of a celestial you’ve previously allied yourself with, or if you’ve received someone else’s power—neither circumstance puts you in any less danger.\n\nThe celestial Attendant wants to swarm the map with pixies while limiting their foes’ ability to do anything about it. A single neurotoxic strike is all it takes to move everyone into position.",
+													"name": "Aspect of the Great Mother",
+													"description": "\nYour champion is an Aspect of the Great Mother. Whenever you call on their assistance, you must formally welcome and introduce them to the occasion. You can’t be certain if this is truly the blessing of a Great Mother you’ve previously allied yourself with, or if you’ve received someone else’s power; neither circumstance puts you in any less danger.\n\nThe Aspect wants to swarm the map with familiars while limiting their foes’ ability to do anything about it. A single neurotoxic strike is all it takes to move everyone into position.",
 													"picture": null,
 													"level": 0,
 													"role": {
@@ -56531,13 +56531,13 @@
 														},
 														{
 															"id": "summoner-3-8-2a-3",
-															"name": "Pixie Swarm",
+															"name": "Swarm of Familiars",
 															"description": "",
 															"type": "Ability",
 															"data": {
 																"ability": {
 																	"id": "summoner-3-8-2a-3",
-																	"name": "Pixie Swarm",
+																	"name": "Swarm of Familiars",
 																	"description": "",
 																	"type": {
 																		"usage": "Main Action",
@@ -56588,26 +56588,26 @@
 														{
 															"id": "summoner-3-8-2a-4",
 															"name": "Neurotoxic Strike",
-															"description": "A creature that takes damage from the Attendant’s free strike is I < [average] unable to establish line of effect beyond 3 squares (EoT). ",
+															"description": "A creature that takes damage from the Aspect’s free strike is I < [average] unable to establish line of effect beyond 3 squares (EoT). ",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-8-2a-5",
 															"name": "Champion’s Ire",
-															"description": "If the Attendant only targets one creature or object with a strike, they deal additional damage to the target equal to your Reason.",
+															"description": "If the Aspect only targets one creature or object with a strike, they deal additional damage to the target equal to your Reason.",
 															"type": "Text",
 															"data": null
 														},
 														{
 															"id": "summoner-3-8-2a-6",
-															"name": "Celestial Bell",
+															"name": "Summoning Chime",
 															"description": "",
 															"type": "Ability",
 															"data": {
 																"ability": {
 																	"id": "summoner-3-8-2a-6",
-																	"name": "Celestial Bell",
+																	"name": "Summoning Chime",
 																	"description": "",
 																	"type": {
 																		"usage": "Triggered Action",
@@ -56635,7 +56635,7 @@
 																	"sections": [
 																		{
 																			"type": "text",
-																			"text": "The Attendant rings a bell, and you summon a signature minion into an unoccupied space adjacent to the Attendant."
+																			"text": "The Aspect rings a chime, and you summon a signature minion into an unoccupied space adjacent to the Aspect."
 																		}
 																	]
 																}
@@ -56643,8 +56643,8 @@
 														},
 														{
 															"id": "summoner-3-8-2a-7",
-															"name": "Pixie Bouquet",
-															"description": "The Attendant starts their turn with temporary Stamina equal to 2 × the number of fey minions within 1 square of them. This temporary Stamina lasts until the start of their next turn.",
+															"name": "Coven Circle",
+															"description": "The Aspect starts their turn with temporary Stamina equal to 2 × the number of familiar minions within 1 square of them. This temporary Stamina lasts until the start of their next turn.",
 															"type": "Text",
 															"data": null
 														}
