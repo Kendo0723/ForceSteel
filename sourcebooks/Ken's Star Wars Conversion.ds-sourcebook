@@ -49368,7 +49368,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Holy",
+																		"damageType": "Ion",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -49481,7 +49481,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Holy",
+																		"damageType": "Ion",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -49592,7 +49592,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Holy",
+																		"damageType": "Ion",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -49715,7 +49715,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Holy",
+																		"damageType": "Ion",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -49826,7 +49826,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Holy",
+																		"damageType": "Ion",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -49937,7 +49937,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Holy",
+																		"damageType": "Ion",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -50218,7 +50218,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Holy",
+																		"damageType": "Ion",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -50336,7 +50336,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Holy",
+																		"damageType": "Ion",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -50456,7 +50456,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Holy",
+																		"damageType": "Ion",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -50615,7 +50615,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Holy",
+																		"damageType": "Ion",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -50784,7 +50784,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Holy",
+																		"damageType": "Ion",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -50902,7 +50902,7 @@
 															"data": {
 																"modifiers": [
 																	{
-																		"damageType": "Holy",
+																		"damageType": "Ion",
 																		"type": "Weakness",
 																		"value": 1,
 																		"valueFromController": null,
@@ -53320,7 +53320,7 @@
 													"stamina": 0,
 													"stability": 3,
 													"freeStrikeDamage": 9,
-													"freeStrikeType": "Holy",
+													"freeStrikeType": "Ion",
 													"characteristics": [
 														{
 															"characteristic": "Might",
@@ -53583,7 +53583,7 @@
 																	"sections": [
 																		{
 																			"type": "text",
-																			"text": "9 holy damage. Each target is vertically pulled a number of squares equal to their size straight down, ignoring stability. If the target would be force moved into the ground, they are buried beneath the ground instead."
+																			"text": "9 ion damage. Each target is vertically pulled a number of squares equal to their size straight down, ignoring stability. If the target would be force moved into the ground, they are buried beneath the ground instead."
 																		}
 																	]
 																}
@@ -83765,7 +83765,7 @@
 				{
 					"id": "b8df5216-d2ab-4399-914e-3caa4f6be8a4",
 					"name": "Untouched by Corruption",
-					"description": "Whenever you use a damage-dealing ability, that ability can deal holy damage instead of its usual damage type.",
+					"description": "Whenever you use a damage-dealing ability, that ability can deal ion damage instead of its usual damage type.",
 					"type": "Text",
 					"data": null
 				}
@@ -83803,7 +83803,7 @@
 				{
 					"id": "f5340067-06e2-42e0-8b22-63745d4899ef",
 					"name": "Untouched by Corruption",
-					"description": "Whenever you use a damage-dealing ability, that ability can deal holy damage instead of its usual damage type.",
+					"description": "Whenever you use a damage-dealing ability, that ability can deal ion damage instead of its usual damage type.",
 					"type": "Text",
 					"data": null
 				}
@@ -84062,7 +84062,7 @@
 				{
 					"id": "33deae6d-d288-4662-bf41-ab936005b123",
 					"name": "Untouched by Corruption",
-					"description": "Whenever you use a damage-dealing ability, that ability can deal holy damage instead of its usual damage type.",
+					"description": "Whenever you use a damage-dealing ability, that ability can deal ion damage instead of its usual damage type.",
 					"type": "Text",
 					"data": null
 				}
