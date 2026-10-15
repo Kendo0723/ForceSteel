@@ -1,6 +1,28 @@
 import { describe, expect, it } from 'vitest';
 import { FactoryLogic } from '@/logic/factory-logic';
+import { Options } from '@/models/options';
 import { UpdateLogic } from '@/logic/update/update-logic';
+
+describe('updateOptions', () => {
+	it('shows tips by default when updating existing options', () => {
+		const options = {} as Options;
+
+		UpdateLogic.updateOptions(options);
+
+		expect(options.showTips).toBe(true);
+	});
+});
+
+describe('updateSourcebook', () => {
+	it('adds extensions when updating a sourcebook created before extensions existed', () => {
+		const sourcebook = FactoryLogic.createSourcebook();
+		Reflect.deleteProperty(sourcebook, 'extensions');
+
+		UpdateLogic.updateSourcebook(sourcebook);
+
+		expect(sourcebook.extensions).toEqual([]);
+	});
+});
 
 describe('updateFeature', () => {
 	const part = (id: string, name: string) => FactoryLogic.feature.create({ id: id, name: name, description: `${name} description` });
