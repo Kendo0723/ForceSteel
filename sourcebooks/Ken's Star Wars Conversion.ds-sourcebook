@@ -1,14 +1,14 @@
 {
 	"id": "8cc13b2e-6f37-4bd4-93fe-5bd15aae826c",
-	"name": "Ken's Star Wars Conversion (v0.57)",
-	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned, plus the Beastheart and the Legion-Master (Summoner).\n\nStill to do: fill in the placeholder mechanical benefits on the Force Sensitivity Titles. A full text audit of the book is mostly complete: its fixes have been applied, and only smaller issues remain outstanding. See the Remaining Work To-Do List for full details.\n\nBuild v0.57 (2026-10-18) — work in progress, for testing only.",
+	"name": "Ken's Star Wars Conversion (v0.60)",
+	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned, plus the Beastheart and the Legion-Master (Summoner).\n\nStill to do: fill in the placeholder mechanical benefits on the Force Sensitivity Titles. A full text audit of the book is mostly complete: its fixes have been applied, and only smaller issues remain outstanding. See the Remaining Work To-Do List for full details.\n\nBuild v0.60 (2026-10-21) — work in progress, for testing only.",
 	"type": "Homebrew",
 	"adventures": [],
 	"ancestries": [
 		{
 			"id": "233121f8-855a-4a76-926e-3524bdc8c8d6",
-			"name": "Zabrak",
-			"description": "Zabraks hail from the harsh world of Iridonia, humanoids marked from birth with hardened facial horns in a wide variety of shapes and sizes, from short curved ridges to towering crowns. Some also bear a tail—natural or augmented—fanged incisors, or other distinguishing traits, no two Zabrak looking quite alike.",
+			"name": "Sith Pureblood",
+			"description": "The Sith Purebloods are the crimson-skinned heirs of Korriban’s ancient Sith, descended from the original species and the Dark Jedi exiles who once enslaved and then ruled them. Those in whom the old blood runs strongest wear its marks from birth: cranial horns, spurs of bone at the elbows, cheek tendrils that twitch with every mood, and eyes that glow yellow. Nearly all are born sensitive to the Force, and their society is warlike, competitive and ambitious, a place where cunning and a good memory for old grudges are the paths to power. No two Purebloods look quite alike.",
 			"features": [
 				{
 					"id": "eb9a43d1-b1e8-4765-822e-19ffda6391ce",
@@ -52,8 +52,8 @@
 							{
 								"feature": {
 									"id": "956e67f8-6b26-4535-a65f-816fe5308f69",
-									"name": "Barbed Tail",
-									"description": "Your pointy tail allows you to punctuate all your actions. Once per round when you make a melee strike, you can deal extra damage with the strike equal to your highest characteristic score.",
+									"name": "Bone Spurs",
+									"description": "Sharp spurs of bone jut from your elbows and forearms, ready to punctuate all your actions. Once per round when you make a melee strike, you can deal extra damage with the strike equal to your highest characteristic score.",
 									"type": "Text",
 									"data": null
 								},
@@ -62,8 +62,8 @@
 							{
 								"feature": {
 									"id": "42b497d7-97e9-4903-b900-538e093cce8d",
-									"name": "Powerful Legs",
-									"description": "Your powerful legs improve your speed. Your Speed is 6.",
+									"name": "Predator's Stride",
+									"description": "Your lean, predatory build improves your speed. Your Speed is 6.",
 									"type": "Speed",
 									"data": {
 										"speed": 6
@@ -75,13 +75,13 @@
 								"feature": {
 									"id": "be5f9a60-dfe9-44d5-90ba-6ad697fef07b",
 									"name": "Glowing Eyes",
-									"description": "Your eyes are a solid, vibrant color that flares to show your excitement or rage.",
+									"description": "Your eyes are a solid, glowing yellow that flares to show your excitement or rage.",
 									"type": "Ability",
 									"data": {
 										"ability": {
 											"id": "be5f9a60-dfe9-44d5-90ba-6ad697fef07b",
 											"name": "Glowing Eyes",
-											"description": "Your eyes are a solid, vibrant color that flares to show your excitement or rage.",
+											"description": "Your eyes are a solid, glowing yellow that flares to show your excitement or rage.",
 											"type": {
 												"usage": "Triggered Action",
 												"free": false,
@@ -110,7 +110,7 @@
 							{
 								"feature": {
 									"id": "2773ceb6-bb04-422d-8102-3cda813e989d",
-									"name": "Iridonian Sight",
+									"name": "Dark Sight",
 									"description": "Your eyes let you see through darkness, fog, and other obscuring effects. You don’t take a bane on strikes made against creatures with concealment.",
 									"type": "Text",
 									"data": null
@@ -121,7 +121,7 @@
 								"feature": {
 									"id": "d44a3228-34e9-475c-9241-241a8c6eefdd",
 									"name": "Impressive Horns",
-									"description": "Your cherished horns are larger than your average Zabrak’s, and a hardened representation of your force of will. Whenever you make a saving throw, you succeed on a roll of 5 or higher.",
+									"description": "Your cherished horns are larger than your average Pureblood’s, and a hardened representation of your force of will. Whenever you make a saving throw, you succeed on a roll of 5 or higher.",
 									"type": "Save Threshold",
 									"data": {
 										"value": 5
@@ -132,8 +132,8 @@
 							{
 								"feature": {
 									"id": "282177f8-c9b7-4597-8b4b-01d39b5f9d28",
-									"name": "Prehensile Tail",
-									"description": "Your prehensile tail allows you to challenge foes on all sides. You can’t be flanked.",
+									"name": "Wary Instinct",
+									"description": "Generations of Sith rivalry have bred a constant suspicion of anyone standing at your back, and your twitching cheek tendrils catch the slightest movement behind you. You can’t be flanked.",
 									"type": "Text",
 									"data": null
 								},
@@ -142,15 +142,15 @@
 							{
 								"feature": {
 									"id": "258828e0-799e-4286-bbb2-04535756e76b",
-									"name": "Jetpack Burst",
+									"name": "Dark Levitation",
 									"description": "",
 									"type": "Multiple Features",
 									"data": {
 										"features": [
 											{
 												"id": "5890412c-8d3f-404a-8425-35f26b6f0532",
-												"name": "Jetpack Burst",
-												"description": "You possess a personal jetpack powerful enough to take you airborne. While using your jetpack to fly, you can stay aloft for a number of rounds equal to your Might score (minimum 1 round) before you fall. While using your jetpack to fly at 3rd level or lower, you have damage weakness 5.",
+												"name": "Dark Levitation",
+												"description": "You lift yourself on a current of dark side energy. While using Dark Levitation to fly, you can stay aloft for a number of rounds equal to your Might score (minimum 1 round) before you fall. While using it to fly at 3rd level or lower, you have damage weakness 5.",
 												"type": "Text",
 												"data": null
 											},
@@ -180,13 +180,13 @@
 		},
 		{
 			"id": "3399e0b2-d316-4a04-b1eb-8380e25e6745",
-			"name": "Rodian",
-			"description": "Rodians are a reptilian species native to Rodia, evolved from tree-dwelling hunter-lizards into one of the galaxy's most driven and competitive peoples. Rodian culture prizes the hunt above almost everything else—tracking, patience, and the thrill of a successful kill are central to how a Rodian measures their own worth. Clutches are small, and Rodian young mature quickly, developing their toughened, mottled hide within their first years of life.",
+			"name": "Zabrak",
+			"description": "Zabraks hail from the harsh world of Iridonia, a land of jagged crags, acid pools and brutal weather that forged a people of discipline, tenacity and an extraordinary tolerance for pain. They are marked from birth by hardened horns and often by ritual facial tattoos, no two Zabrak looking quite alike. Iridonian culture prizes martial skill and clan competition, and many Zabrak leave home to sell their skills as soldiers, bounty hunters and mercenaries, carrying a tradition of battle-tested tech: flame and gas projectors, canister rigs and jetpack harnesses passed down through the clans.",
 			"features": [
 				{
 					"id": "eec6954f-a796-4f71-ae54-3f60e9d09142",
-					"name": "Hardened Hide",
-					"description": "Your hardened hide grants you damage immunity equal to your level to one of the following damage types: acid, cold, corruption, fire, lightning, or poison. You can change your damage immunity type when you finish a respite.",
+					"name": "Iridonian Hardening",
+					"description": "Growing up on Iridonia’s crags, acid pools and brutal storms has hardened your body against the natural world. You have damage immunity equal to your level to one of the following damage types: acid, cold, corruption, fire, lightning, or poison. You can change your damage immunity type when you finish a respite, as your body acclimates.",
 					"type": "Choice",
 					"data": {
 						"options": [
@@ -345,13 +345,13 @@
 								"feature": {
 									"id": "1645b6b3-1d3f-40f5-b997-57cdb6ad6af0",
 									"name": "Instinctive Guard",
-									"description": "You twist aside at the last instant to blunt a blow.",
+									"description": "Clan training lets you twist aside at the last instant to blunt a blow.",
 									"type": "Ability",
 									"data": {
 										"ability": {
 											"id": "1645b6b3-1d3f-40f5-b997-57cdb6ad6af0",
 											"name": "Instinctive Guard",
-											"description": "You twist aside at the last instant to blunt a blow.",
+											"description": "Clan training lets you twist aside at the last instant to blunt a blow.",
 											"type": {
 												"usage": "Triggered Action",
 												"free": false,
@@ -389,8 +389,8 @@
 							{
 								"feature": {
 									"id": "dada77cb-dd6d-450a-932f-10b13f5630b9",
-									"name": "Hide Resistance (acid)",
-									"description": "",
+									"name": "Acclimated: Acid",
+									"description": "Select the damage immunity (acid) granted by Iridonian Hardening. You always have it, in addition to the immunity Iridonian Hardening grants.",
 									"type": "Damage Modifier",
 									"data": {
 										"modifiers": [
@@ -412,8 +412,8 @@
 							{
 								"feature": {
 									"id": "9beab81c-d5cb-490c-81cd-291bdd8cb359",
-									"name": "Hide Resistance (cold)",
-									"description": "",
+									"name": "Acclimated: Cold",
+									"description": "Select the damage immunity (cold) granted by Iridonian Hardening. You always have it, in addition to the immunity Iridonian Hardening grants.",
 									"type": "Damage Modifier",
 									"data": {
 										"modifiers": [
@@ -435,8 +435,8 @@
 							{
 								"feature": {
 									"id": "d96185b8-78c8-49c0-8380-6dc867586a80",
-									"name": "Hide Resistance (corruption)",
-									"description": "",
+									"name": "Acclimated: Corruption",
+									"description": "Select the damage immunity (corruption) granted by Iridonian Hardening. You always have it, in addition to the immunity Iridonian Hardening grants.",
 									"type": "Damage Modifier",
 									"data": {
 										"modifiers": [
@@ -458,8 +458,8 @@
 							{
 								"feature": {
 									"id": "da386d04-78de-4966-bc71-faebd4b7005d",
-									"name": "Hide Resistance (fire)",
-									"description": "",
+									"name": "Acclimated: Fire",
+									"description": "Select the damage immunity (fire) granted by Iridonian Hardening. You always have it, in addition to the immunity Iridonian Hardening grants.",
 									"type": "Damage Modifier",
 									"data": {
 										"modifiers": [
@@ -481,8 +481,8 @@
 							{
 								"feature": {
 									"id": "3df15d85-b4d4-4152-b506-d4face1ed711",
-									"name": "Hide Resistance (lightning)",
-									"description": "",
+									"name": "Acclimated: Lightning",
+									"description": "Select the damage immunity (lightning) granted by Iridonian Hardening. You always have it, in addition to the immunity Iridonian Hardening grants.",
 									"type": "Damage Modifier",
 									"data": {
 										"modifiers": [
@@ -504,8 +504,8 @@
 							{
 								"feature": {
 									"id": "bf57dda5-4305-4af0-a953-63ae0b93c299",
-									"name": "Hide Resistance (poison)",
-									"description": "",
+									"name": "Acclimated: Poison",
+									"description": "Select the damage immunity (poison) granted by Iridonian Hardening. You always have it, in addition to the immunity Iridonian Hardening grants.",
 									"type": "Damage Modifier",
 									"data": {
 										"modifiers": [
@@ -552,7 +552,7 @@
 											"sections": [
 												{
 													"type": "text",
-													"text": "\nAs a maneuver, you can recite the following vow.\n\n> Even should the twin suns fail to rise\n> Even should the hunt last a thousand years\n> I will track forever\n> I shall not yield\n> Those who suffer and yearn for justice\n> I am your blade and shield\n> I will give no ground\n> I will speak no lies\n> I will stand against all tyrants\n> Until the last quarry falls.\n \nUntil the start of your next turn, whenever you make a saving throw, you succeed on a 4 or higher."
+													"text": "\nAs a maneuver, you can recite the following vow.\n\n> Even should Iridonia’s storms never cease\n> Even should the trial last a thousand years\n> I will endure forever\n> I shall not yield\n> Those who suffer and yearn for justice\n> I am your blade and shield\n> I will give no ground\n> I will speak no lies\n> I will stand against all tyrants\n> Until the last foe falls.\n \nUntil the start of your next turn, whenever you make a saving throw, you succeed on a 4 or higher."
 												}
 											]
 										}
@@ -563,14 +563,14 @@
 							{
 								"feature": {
 									"id": "9dd94371-1e22-46a2-8309-fd3fd88f7186",
-									"name": "Hunter's Roar",
-									"description": "You let loose a mighty roar to shake your foes’ spirits.",
+									"name": "War Cry",
+									"description": "You let loose a thunderous war cry to shake your foes’ spirits.",
 									"type": "Ability",
 									"data": {
 										"ability": {
 											"id": "9dd94371-1e22-46a2-8309-fd3fd88f7186",
-											"name": "Hunter's Roar",
-											"description": "You let loose a mighty roar to shake your foes’ spirits.",
+											"name": "War Cry",
+											"description": "You let loose a thunderous war cry to shake your foes’ spirits.",
 											"type": {
 												"usage": "Main Action",
 												"free": false,
@@ -620,14 +620,14 @@
 							{
 								"feature": {
 									"id": "92647b88-77a6-4bf2-a14a-d0dd9fd2eee5",
-									"name": "Acid Spit",
-									"description": "A corrosive spray of acid washes over your foes.",
+									"name": "Canister Rig",
+									"description": "You trigger a wrist-mounted projector, spraying your foes with a payload chosen from your canisters.",
 									"type": "Ability",
 									"data": {
 										"ability": {
 											"id": "92647b88-77a6-4bf2-a14a-d0dd9fd2eee5",
-											"name": "Acid Spit",
-											"description": "A corrosive spray of acid washes over your foes.",
+											"name": "Canister Rig",
+											"description": "You trigger a wrist-mounted projector, spraying your foes with a payload chosen from your canisters.",
 											"type": {
 												"usage": "Main Action",
 												"free": false,
@@ -670,7 +670,7 @@
 												},
 												{
 													"type": "text",
-													"text": "You choose the ability’s damage type from acid, cold, corruption, fire, lightning, or poison."
+													"text": "You choose the ability’s damage type from acid, cold, corruption, fire, lightning, or poison, depending on which canister you load (gas, cryo, flame, arc, and so on)."
 												}
 											]
 										}
@@ -689,7 +689,7 @@
 											{
 												"id": "c3925147-8149-4905-8516-019086470c34",
 												"name": "Jetpack Burst",
-												"description": "You possess a personal jetpack powerful enough to take you airborne. While using your jetpack to fly, you can stay aloft for a number of rounds equal to your Might (minimum of 1 round) before you fall prone. While using your jetpack to fly at 1st, 2nd, and 3rd level, you have damage weakness 5.",
+												"description": "You possess a personal jetpack harness, an Iridonian mercenary tradition, powerful enough to take you airborne. While using your jetpack to fly, you can stay aloft for a number of rounds equal to your Might (minimum of 1 round) before you fall prone. While using your jetpack to fly at 1st, 2nd, and 3rd level, you have damage weakness 5.",
 												"type": "Text",
 												"data": null
 											},
@@ -61787,7 +61787,7 @@
 	"cultures": [
 		{
 			"id": "725c5692-2a1c-4807-9fd3-01ca74c1cc29",
-			"name": "Zabrak",
+			"name": "Sith Pureblood",
 			"description": "Urban, bureaucratic, academic.",
 			"type": "Ancestral",
 			"language": {
@@ -61800,7 +61800,7 @@
 					"count": 1,
 					"selectAt": "build",
 					"selected": [
-						"Zabraki"
+						"Sith (Old Tongue)"
 					],
 					"allowedTypes": [
 						"Common",
@@ -61860,7 +61860,7 @@
 		},
 		{
 			"id": "f06225b5-1d2f-44b1-9c13-7c75320421ad",
-			"name": "Rodian",
+			"name": "Zabrak",
 			"description": "Secluded, bureaucratic, martial.",
 			"type": "Ancestral",
 			"language": {
@@ -61873,7 +61873,7 @@
 					"count": 1,
 					"selectAt": "build",
 					"selected": [
-						"Rodese"
+						"Zabraki"
 					],
 					"allowedTypes": [
 						"Common",
@@ -67409,7 +67409,7 @@
 				"name": "Imbue Blood Bargain",
 				"description": "Imbue an item with Blood Bargain.",
 				"itemPrerequisites": "A power cell overcharged in a dark-side ritual (blaster), a vibro-edge blooded in a dark-side bargain (vibroblade), or a kyber crystal cracked during a dark-side bargain (lightsaber)",
-				"source": "Texts or lore in Zabraki",
+				"source": "Texts or lore in Sith (Old Tongue)",
 				"characteristic": [
 					"Might",
 					"Reason",
@@ -67819,7 +67819,7 @@
 				"name": "Imbue Disrupting I",
 				"description": "Imbue an item with Disrupting I.",
 				"itemPrerequisites": "An ion charger (blaster), an ion cell (vibroblade), or a Luxum crystal (lightsaber)",
-				"source": "Texts or lore in Zabraki",
+				"source": "Texts or lore in Sith (Old Tongue)",
 				"characteristic": [
 					"Might",
 					"Reason",
@@ -69132,7 +69132,7 @@
 				"name": "Imbue Disrupting II",
 				"description": "Imbue an item with Disrupting II.",
 				"itemPrerequisites": "An improved ion charger (blaster), a hardened ion cell (vibroblade), or a refined Luxum crystal (lightsaber)",
-				"source": "Texts or lore in Zabraki",
+				"source": "Texts or lore in Sith (Old Tongue)",
 				"characteristic": [
 					"Might",
 					"Reason",
@@ -69232,7 +69232,7 @@
 				"name": "Imbue Erupting I",
 				"description": "Imbue an item with Erupting I.",
 				"itemPrerequisites": "Obsidian from an active volcano",
-				"source": "Texts or lore in Rodese",
+				"source": "Texts or lore in Zabraki",
 				"characteristic": [
 					"Might",
 					"Reason",
@@ -69979,7 +69979,7 @@
 				"name": "Imbue Sith Bargain",
 				"description": "Imbue an item with Sith Bargain.",
 				"itemPrerequisites": "The wing of a greater Terentatek",
-				"source": "Texts or lore in Zabraki",
+				"source": "Texts or lore in Sith (Old Tongue)",
 				"characteristic": [
 					"Might",
 					"Reason",
@@ -70037,7 +70037,7 @@
 				"name": "Imbue Disrupting III",
 				"description": "Imbue an item with Disrupting III.",
 				"itemPrerequisites": "A superior ion charger (blaster), a purified ion cell (vibroblade), or a flawless Luxum crystal (lightsaber)",
-				"source": "Texts or lore in Zabraki",
+				"source": "Texts or lore in Sith (Old Tongue)",
 				"characteristic": [
 					"Might",
 					"Reason",
@@ -70176,7 +70176,7 @@
 				"name": "Imbue Erupting II",
 				"description": "Imbue an item with Erupting II.",
 				"itemPrerequisites": "A sealed geode containing explosive gas",
-				"source": "Texts or lore in Rodese",
+				"source": "Texts or lore in Zabraki",
 				"characteristic": [
 					"Might",
 					"Reason",
@@ -70234,7 +70234,7 @@
 				"name": "Imbue Imprisoning",
 				"description": "Imbue an item with Imprisoning.",
 				"itemPrerequisites": "A binder-coded power cell (blaster), a manacle-forged edge (vibroblade), or a binding crystal (lightsaber)",
-				"source": "Texts or lore in Zabraki",
+				"source": "Texts or lore in Sith (Old Tongue)",
 				"characteristic": [
 					"Might",
 					"Reason",
@@ -70465,7 +70465,7 @@
 				"name": "Imbue Piercing",
 				"description": "Imbue an item with Piercing.",
 				"itemPrerequisites": "Black durasteel salvaged from a wrecked blood-cult war droid",
-				"source": "Texts or lore in Zabraki",
+				"source": "Texts or lore in Sith (Old Tongue)",
 				"characteristic": [
 					"Might",
 					"Reason",
@@ -71695,7 +71695,7 @@
 				"name": "Craft Last Stand Stim",
 				"description": "Craft a Last Stand Stim.",
 				"itemPrerequisites": "A residue scraping from a black-market chem-lab's still",
-				"source": "Texts or lore in Zabraki",
+				"source": "Texts or lore in Sith (Old Tongue)",
 				"characteristic": [
 					"Reason",
 					"Intuition"
@@ -73900,7 +73900,7 @@
 				"name": "Craft Talisman of Envy",
 				"description": "Craft a Talisman of Envy.",
 				"itemPrerequisites": "A pound of feathers, a fragment of black permacrete pulled from a ruined Sith temple",
-				"source": "Texts or lore in Zabraki",
+				"source": "Texts or lore in Sith (Old Tongue)",
 				"characteristic": [
 					"Might",
 					"Reason",
@@ -75941,7 +75941,7 @@
 				"id": "45c55a8d-19ec-48ff-be03-0dbbe625cfd6-crafting",
 				"name": "Craft Empathic Sensory Implant",
 				"description": "Craft an Empathic Sensory Implant.",
-				"itemPrerequisites": "The signature-stylus used to sign a major galactic treaty, a gemstone once worn by a Zabrak warlord",
+				"itemPrerequisites": "The signature-stylus used to sign a major galactic treaty, a gemstone once worn by a Sith warlord",
 				"source": "Texts or lore in Ryl",
 				"characteristic": [
 					"Reason",
@@ -79494,7 +79494,7 @@
 		{
 			"id": "562b6e10-5d24-4a8a-bf5f-8f0474aacfff",
 			"name": "Improvisation Creation",
-			"description": "Without needing to make a test—and even without tools—you can quickly jury-rig or repair a mundane item or piece of equipment related to a skill you have from the crafting skill group. That item lasts for 1 hour or works for one use or activation (whichever comes first, as the Director determines), then breaks beyond repair. For example, if you have the Carpentry skill, you could repair a rickety wooden bridge long enough for a group of creatures to cross it, or build a simple shovel made of wood that can be used for 1 hour.",
+			"description": "Without needing to make a test—and even without tools—you can quickly jury-rig or repair a mundane item or piece of equipment related to a skill you have from the crafting skill group. That item lasts for 1 hour or works for one use or activation (whichever comes first, as the Director determines), then breaks beyond repair. For example, if you have the Fabrication skill, you could repair a rickety wooden bridge long enough for a group of creatures to cross it, or build a simple shovel made of wood that can be used for 1 hour.",
 			"type": "Text",
 			"data": null,
 			"list": "Crafting"
@@ -80356,7 +80356,7 @@
 		{
 			"id": "4e4bf6ba-fc41-49e6-baee-5aca9c0cf5c9",
 			"name": "Fishing",
-			"description": "\nWhether for sustenance, relaxation, or bragging rights, you've gone fishing, provided you are near a body of water. The project roll for this project has the following changes:\n\n* The project points earned by your roll represent the relative size of the fish (or some other fishlike creature) you catch.\n* During each respite when you undertake this activity, you continue making project rolls until you obtain a tier 1 outcome (indicating that a fish got away, earning you no points) or a breakthrough.\n* When you obtain a breakthrough, the Director rolls on the Fishing Events table rather than you gaining points from the roll and making another project roll.\n* When you've made your last Fishing project roll for the respite, you can spend the project points you accrued on a reward from the Tackle table. Any points you don't spend during the current respite are lost.\n\n**Tackle**\n\n| Reward                  | Cost | Effect                                                                                                                                                                                                                                                                                                                                                                                                    |\n|:------------------------|:-----|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Hearty meal (1 serving) | 50   | A creature who eats a serving of a meal prepared with the fish caught during the project increases their Recoveries by 1 until the end of their next respite. A creature can benefit from only one serving of this meal or another like it (such as from the Perfect New Recipe project) at a time.                                                                                                       |\n| Great meal (1 serving)  | 100  | A creature who eats a serving of a meal prepared with the fish caught during the project increases their Recoveries by 1 until the end of their next respite, and gains 10 temporary Stamina that lasts until the end of their next respite if it isn't lost first. A creature can benefit only from one serving of this meal or another like it (such as from the Perfect New Recipe project) at a time. |\n| Better tackle           | 120  | You gain the **Angler** title.                                                                                                                                                                                                                                                                                                                                                                            |\n| Fishing event           | 200  | You roll on the Fishing Events table.                                                                                                                                                                                                                                                                                                                                                                     |\n| Legendary fisher        | 300  | You gain the **Goldenrod** title.                                                                                                                                                                                                                                                                                                                                                                         |\n\n**Fishing Events**\n\n| d10  | Event                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |\n|:-----|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| 1    | While fishing, the hero reels in a talking fish. The fish informs the hero of any events that have occurred within 10 squares of the body of water where they were caught over the last week, or provides one piece of Forbidden Knowledge (see the Discover Lore project), as the Director determines.                                                                                                                                                                                                                                                                                                                                                                                                               |\n| 2    | While fishing, the hero reels in a note in a bottle. The note is written in Zabraki and binds the reader into a deal with a dark-side broker if read out loud. This gives the broker a debt on the reader’s life in exchange for rolling an additional d10 on all future Fishing project rolls.                                                                                                                                                                                                                                                                                                                                                                                                                        |\n| 3    | While the hero is fishing, passersby inform them of a rumor of a Force-attuned fishing rig that allows the fisher to double the size of the fish they reel in. The Director can decide whether the rumor is true, and if so, where the rod might be found.                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |\n| 4    | While fishing, the hero reels in a **Quarren daybringer**. The angulotl is insulted by the hero catching them, and threatens to unleash its storm-control tech and flood the region. However, they can be negotiated with, and might provide the hero with one serving of an amazing meal if they stay on good terms. A creature who eats a serving of this meal increases their Recoveries by 1 until the end of their next respite, and gains 25 temporary Stamina that lasts until the end of their next respite if it isn’t lost first. A creature can benefit only from one serving of this meal or another like it (such as from the Perfect New Recipe project) at a time. |\n| 5    | While fishing, the hero reels in half of a mysterious ancient treasure of the Director’s choice. If the other half is found, both halves fuse together to restore the treasure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |\n| 6    | While fishing, the hero is energized by fond memories of their life up to that point. They gain an edge on Presence tests until the end of their next respite.\t\t\t\t\t\t\t\t\t\t\t\t\t                                                                                                                                                                                                                                                                                                                                                                          \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   |\n| 7    | The hero reaches a new fishing milestone, gaining the **Master of Reels** title. \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t       |\n| 8    | While fishing, the hero engages in relaxing meditation that grants an automatic breakthrough on another project they’re working on. Alternatively, they gain insight that grants an automatic breakthrough on another hero’s project of their choice. \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   |\n| 9    | While fishing, the hero is pulled into the water by an ancient fish and must make a hard Might test. On a success, the hero reels in a humongous fish worth 100 points. On a failure, they end the current respite with 1 fewer Recoveries than usual. On a success with a complication, the hero obtains both outcomes. \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   |\n| 10   | While fishing, the hero notes what appears to be an underwater cavern. If the cavern is explored, it reveals a treasure of the Director’s choice guarded by a battle-droid sentinel fulfilling its programming until its commander returns. \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   |",
+			"description": "\nWhether for sustenance, relaxation, or bragging rights, you've gone fishing, provided you are near a body of water. The project roll for this project has the following changes:\n\n* The project points earned by your roll represent the relative size of the fish (or some other fishlike creature) you catch.\n* During each respite when you undertake this activity, you continue making project rolls until you obtain a tier 1 outcome (indicating that a fish got away, earning you no points) or a breakthrough.\n* When you obtain a breakthrough, the Director rolls on the Fishing Events table rather than you gaining points from the roll and making another project roll.\n* When you've made your last Fishing project roll for the respite, you can spend the project points you accrued on a reward from the Tackle table. Any points you don't spend during the current respite are lost.\n\n**Tackle**\n\n| Reward                  | Cost | Effect                                                                                                                                                                                                                                                                                                                                                                                                    |\n|:------------------------|:-----|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Hearty meal (1 serving) | 50   | A creature who eats a serving of a meal prepared with the fish caught during the project increases their Recoveries by 1 until the end of their next respite. A creature can benefit from only one serving of this meal or another like it (such as from the Perfect New Recipe project) at a time.                                                                                                       |\n| Great meal (1 serving)  | 100  | A creature who eats a serving of a meal prepared with the fish caught during the project increases their Recoveries by 1 until the end of their next respite, and gains 10 temporary Stamina that lasts until the end of their next respite if it isn't lost first. A creature can benefit only from one serving of this meal or another like it (such as from the Perfect New Recipe project) at a time. |\n| Better tackle           | 120  | You gain the **Angler** title.                                                                                                                                                                                                                                                                                                                                                                            |\n| Fishing event           | 200  | You roll on the Fishing Events table.                                                                                                                                                                                                                                                                                                                                                                     |\n| Legendary fisher        | 300  | You gain the **Goldenrod** title.                                                                                                                                                                                                                                                                                                                                                                         |\n\n**Fishing Events**\n\n| d10  | Event                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |\n|:-----|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| 1    | While fishing, the hero reels in a talking fish. The fish informs the hero of any events that have occurred within 10 squares of the body of water where they were caught over the last week, or provides one piece of Forbidden Knowledge (see the Discover Lore project), as the Director determines.                                                                                                                                                                                                                                                                                                                                                                                                               |\n| 2    | While fishing, the hero reels in a note in a bottle. The note is written in Sith (Old Tongue) and binds the reader into a deal with a dark-side broker if read out loud. This gives the broker a debt on the reader’s life in exchange for rolling an additional d10 on all future Fishing project rolls.                                                                                                                                                                                                                                                                                                                                                                                                                        |\n| 3    | While the hero is fishing, passersby inform them of a rumor of a Force-attuned fishing rig that allows the fisher to double the size of the fish they reel in. The Director can decide whether the rumor is true, and if so, where the rod might be found.                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |\n| 4    | While fishing, the hero reels in a **Quarren daybringer**. The angulotl is insulted by the hero catching them, and threatens to unleash its storm-control tech and flood the region. However, they can be negotiated with, and might provide the hero with one serving of an amazing meal if they stay on good terms. A creature who eats a serving of this meal increases their Recoveries by 1 until the end of their next respite, and gains 25 temporary Stamina that lasts until the end of their next respite if it isn’t lost first. A creature can benefit only from one serving of this meal or another like it (such as from the Perfect New Recipe project) at a time. |\n| 5    | While fishing, the hero reels in half of a mysterious ancient treasure of the Director’s choice. If the other half is found, both halves fuse together to restore the treasure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |\n| 6    | While fishing, the hero is energized by fond memories of their life up to that point. They gain an edge on Presence tests until the end of their next respite.\t\t\t\t\t\t\t\t\t\t\t\t\t                                                                                                                                                                                                                                                                                                                                                                          \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   |\n| 7    | The hero reaches a new fishing milestone, gaining the **Master of Reels** title. \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t       |\n| 8    | While fishing, the hero engages in relaxing meditation that grants an automatic breakthrough on another project they’re working on. Alternatively, they gain insight that grants an automatic breakthrough on another hero’s project of their choice. \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   |\n| 9    | While fishing, the hero is pulled into the water by an ancient fish and must make a hard Might test. On a success, the hero reels in a humongous fish worth 100 points. On a failure, they end the current respite with 1 fewer Recoveries than usual. On a success with a complication, the hero obtains both outcomes. \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   |\n| 10   | While fishing, the hero notes what appears to be an underwater cavern. If the cavern is explored, it reveals a treasure of the Director’s choice guarded by a battle-droid sentinel fulfilling its programming until its commander returns. \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   |",
 			"itemPrerequisites": "",
 			"source": "",
 			"characteristic": [
@@ -82697,26 +82697,26 @@
 			"name": "Descent into Darkness",
 			"description": "“Whether I struck them down or clasped their hand, some part of the darkness stayed with me.”",
 			"echelon": 3,
-			"prerequisites": "You defeat a leader or solo creature corrupted by the dark side, such as a fallen Zabrak warlord, or you make a deal with a dark-side broker. Either way, a piece of that darkness took root in you.",
+			"prerequisites": "You defeat a leader or solo creature corrupted by the dark side, such as a fallen Sith warlord, or you make a deal with a dark-side broker. Either way, a piece of that darkness took root in you.",
 			"features": [
 				{
 					"id": "b03544d8-2236-4c07-a08b-00f8019a125a",
 					"name": "Dark Lore",
-					"description": "You know Zabraki, and your understanding of the dark side helps you create irresistible effects. The potencies of your magic or psionic abilities that target Reason, Intuition, or Presence increase by 1.",
+					"description": "You know Sith (Old Tongue), and your understanding of the dark side helps you create irresistible effects. The potencies of your magic or psionic abilities that target Reason, Intuition, or Presence increase by 1.",
 					"type": "Text",
 					"data": null
 				},
 				{
 					"id": "d6159847-8629-4f94-9810-8d6697c425f0",
-					"name": "Zabrak Blood",
-					"description": "You gain 3 ancestry points to spend on purchased Zabrak ancestry traits.",
+					"name": "Sith Blood",
+					"description": "You gain 3 ancestry points to spend on purchased Sith Pureblood ancestry traits.",
 					"type": "Text",
 					"data": null
 				},
 				{
 					"id": "8ccae257-39da-46c8-ac80-3da0a0f62480",
 					"name": "Silver Tongue",
-					"description": "You gain the Silver Tongue signature trait from the Zabrak ancestry.",
+					"description": "You gain the Silver Tongue signature trait from the Sith Pureblood ancestry.",
 					"type": "Text",
 					"data": null
 				},
@@ -82732,22 +82732,22 @@
 		},
 		{
 			"id": "8eb5e976-d130-41fa-9bd4-2863f9423693",
-			"name": "Dragon Blooded",
-			"description": "“I stabbed the Krayt Dragon Axarthan in the heart and their silver blood washed over me, leaving me … as you see.”",
+			"name": "Clan Trained",
+			"description": "“They left me in the Iridonian crags for a season and told me to come back alive. I did, and I came back different.”",
 			"echelon": 3,
-			"prerequisites": "You defeat a leader or solo creature with the Dragon keyword, such as a gloom Krayt Dragon.",
+			"prerequisites": "You spend a season of grueling training under an Iridonian clan master, surviving their trials.",
 			"features": [
 				{
 					"id": "f1f909e7-e8e6-45d6-983d-9a1065382b4d",
-					"name": "Dragon Scaled",
-					"description": "Dragon scales grow on your body wherever the heart’s blood of the dragon touched you. You gain the Hardened Hide signature trait from the Rodian ancestry.",
+					"name": "Trial Hardened",
+					"description": "The clan master’s trials have toughened your body against the natural world. You gain the Iridonian Hardening signature trait from the Zabrak ancestry.",
 					"type": "Text",
 					"data": null
 				},
 				{
 					"id": "eebe4754-3abf-4a4c-8f09-f515a3eef161",
-					"name": "Dragon Touched",
-					"description": "You gain 3 ancestry points to spend on purchased Rodian ancestry traits.",
+					"name": "Clan Taught",
+					"description": "You gain 3 ancestry points to spend on purchased Zabrak ancestry traits.",
 					"type": "Text",
 					"data": null
 				}
@@ -83386,77 +83386,28 @@
 		},
 		{
 			"id": "2f62192e-7c55-49fa-8642-777a2cbc8bef",
-			"name": "Jedi Padawan (TODO)",
+			"name": "Jedi Padawan",
 			"description": "“Patience, young one. Let the Force guide your hand, and it will not fail you.”",
 			"echelon": 1,
 			"prerequisites": "You have the Awakened Force Sensitivity perk, and a Force-sensitive mentor takes you on as their apprentice.",
 			"features": [
 				{
-					"id": "b34fa953-8cf4-45b6-8725-3776a4d624b1",
-					"name": "Guarded Mind",
-					"description": "When resisting potencies from magic abilities, your characteristic scores are considered to be 1 higher than usual.",
-					"type": "Text",
-					"data": null
-				},
-				{
-					"id": "851d3e5c-639d-42ad-ab99-a88e079f9c4c",
-					"name": "Oh No You Don’t!",
-					"description": "",
-					"type": "Ability",
-					"data": {
-						"ability": {
-							"id": "851d3e5c-639d-42ad-ab99-a88e079f9c4c",
-							"name": "Oh No You Don’t!",
-							"description": "",
-							"type": {
-								"usage": "Triggered Action",
-								"free": false,
-								"trigger": "Target uses an ability with the Magic keyword",
-								"time": "",
-								"qualifiers": [],
-								"freeStrike": false
-							},
-							"keywords": [],
-							"distance": [
-								{
-									"type": "Special",
-									"value": 0,
-									"value2": 0,
-									"within": 0,
-									"special": "Adjacent",
-									"qualifier": ""
-								}
-							],
-							"target": "One creature",
-							"cost": 0,
-							"repeatable": false,
-							"minLevel": 1,
-							"sections": [
-								{
-									"type": "text",
-									"text": "Make a free strike."
-								}
-							]
-						}
-					}
-				},
-				{
 					"id": "df528602-56ca-462c-952a-006450c6fb5b",
 					"name": "Sense the Force",
-					"description": "As a maneuver, you open your senses to the residue of magic. Until the end of your next turn, you are aware of whether each creature within 5 squares is a construct, an undead, or a creature from another world, and whether they have used a magic ability in the previous hour. Additionally, you can’t be surprised by constructs, undead, or creatures from another world.",
+					"description": "As a maneuver, you open your senses to the residue of the Force. Until the end of your next turn, you are aware of whether each creature within 5 squares is a droid, a Force-corrupted creature, or an alien from off-world, and whether they have used a magic ability in the previous hour. Additionally, you can’t be surprised by droids, Force-corrupted creatures, or aliens from off-world.",
 					"type": "Multiple Features",
 					"data": {
 						"features": [
 							{
 								"id": "b73f7405-9b38-44e5-aa9c-6bdcd65b1b80",
 								"name": "Sense the Force",
-								"description": "You open your senses to the residue of magic",
+								"description": "You open your senses to the residue of the Force",
 								"type": "Ability",
 								"data": {
 									"ability": {
 										"id": "b73f7405-9b38-44e5-aa9c-6bdcd65b1b80",
 										"name": "Sense the Force",
-										"description": "You open your senses to the residue of magic",
+										"description": "You open your senses to the residue of the Force",
 										"type": {
 											"usage": "Maneuver",
 											"free": false,
@@ -83483,7 +83434,7 @@
 										"sections": [
 											{
 												"type": "text",
-												"text": "Until the end of your next turn, you are aware of whether each target is a construct, an undead, or a creature from another world, and whether they have used a magic ability in the previous hour."
+												"text": "Until the end of your next turn, you are aware of whether each target is a droid, a Force-corrupted creature, or an alien from off-world, and whether they have used a magic ability in the previous hour."
 											}
 										]
 									}
@@ -83492,12 +83443,68 @@
 							{
 								"id": "cd78b54b-22b3-403a-a0ef-4d8dd2868926",
 								"name": "Sense the Force",
-								"description": "You can’t be surprised by constructs, undead, or creatures from another world.",
+								"description": "You can’t be surprised by droids, Force-corrupted creatures, or aliens from off-world.",
 								"type": "Text",
 								"data": null
 							}
 						]
 					}
+				},
+				{
+					"id": "994d2b14-8e1b-4351-921a-d9e453021d68",
+					"name": "Force Leap",
+					"description": "You gather the Force in your legs and surge forward.",
+					"type": "Ability",
+					"data": {
+						"ability": {
+							"id": "994d2b14-8e1b-4351-921a-d9e453021d68",
+							"name": "Force Leap",
+							"description": "You gather the Force in your legs and surge forward.",
+							"type": {
+								"usage": "Maneuver",
+								"free": true,
+								"trigger": "",
+								"time": "",
+								"qualifiers": [],
+								"freeStrike": false
+							},
+							"keywords": [],
+							"distance": [
+								{
+									"type": "Self",
+									"value": 0,
+									"value2": 0,
+									"within": 0,
+									"special": "",
+									"qualifier": ""
+								}
+							],
+							"target": "Self",
+							"cost": 0,
+							"repeatable": false,
+							"minLevel": 1,
+							"sections": [
+								{
+									"type": "text",
+									"text": "The strain of channeling the Force deals you 1d6 damage that can’t be reduced in any way. When you do, you ignore difficult terrain and you can increase the distance of any jump you make by 1 square, both until the end of your turn."
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": "fc043374-93eb-4657-b5ef-b5be103bd5be",
+					"name": "Calming Presence",
+					"description": "The Force flows through you as a calming presence. You gain an edge on tests made to calm or tame nonsapient creatures.",
+					"type": "Text",
+					"data": null
+				},
+				{
+					"id": "7d2221eb-3fad-4c77-91cb-de9c09d3ae69",
+					"name": "Peacekeeper",
+					"description": "You have a double edge on tests made to stop combat and start a negotiation.",
+					"type": "Text",
+					"data": null
 				}
 			],
 			"selectedFeatureID": ""
@@ -83749,77 +83756,28 @@
 		},
 		{
 			"id": "b8adf4af-5595-47b1-8405-b2ed56020829",
-			"name": "Sith Acolyte (TODO)",
+			"name": "Sith Acolyte",
 			"description": "“Embrace what you fear, and it will make you strong. Now — begin.”",
 			"echelon": 1,
 			"prerequisites": "You have the Awakened Force Sensitivity perk, and a Sith (or similarly dark-side) master takes you on as their student — willingly or not.",
 			"features": [
 				{
-					"id": "04575350-7524-4eeb-9255-b54e8ef64694",
-					"name": "Guarded Mind",
-					"description": "When resisting potencies from magic abilities, your characteristic scores are considered to be 1 higher than usual.",
-					"type": "Text",
-					"data": null
-				},
-				{
-					"id": "cb58722d-e33b-48e2-b58a-3dfec2ad5a31",
-					"name": "Oh No You Don’t!",
-					"description": "",
-					"type": "Ability",
-					"data": {
-						"ability": {
-							"id": "cb58722d-e33b-48e2-b58a-3dfec2ad5a31",
-							"name": "Oh No You Don’t!",
-							"description": "",
-							"type": {
-								"usage": "Triggered Action",
-								"free": false,
-								"trigger": "Target uses an ability with the Magic keyword",
-								"time": "",
-								"qualifiers": [],
-								"freeStrike": false
-							},
-							"keywords": [],
-							"distance": [
-								{
-									"type": "Special",
-									"value": 0,
-									"value2": 0,
-									"within": 0,
-									"special": "Adjacent",
-									"qualifier": ""
-								}
-							],
-							"target": "One creature",
-							"cost": 0,
-							"repeatable": false,
-							"minLevel": 1,
-							"sections": [
-								{
-									"type": "text",
-									"text": "Make a free strike."
-								}
-							]
-						}
-					}
-				},
-				{
 					"id": "bbae9344-46c4-49c3-ad8f-e6be413ef01e",
 					"name": "Sense the Force",
-					"description": "As a maneuver, you open your senses to the residue of magic. Until the end of your next turn, you are aware of whether each creature within 5 squares is a construct, an undead, or a creature from another world, and whether they have used a magic ability in the previous hour. Additionally, you can’t be surprised by constructs, undead, or creatures from another world.",
+					"description": "As a maneuver, you open your senses to the residue of the Force. Until the end of your next turn, you are aware of whether each creature within 5 squares is a droid, a Force-corrupted creature, or an alien from off-world, and whether they have used a magic ability in the previous hour. Additionally, you can’t be surprised by droids, Force-corrupted creatures, or aliens from off-world.",
 					"type": "Multiple Features",
 					"data": {
 						"features": [
 							{
 								"id": "0fa924ee-952f-41b7-be76-0a0f54c3fdb0",
 								"name": "Sense the Force",
-								"description": "You open your senses to the residue of magic",
+								"description": "You open your senses to the residue of the Force",
 								"type": "Ability",
 								"data": {
 									"ability": {
 										"id": "0fa924ee-952f-41b7-be76-0a0f54c3fdb0",
 										"name": "Sense the Force",
-										"description": "You open your senses to the residue of magic",
+										"description": "You open your senses to the residue of the Force",
 										"type": {
 											"usage": "Maneuver",
 											"free": false,
@@ -83846,7 +83804,7 @@
 										"sections": [
 											{
 												"type": "text",
-												"text": "Until the end of your next turn, you are aware of whether each target is a construct, an undead, or a creature from another world, and whether they have used a magic ability in the previous hour."
+												"text": "Until the end of your next turn, you are aware of whether each target is a droid, a Force-corrupted creature, or an alien from off-world, and whether they have used a magic ability in the previous hour."
 											}
 										]
 									}
@@ -83855,12 +83813,33 @@
 							{
 								"id": "2b7b604a-bf03-4646-9468-b3f1bbe431f0",
 								"name": "Sense the Force",
-								"description": "You can’t be surprised by constructs, undead, or creatures from another world.",
+								"description": "You can’t be surprised by droids, Force-corrupted creatures, or aliens from off-world.",
 								"type": "Text",
 								"data": null
 							}
 						]
 					}
+				},
+				{
+					"id": "e857a4d6-6605-457d-aaf7-1187fc953814",
+					"name": "Cut Them Down",
+					"description": "When you make a melee strike that targets a minion and at least one more minion is within distance of the strike, the strike gains a +3 damage bonus.",
+					"type": "Text",
+					"data": null
+				},
+				{
+					"id": "ab7ac024-15ce-4c00-8442-e59da40f087b",
+					"name": "Dark Persuasion",
+					"description": "The first time during a negotiation that you make a test using the Intimidate skill and don’t make an argument that appeals to an NPC’s motivation, you don’t lower the NPC’s patience or interest no matter the outcome of the roll.",
+					"type": "Text",
+					"data": null
+				},
+				{
+					"id": "e5d36d53-6b1a-4623-83d7-658ab47b4c9f",
+					"name": "Force Lightning",
+					"description": "You have the Catalyst 1st-level Hurl Element feature, but it always deals lightning damage. You can’t choose another damage type for it.",
+					"type": "Text",
+					"data": null
 				}
 			],
 			"selectedFeatureID": ""
@@ -84466,8 +84445,8 @@
 		},
 		{
 			"name": "Sith (Old Tongue)",
-			"description": "The ancient tongue of the Sith species of Korriban and Ziost, also known as ur-Kittât, later expanded upon and adopted by the Dark Jedi who founded the Sith Order. Written in a runic alphabet whose translation was outlawed by the Republic. Shaped by first contact with the Rakata.",
-			"type": "Dead",
+			"description": "The ancient tongue of the Sith species of Korriban and Ziost, also known as ur-Kittât, later expanded upon and adopted by the Dark Jedi who founded the Sith Order. Written in a runic alphabet whose translation was outlawed by the Republic. Shaped by first contact with the Rakata. Sith Purebloods still speak it among their own kind, keeping the old tongue alive as a living, cultural language.",
+			"type": "Cultural",
 			"related": [
 				"Rakatan"
 			]
