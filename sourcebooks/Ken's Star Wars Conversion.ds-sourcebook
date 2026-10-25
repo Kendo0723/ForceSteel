@@ -1,7 +1,7 @@
 {
 	"id": "8cc13b2e-6f37-4bd4-93fe-5bd15aae826c",
-	"name": "Ken's Star Wars Conversion (v0.62)",
-	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned, plus the Beastheart and the Legion-Master (Summoner).\n\nStill to do: fill in the placeholder mechanical benefits on the Force Sensitivity Titles. A full text audit of the book is mostly complete: its fixes have been applied, and only smaller issues remain outstanding. See the Remaining Work To-Do List for full details.\n\nBuild v0.62 (2026-10-22) — work in progress, for testing only.",
+	"name": "Ken's Star Wars Conversion (v0.63)",
+	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned, plus the Beastheart and the Legion-Master (Summoner).\n\nStill to do: fill in the placeholder mechanical benefits on the Force Sensitivity Titles. A full text audit of the book is mostly complete: its fixes have been applied, and only smaller issues remain outstanding. See the Remaining Work To-Do List for full details.\n\nBuild v0.63 (2026-10-25) — work in progress, for testing only.",
 	"type": "Homebrew",
 	"adventures": [],
 	"ancestries": [
@@ -10531,7 +10531,7 @@
 		{
 			"id": "e5e8ae7c-c16b-4f9f-9df6-9dafcf71f7ae",
 			"name": "Catalyst",
-			"description": "(Previously Elementalist)\n\nAir for movement. Earth for permanence. Fire for destruction. Water for change. Green for growth. Rot for death. Void for the mystery. Years of study and practice—whether poring over ancient Force teachings or running the numbers in a lab—brought you the revelations that let you manipulate these building blocks of reality. Now you use your mastery of the seven elements to destroy, create, and warp the world with the Force, or with equipment built to bend it.\n\nAs a catalyst, you can unleash your wrath across a field of foes, put an enemy exactly where you want them, debilitate foes with harmful effects, ward yourself and allies against danger, manipulate terrain, warp space, and more. Your choice of elemental specialization determines which of these things you do best.",
+			"description": "(Previously Elementalist)\n\nAir for movement. Earth for permanence. Fire for destruction. Water for change. Green for growth. Rot for death. Void for the mystery. Years of study and practice—whether poring over ancient Force teachings or running the numbers in a lab—brought you the revelations that let you manipulate these building blocks of reality. Now you use your mastery of the seven elements to destroy, create, and warp the world with the Force, or with equipment built to bend it.\n\nAs a catalyst, you can unleash your wrath across a field of foes, put an enemy exactly where you want them, debilitate foes with harmful effects, ward yourself and allies against danger, manipulate terrain, warp space, and more. Your choice of elemental specialization determines which of these things you do best.\n\n**Green is banned.** The Green subclass and any ability with the Green keyword are not available at this table.",
 			"type": "standard",
 			"subclassName": "Elemental Specialization",
 			"subclassCount": 1,
@@ -64135,7 +64135,7 @@
 			],
 			"resourceGains": [
 				{
-					"resource": "Piety",
+					"resource": "Devotion",
 					"tag": "",
 					"trigger": "The first time in an encounter that a creature within 10 squares of you uses an area ability.",
 					"value": "2",
@@ -64427,7 +64427,7 @@
 			],
 			"resourceGains": [
 				{
-					"resource": "Piety",
+					"resource": "Devotion",
 					"tag": "",
 					"trigger": "The first time in an encounter that a creature within 10 squares who isn’t a minion is reduced to 0 Stamina, or the first time in an encounter that a solo creature within 10 squares becomes winded.",
 					"value": "2",
@@ -64695,7 +64695,7 @@
 			],
 			"resourceGains": [
 				{
-					"resource": "Piety",
+					"resource": "Devotion",
 					"tag": "",
 					"trigger": "The first time in an encounter that an ally within 10 squares of you obtains a tier 3 outcome on a power roll or an enemy within 10 squares of you obtains a tier 1 outcome on a power roll",
 					"value": "2",
@@ -64984,7 +64984,7 @@
 			],
 			"resourceGains": [
 				{
-					"resource": "Piety",
+					"resource": "Devotion",
 					"tag": "",
 					"trigger": "The first time in an encounter that the Director spends Malice",
 					"value": "2",
@@ -65172,7 +65172,7 @@
 						{
 							"id": "b66aa5a5-16df-4ae1-94a5-ebfe5268d68d",
 							"name": "Font of Grace",
-							"description": "\n* If you are a **Warden**: Each time you use your *Healing Grace* ability, you gain 1 piety that can be spent only on that ability during the same turn. If you don’t use this piety, it is lost. Additionally, you can use your *Cheat Death* feature to return a creature to life even if you don’t have their remains.\n* If you are an **Inquisitor**: Each time you use your *My Life for Yours* ability, you gain 1 wrath that can be spent only on that ability during the same turn. If you don’t use this wrath, it is lost. Additionally, the target of *My Life for Yours* gains 10 temporary Stamina.",
+							"description": "\n* If you are a **Warden**: Each time you use your *Healing Grace* ability, you gain 1 Devotion that can be spent only on that ability during the same turn. If you don’t use this Devotion, it is lost. Additionally, you can use your *Cheat Death* feature to return a creature to life even if you don’t have their remains.\n* If you are an **Inquisitor**: Each time you use your *My Life for Yours* ability, you gain 1 wrath that can be spent only on that ability during the same turn. If you don’t use this wrath, it is lost. Additionally, the target of *My Life for Yours* gains 10 temporary Stamina.",
 							"type": "Text",
 							"data": null
 						}
@@ -65239,7 +65239,7 @@
 			],
 			"resourceGains": [
 				{
-					"resource": "Piety",
+					"resource": "Devotion",
 					"tag": "",
 					"trigger": "The first time in an encounter that a creature within 10 squares regains Stamina",
 					"value": "2",
@@ -65549,7 +65549,7 @@
 			],
 			"resourceGains": [
 				{
-					"resource": "Piety",
+					"resource": "Devotion",
 					"tag": "",
 					"trigger": "The first time in an encounter that you or any ally within 10 squares uses the Aid Attack maneuver or an ability that targets an ally",
 					"value": "2",
@@ -65872,7 +65872,7 @@
 			],
 			"resourceGains": [
 				{
-					"resource": "Piety",
+					"resource": "Devotion",
 					"tag": "",
 					"trigger": "The first time in an encounter that you or a creature within 10 squares takes acid, cold, fire, lightning, poison, or sonic damage",
 					"value": "2",
@@ -66128,7 +66128,7 @@
 			],
 			"resourceGains": [
 				{
-					"resource": "Piety",
+					"resource": "Devotion",
 					"tag": "",
 					"trigger": "The first time in an encounter that you or any ally within 10 squares gains temporary Stamina, or uses a triggered action to reduce incoming damage or impose a bane or double bane on an enemy’s power roll.",
 					"value": "2",
@@ -66417,7 +66417,7 @@
 			],
 			"resourceGains": [
 				{
-					"resource": "Piety",
+					"resource": "Devotion",
 					"tag": "",
 					"trigger": "The first time in an encounter that an enemy within 10 squares is force moved",
 					"value": "2",
@@ -66693,7 +66693,7 @@
 			],
 			"resourceGains": [
 				{
-					"resource": "Piety",
+					"resource": "Devotion",
 					"tag": "",
 					"trigger": "The first time in an encounter that an enemy within 10 squares takes fire or ion damage",
 					"value": "2",
@@ -67024,7 +67024,7 @@
 			],
 			"resourceGains": [
 				{
-					"resource": "Piety",
+					"resource": "Devotion",
 					"tag": "",
 					"trigger": "The first time in an encounter that you or a creature within 10 squares takes the Aid Attack or Hide maneuver",
 					"value": "2",
@@ -67289,7 +67289,7 @@
 			],
 			"resourceGains": [
 				{
-					"resource": "Piety",
+					"resource": "Devotion",
 					"tag": "",
 					"trigger": "The first time in an encounter that you or a creature within 10 squares takes damage greater than 10 + your level in a single turn.",
 					"value": "2",
@@ -81608,8 +81608,24 @@
 					"id": "2a5985d8-1dae-4383-bd03-c705b183db61",
 					"name": "Rogue Talent",
 					"description": "Choose one triggered action that the Adept class has access to at 1st level. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend clarity, you can’t do so unless you have the Clarity class feature.",
-					"type": "Text",
-					"data": null
+					"type": "Class Ability",
+					"data": {
+						"classID": "73802641-62ad-4773-87c1-50800aa60674",
+						"cost": 0,
+						"type": "Triggered Action",
+						"source": {
+							"fromClassAbilities": false,
+							"fromSelectedSubclassAbilities": false,
+							"fromUnselectedSubclassAbilities": false,
+							"fromClassLevels": false,
+							"fromSelectedSubclassLevels": true,
+							"fromUnselectedSubclassLevels": true
+						},
+						"minLevel": 1,
+						"maxLevel": 1,
+						"count": 1,
+						"selectedIDs": []
+					}
 				},
 				{
 					"id": "8f735c8b-cf80-4a84-b691-70ad9011ea6a",
@@ -82060,7 +82076,7 @@
 				{
 					"id": "c53d2a12-535e-47c4-ae23-246cdbd09236",
 					"name": "Healing Gift",
-					"description": "You can use the 1st-level Warden feature Healing Grace as if you had spent 1 piety. Once you use this benefit, you can’t use it again until you earn 1 or more Victories.",
+					"description": "You can use the 1st-level Warden feature Healing Grace as if you had spent 1 Devotion. Once you use this benefit, you can’t use it again until you earn 1 or more Victories.",
 					"type": "Text",
 					"data": null
 				},
@@ -83134,14 +83150,14 @@
 				{
 					"id": "1961a4ac-f03f-450a-a55f-0819ee2750f3",
 					"name": "Perfect Protection",
-					"description": "A characteristic of your choice increases by 1 (to a maximum of 6). The Director chooses a damage type that is dealt by or thematically related to the artifact—for instance, ion for the Kyberheart Blade, psychic for the ancient holocron scepter, or corruption for the Mortal Coil. You have immunity all to the chosen damage type.",
+					"description": "A characteristic of your choice increases by 1 (to a maximum of 6). The Director chooses a damage type that is dealt by or thematically related to the artifact—for instance, ion for the Kyberheart Blade, psychic for the ancient holocron scepter, or corruption for the Dread Talisman. You have immunity all to the chosen damage type.",
 					"type": "Text",
 					"data": null
 				},
 				{
 					"id": "90cb689f-c8c2-4b8f-921c-c69dae09829e",
 					"name": "Poor Compensation",
-					"description": "A characteristic of your choice increases by 1 (to a maximum of 6). Instead of disappearing or otherwise departing, the artifact turns into a trinket or leveled treasure of the Director’s choice that has the same approximate shape as the lost item—for instance, any legendary lightsaber for the Thousand-Year Blade, any implement for the ancient holocron scepter, or a Thief of Joy or any other torque for the Mortal Coil.",
+					"description": "A characteristic of your choice increases by 1 (to a maximum of 6). Instead of disappearing or otherwise departing, the artifact turns into a trinket or leveled treasure of the Director’s choice that has the same approximate shape as the lost item—for instance, any legendary lightsaber for the Thousand-Year Blade, any implement for the ancient holocron scepter, or a Talisman of Envy or any other talisman for the Dread Talisman.",
 					"type": "Text",
 					"data": null
 				}
@@ -83527,8 +83543,24 @@
 					"id": "d9748c64-d416-4353-9a6b-838ab11320ed",
 					"name": "Rogue Talent",
 					"description": "Choose one triggered action that the Adept class has access to at 1st level. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend clarity, you can’t do so unless you have the Clarity class feature.",
-					"type": "Text",
-					"data": null
+					"type": "Class Ability",
+					"data": {
+						"classID": "73802641-62ad-4773-87c1-50800aa60674",
+						"cost": 0,
+						"type": "Triggered Action",
+						"source": {
+							"fromClassAbilities": false,
+							"fromSelectedSubclassAbilities": false,
+							"fromUnselectedSubclassAbilities": false,
+							"fromClassLevels": false,
+							"fromSelectedSubclassLevels": true,
+							"fromUnselectedSubclassLevels": true
+						},
+						"minLevel": 1,
+						"maxLevel": 1,
+						"count": 1,
+						"selectedIDs": []
+					}
 				},
 				{
 					"id": "b58678d7-ece4-4f78-adc6-9437a1ef5a83",
@@ -83545,12 +83577,12 @@
 			"name": "Jedi Knight",
 			"description": "“Rise. The Council recognizes what you've become — go, and serve the light.”",
 			"echelon": 2,
-			"prerequisites": "You have the Padawan title, and you complete a trial set by your order — surviving a dangerous mission alone, or facing a foe your master judges you ready for.",
+			"prerequisites": "You have the Jedi Padawan title, and you complete a trial set by your order — surviving a dangerous mission alone, or facing a foe your master judges you ready for.",
 			"features": [
 				{
 					"id": "79d9063c-b67f-4b5f-aa7c-32acf6461d4e",
 					"name": "Healing Gift",
-					"description": "You can use the 1st-level Warden feature Healing Grace as if you had spent 1 piety. Once you use this benefit, you can’t use it again until you earn 1 or more Victories.",
+					"description": "You can use the 1st-level Warden feature Healing Grace as if you had spent 1 Devotion. Once you use this benefit, you can’t use it again until you earn 1 or more Victories.",
 					"type": "Text",
 					"data": null
 				},
@@ -83602,8 +83634,24 @@
 					"id": "0288a794-ca31-4633-a577-fae648bce5ba",
 					"name": "Rogue Talent",
 					"description": "Choose one triggered action that the Adept class has access to at 1st level. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend clarity, you can’t do so unless you have the Clarity class feature.",
-					"type": "Text",
-					"data": null
+					"type": "Class Ability",
+					"data": {
+						"classID": "73802641-62ad-4773-87c1-50800aa60674",
+						"cost": 0,
+						"type": "Triggered Action",
+						"source": {
+							"fromClassAbilities": false,
+							"fromSelectedSubclassAbilities": false,
+							"fromUnselectedSubclassAbilities": false,
+							"fromClassLevels": false,
+							"fromSelectedSubclassLevels": true,
+							"fromUnselectedSubclassLevels": true
+						},
+						"minLevel": 1,
+						"maxLevel": 1,
+						"count": 1,
+						"selectedIDs": []
+					}
 				}
 			],
 			"selectedFeatureID": ""
@@ -83785,8 +83833,24 @@
 					"id": "cfc8afa3-b5ec-4aec-aaf1-88b96d90a578",
 					"name": "Rogue Talent",
 					"description": "Choose one triggered action that the Adept class has access to at 1st level. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend clarity, you can’t do so unless you have the Clarity class feature.",
-					"type": "Text",
-					"data": null
+					"type": "Class Ability",
+					"data": {
+						"classID": "73802641-62ad-4773-87c1-50800aa60674",
+						"cost": 0,
+						"type": "Triggered Action",
+						"source": {
+							"fromClassAbilities": false,
+							"fromSelectedSubclassAbilities": false,
+							"fromUnselectedSubclassAbilities": false,
+							"fromClassLevels": false,
+							"fromSelectedSubclassLevels": true,
+							"fromUnselectedSubclassLevels": true
+						},
+						"minLevel": 1,
+						"maxLevel": 1,
+						"count": 1,
+						"selectedIDs": []
+					}
 				}
 			],
 			"selectedFeatureID": ""
