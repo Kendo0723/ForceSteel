@@ -1,7 +1,7 @@
 {
 	"id": "8cc13b2e-6f37-4bd4-93fe-5bd15aae826c",
-	"name": "Ken's Star Wars Conversion (v0.60)",
-	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned, plus the Beastheart and the Legion-Master (Summoner).\n\nStill to do: fill in the placeholder mechanical benefits on the Force Sensitivity Titles. A full text audit of the book is mostly complete: its fixes have been applied, and only smaller issues remain outstanding. See the Remaining Work To-Do List for full details.\n\nBuild v0.60 (2026-10-21) — work in progress, for testing only.",
+	"name": "Ken's Star Wars Conversion (v0.62)",
+	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned, plus the Beastheart and the Legion-Master (Summoner).\n\nStill to do: fill in the placeholder mechanical benefits on the Force Sensitivity Titles. A full text audit of the book is mostly complete: its fixes have been applied, and only smaller issues remain outstanding. See the Remaining Work To-Do List for full details.\n\nBuild v0.62 (2026-10-22) — work in progress, for testing only.",
 	"type": "Homebrew",
 	"adventures": [],
 	"ancestries": [
@@ -76464,7 +76464,7 @@
 				"isCustom": false,
 				"progress": null
 			},
-			"effect": "",
+			"effect": "Using a lightsaber's bonuses and benefits requires the Awakened Force Sensitivity perk. Without that perk, you can still swing this lightsaber as an improvised weapon, but you don't get any of its bonuses or benefits.",
 			"featuresByLevel": [
 				{
 					"level": 1,
@@ -76573,7 +76573,7 @@
 				"isCustom": false,
 				"progress": null
 			},
-			"effect": "",
+			"effect": "Using a lightsaber's bonuses and benefits requires the Awakened Force Sensitivity perk. Without that perk, you can still swing this lightsaber as an improvised weapon, but you don't get any of its bonuses or benefits.",
 			"featuresByLevel": [
 				{
 					"level": 1,
@@ -76682,7 +76682,7 @@
 				"isCustom": false,
 				"progress": null
 			},
-			"effect": "",
+			"effect": "Using a lightsaber's bonuses and benefits requires the Awakened Force Sensitivity perk. Without that perk, you can still swing this lightsaber as an improvised weapon, but you don't get any of its bonuses or benefits.",
 			"featuresByLevel": [
 				{
 					"level": 1,
@@ -76791,7 +76791,7 @@
 				"isCustom": false,
 				"progress": null
 			},
-			"effect": "",
+			"effect": "Using a lightsaber's bonuses and benefits requires the Awakened Force Sensitivity perk. Without that perk, you can still swing this lightsaber as an improvised weapon, but you don't get any of its bonuses or benefits.",
 			"featuresByLevel": [
 				{
 					"level": 1,
@@ -80233,14 +80233,14 @@
 		},
 		{
 			"id": "6b1ad4de-2e16-4ecb-ac09-900565c3c0cd",
-			"name": "Awakened Force Sensitivity (TODO)",
-			"description": "You reach out with a flicker of the Force and nudge the world, just slightly.\n\nYou've done the mental preparation needed to use a lightsaber the way it's meant to be used. Without this perk (or an equivalent title benefit), you can still swing a lightsaber Treasure as an improvised weapon, but you don't get any of its bonuses or benefits",
+			"name": "Awakened Force Sensitivity",
+			"description": "You reach out with a flicker of the Force and nudge the world, just slightly.\n\nYou've done the mental preparation needed to use a lightsaber the way it's meant to be used. This perk allows you to use lightsaber Treasures and gain their bonuses and benefits. Without this perk, you can still swing a lightsaber Treasure as an improvised weapon, but you don't get any of its bonuses or benefits.",
 			"type": "Ability",
 			"data": {
 				"ability": {
 					"id": "6b1ad4de-2e16-4ecb-ac09-900565c3c0cd",
-					"name": "Awakened Force Sensitivity (TODO)",
-					"description": "You reach out with a flicker of the Force and nudge the world, just slightly.\n\nYou've done the mental preparation needed to use a lightsaber the way it's meant to be used. Without this perk (or an equivalent title benefit), you can still swing a lightsaber Treasure as an improvised weapon, but you don't get any of its bonuses or benefits",
+					"name": "Awakened Force Sensitivity",
+					"description": "You reach out with a flicker of the Force and nudge the world, just slightly.\n\nYou've done the mental preparation needed to use a lightsaber the way it's meant to be used. This perk allows you to use lightsaber Treasures and gain their bonuses and benefits. Without this perk, you can still swing a lightsaber Treasure as an improvised weapon, but you don't get any of its bonuses or benefits.",
 					"type": {
 						"usage": "Maneuver",
 						"free": false,
@@ -83511,10 +83511,10 @@
 		},
 		{
 			"id": "45dca95f-51c3-4146-8b00-c80ecda07a60",
-			"name": "Grey Jedi Initiate (TODO)",
+			"name": "Grey Jedi Initiate",
 			"description": "“Light and dark are only shadows cast by the same flame. I'd rather stand in the fire itself.”",
 			"echelon": 2,
-			"prerequisites": "You have the Padawan title, but come to believe your order's division of the Force into light and dark — Ashla and Bogan, in the old tongue — is itself a kind of blindness. You turn from the path of Knighthood to seek a Force that admits no sides.",
+			"prerequisites": "You have the Jedi Padawan or the Sith Acolyte title, but come to believe that dividing the Force into light and dark, Ashla and Bogan in the old tongue, is itself a kind of blindness. You turn from the path of Knighthood, or of the Apprentice, to seek a Force that admits no sides.",
 			"features": [
 				{
 					"id": "3b96f55a-8493-4f47-8481-4ecac6586298",
@@ -83526,120 +83526,43 @@
 				{
 					"id": "d9748c64-d416-4353-9a6b-838ab11320ed",
 					"name": "Rogue Talent",
-					"description": "Choose one triggered action that the talent class has access to at 1st level. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend clarity, you can’t do so unless you have the Clarity class feature.",
+					"description": "Choose one triggered action that the Adept class has access to at 1st level. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend clarity, you can’t do so unless you have the Clarity class feature.",
 					"type": "Text",
 					"data": null
 				},
 				{
-					"id": "88c90123-6a1a-43ba-828e-1f1e43d5a823",
-					"name": "Telepathy",
-					"description": "",
-					"type": "Ability",
-					"data": {
-						"ability": {
-							"id": "88c90123-6a1a-43ba-828e-1f1e43d5a823",
-							"name": "Telepathy",
-							"description": "",
-							"type": {
-								"usage": "Maneuver",
-								"free": false,
-								"trigger": "",
-								"time": "",
-								"qualifiers": [],
-								"freeStrike": false
-							},
-							"keywords": [],
-							"distance": [
-								{
-									"type": "Ranged",
-									"value": 10,
-									"value2": 0,
-									"within": 0,
-									"special": "",
-									"qualifier": ""
-								}
-							],
-							"target": "One creature who understands a langauge you know",
-							"cost": 0,
-							"repeatable": false,
-							"minLevel": 1,
-							"sections": [
-								{
-									"type": "text",
-									"text": "You communicate telepathically with the target. The targer can respond telepathically as part of the same maneuver."
-								}
-							]
-						}
-					}
+					"id": "b58678d7-ece4-4f78-adc6-9437a1ef5a83",
+					"name": "Power of Balance",
+					"description": "When you use an area ability with the Magic or Psionic keyword, you can take damage equal to your level to increase the ability’s area by 1 until the end of the encounter. If the area is a line, you increase the size of one dimension, not both. This damage can’t be reduced in any way. You can use this benefit only once per use of an ability.",
+					"type": "Text",
+					"data": null
 				}
 			],
 			"selectedFeatureID": ""
 		},
 		{
 			"id": "913bcf21-931b-43fd-91f6-6915aa6da16e",
-			"name": "Jedi Knight (TODO)",
+			"name": "Jedi Knight",
 			"description": "“Rise. The Council recognizes what you've become — go, and serve the light.”",
 			"echelon": 2,
 			"prerequisites": "You have the Padawan title, and you complete a trial set by your order — surviving a dangerous mission alone, or facing a foe your master judges you ready for.",
 			"features": [
 				{
-					"id": "70c23199-bd5b-4c0d-bb9c-11fd7742bf95",
+					"id": "79d9063c-b67f-4b5f-aa7c-32acf6461d4e",
 					"name": "Healing Gift",
-					"description": "You can use the 1st-level Conduit feature Healing Grace as if you had spent 1 piety. Once you use this benefit, you can’t use it again until you earn 1 or more Victories.",
+					"description": "You can use the 1st-level Warden feature Healing Grace as if you had spent 1 piety. Once you use this benefit, you can’t use it again until you earn 1 or more Victories.",
 					"type": "Text",
 					"data": null
 				},
 				{
-					"id": "2d1efe1e-5007-484f-aced-6a043916df97",
-					"name": "Last-Ditch Prayer",
-					"description": "",
-					"type": "Ability",
-					"data": {
-						"ability": {
-							"id": "2d1efe1e-5007-484f-aced-6a043916df97",
-							"name": "Last-Ditch Prayer",
-							"description": "",
-							"type": {
-								"usage": "Maneuver",
-								"free": true,
-								"trigger": "",
-								"time": "",
-								"qualifiers": [],
-								"freeStrike": false
-							},
-							"keywords": [],
-							"distance": [
-								{
-									"type": "Self",
-									"value": 0,
-									"value2": 0,
-									"within": 0,
-									"special": "",
-									"qualifier": ""
-								}
-							],
-							"target": "Self",
-							"cost": 0,
-							"repeatable": false,
-							"minLevel": 1,
-							"sections": [
-								{
-									"type": "text",
-									"text": "You recite a prayer for help, gaining a pool of 2d10 of the Heroic Resource granted by your class. This pool disappears at the end of your turn if you haven’t used it. Once you use this benefit, you can’t use it again until you perform another service for a god or saint, or until you gain a level."
-								}
-							]
-						}
-					}
-				},
-				{
-					"id": "714cf8af-2248-4331-9c64-7cfa6cf965ea",
-					"name": "Touched by the divine",
-					"description": "Choose a god or saint",
+					"id": "cdb4c5b4-3dc5-47ec-8eb8-b5808cbed85f",
+					"name": "Touched by the Force",
+					"description": "Choose a domain and a 1st-level domain feature.",
 					"type": "Multiple Features",
 					"data": {
 						"features": [
 							{
-								"id": "7fff9648-4cb1-4a72-95b8-ec618d7b4720",
+								"id": "444fc674-7c1e-4a3c-9a0c-4802851e4636",
 								"name": "Domain",
 								"description": "",
 								"type": "Domain",
@@ -83662,7 +83585,7 @@
 								}
 							},
 							{
-								"id": "f758f123-df9c-4683-8d72-426fb327319a",
+								"id": "fc7ae3b9-40fe-466d-864a-2ec0e90ca2a4",
 								"name": "1st-Level Domain Feature",
 								"description": "Choose a level 1 domain feature.",
 								"type": "Domain Feature",
@@ -83674,42 +83597,42 @@
 							}
 						]
 					}
+				},
+				{
+					"id": "0288a794-ca31-4633-a577-fae648bce5ba",
+					"name": "Rogue Talent",
+					"description": "Choose one triggered action that the Adept class has access to at 1st level. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend clarity, you can’t do so unless you have the Clarity class feature.",
+					"type": "Text",
+					"data": null
 				}
 			],
 			"selectedFeatureID": ""
 		},
 		{
 			"id": "1c2f1635-120c-4d7f-b065-f3adfa61407b",
-			"name": "Grey Jedi Master (TODO)",
+			"name": "Grey Jedi Master",
 			"description": "“I was offered everything. I refused all of it. That's when I understood.”",
 			"echelon": 3,
-			"prerequisites": "You have the Je'daii Initiate title, and you face a trial engineered to pull you fully toward the light or the dark — and you emerge from it tempted by neither. Your order recognizes you as a Master, fit to teach the next generation at one of its temples.",
+			"prerequisites": "You have the Grey Jedi Initiate title, and you face a trial engineered to pull you fully toward the light or the dark — and you emerge from it tempted by neither. Your order recognizes you as a Master, fit to teach the next generation at one of its temples.",
 			"features": [
 				{
-					"id": "c74b76d6-e15d-41aa-8a81-9a48c28661d8",
-					"name": "Devil Lore",
-					"description": "You know the Anjali language, and your understanding of this language helps you create irresistible supernatural effects. The potencies of your magic or psionic abilities that target Reason, Intuition, or Presence increase by 1.",
+					"id": "7e600a09-f679-46e2-a675-d3a8c1071758",
+					"name": "Measured Wrath",
+					"description": "You keep your emotions in check until the moment they are needed. Whenever an ally within 5 squares is reduced to 0 Stamina, you let justified anger flow through you and gain temporary Stamina equal to the ally’s level (or 1 if they have no level). If you already have temporary Stamina granted by this title, you increase your temporary Stamina by the amount you would have gained.",
 					"type": "Text",
 					"data": null
 				},
 				{
-					"id": "b59cd306-9e70-46a1-ab50-b1fc8225f13d",
-					"name": "Infernal Legacy",
-					"description": "You gain 3 ancestry points to spend on purchased devil ancestry traits.",
+					"id": "262c7b4f-1ce5-4406-8af9-4437fd0fd996",
+					"name": "Perfect Balance",
+					"description": "You have found the still point between light and dark, and neither can pull you off centre. You have psychic immunity 10, creatures can’t use magic or psionic abilities or other effects to determine your location or read your thoughts unless you allow them to, and you gain a +3 bonus to stability against magic or psionic abilities.",
 					"type": "Text",
 					"data": null
 				},
 				{
-					"id": "186c8de9-adae-4723-9f76-bd2a283366a3",
-					"name": "Sly Devil",
-					"description": "You gain the Silver Tongue signature trait from the devil ancestry.",
-					"type": "Text",
-					"data": null
-				},
-				{
-					"id": "b8df5216-d2ab-4399-914e-3caa4f6be8a4",
-					"name": "Untouched by Corruption",
-					"description": "Whenever you use a damage-dealing ability, that ability can deal ion damage instead of its usual damage type.",
+					"id": "b3a0aebe-a56b-4916-af3a-90724772f763",
+					"name": "Force Sight",
+					"description": "Any creature within 2 squares can’t be hidden from you.",
 					"type": "Text",
 					"data": null
 				}
@@ -83718,36 +83641,29 @@
 		},
 		{
 			"id": "f2e5623d-7a8a-4d28-b538-1e6d90179edf",
-			"name": "Jedi Master (TODO)",
+			"name": "Jedi Master",
 			"description": "The Council recognises what you've given the Order. Go now — forge your own path, Master.",
 			"echelon": 3,
 			"prerequisites": "You have the Jedi Knight title, and either train a Padawan of your own to Knighthood, or you defeat a Sith Lord or similarly dark-side leader or solo creature in single combat.",
 			"features": [
 				{
-					"id": "dd3c5b07-9b6d-4c8c-9ec3-73632c88f899",
-					"name": "Devil Lore",
-					"description": "You know the Anjali language, and your understanding of this language helps you create irresistible supernatural effects. The potencies of your magic or psionic abilities that target Reason, Intuition, or Presence increase by 1.",
+					"id": "a7fc7acd-1a72-4f64-a5d9-fa124f9b4f31",
+					"name": "Master's Wisdom",
+					"description": "You can travel with a student who shares your class. The student has the statistics of a 1st-level member of your class and has the same skills as you, but doesn’t engage in combat. They can perform any out-of-combat tasks a 1st-level member of your class can perform. Whenever they make a test to assist you in a task, they can’t obtain less than a tier 2 outcome on the test.",
 					"type": "Text",
 					"data": null
 				},
 				{
-					"id": "d988a26d-ff2c-4fc6-830b-d64832281d8c",
-					"name": "Infernal Legacy",
-					"description": "You gain 3 ancestry points to spend on purchased devil ancestry traits.",
+					"id": "4827b51f-5f97-4773-a4eb-8bc5dd5a53fb",
+					"name": "Unshakable Calm",
+					"description": "Decades of discipline have made your mind a still pool that nothing can disturb. You have psychic immunity 10, creatures can’t use magic or psionic abilities or other effects to determine your location or read your thoughts unless you allow them to, and you gain a +3 bonus to stability against magic or psionic abilities.",
 					"type": "Text",
 					"data": null
 				},
 				{
-					"id": "d4fbb984-90b1-49a8-bee3-f6063e3d4645",
-					"name": "Sly Devil",
-					"description": "You gain the Silver Tongue signature trait from the devil ancestry.",
-					"type": "Text",
-					"data": null
-				},
-				{
-					"id": "f5340067-06e2-42e0-8b22-63745d4899ef",
-					"name": "Untouched by Corruption",
-					"description": "Whenever you use a damage-dealing ability, that ability can deal ion damage instead of its usual damage type.",
+					"id": "805b17b3-7e58-4920-b63b-27d4d6112e29",
+					"name": "Hold the Line",
+					"description": "While you’re within 5 squares of an ally, you and each ally within 5 squares of you gains a +3 bonus to stability.",
 					"type": "Text",
 					"data": null
 				}
@@ -83846,139 +83762,60 @@
 		},
 		{
 			"id": "4a3ff9dc-fb39-4922-b518-22d4b4ba64e5",
-			"name": "Sith Apprentice (TODO)",
+			"name": "Sith Apprentice",
 			"description": "“Let your hatred flow. I can feel your power growing — you're almost ready to stand on your own.”",
 			"echelon": 2,
 			"prerequisites": "You have the Sith Acolyte title, and you complete a trial set by your master — one designed to test whether you deserve to survive it.",
 			"features": [
 				{
-					"id": "898a8f7e-b016-4eda-99f4-e1db734b26fc",
-					"name": "Healing Gift",
-					"description": "You can use the 1st-level Conduit feature Healing Grace as if you had spent 1 piety. Once you use this benefit, you can’t use it again until you earn 1 or more Victories.",
+					"id": "14052fc7-e71c-45f4-abf2-106406797324",
+					"name": "Bloody Murder",
+					"description": "When you deal rolled damage to a creature with a strike, you can take damage equal to your level to deal twice that much corruption damage to the creature. The damage you take from this title can’t be reduced in any way. You can use this benefit only once per ability. If the creature is reduced to 0 Stamina by this corruption damage, the creature explodes in a shower of blood and you regain the Stamina you lost. You can’t use this benefit on creatures without blood, such as constructs, elementals, or undead.",
 					"type": "Text",
 					"data": null
 				},
 				{
-					"id": "2e73b835-da0d-4dbb-8157-3726f1f6461f",
-					"name": "Last-Ditch Prayer",
-					"description": "",
-					"type": "Ability",
-					"data": {
-						"ability": {
-							"id": "2e73b835-da0d-4dbb-8157-3726f1f6461f",
-							"name": "Last-Ditch Prayer",
-							"description": "",
-							"type": {
-								"usage": "Maneuver",
-								"free": true,
-								"trigger": "",
-								"time": "",
-								"qualifiers": [],
-								"freeStrike": false
-							},
-							"keywords": [],
-							"distance": [
-								{
-									"type": "Self",
-									"value": 0,
-									"value2": 0,
-									"within": 0,
-									"special": "",
-									"qualifier": ""
-								}
-							],
-							"target": "Self",
-							"cost": 0,
-							"repeatable": false,
-							"minLevel": 1,
-							"sections": [
-								{
-									"type": "text",
-									"text": "You recite a prayer for help, gaining a pool of 2d10 of the Heroic Resource granted by your class. This pool disappears at the end of your turn if you haven’t used it. Once you use this benefit, you can’t use it again until you perform another service for a god or saint, or until you gain a level."
-								}
-							]
-						}
-					}
+					"id": "57875515-c595-4d67-9b6a-7f49d831ca44",
+					"name": "Furious Attack",
+					"description": "Choose one signature ability from the Marauder class. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend ferocity, you can’t do so unless you have the Ferocity class feature.",
+					"type": "Text",
+					"data": null
 				},
 				{
-					"id": "c3efa5ff-d98c-41f5-8360-a8d136995d1f",
-					"name": "Touched by the divine",
-					"description": "Choose a god or saint",
-					"type": "Multiple Features",
-					"data": {
-						"features": [
-							{
-								"id": "fd1027c5-bdfc-48d3-8768-af1c41061a6a",
-								"name": "Domain",
-								"description": "",
-								"type": "Domain",
-								"data": {
-									"characteristic": "Intuition",
-									"levels": [
-										1,
-										2,
-										3,
-										4,
-										5,
-										6,
-										7,
-										8,
-										9,
-										10
-									],
-									"count": 1,
-									"selected": []
-								}
-							},
-							{
-								"id": "af73e073-e8f3-4159-bbb8-fcfdc2a9d001",
-								"name": "1st-Level Domain Feature",
-								"description": "Choose a level 1 domain feature.",
-								"type": "Domain Feature",
-								"data": {
-									"level": 1,
-									"count": 1,
-									"selected": []
-								}
-							}
-						]
-					}
+					"id": "cfc8afa3-b5ec-4aec-aaf1-88b96d90a578",
+					"name": "Rogue Talent",
+					"description": "Choose one triggered action that the Adept class has access to at 1st level. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend clarity, you can’t do so unless you have the Clarity class feature.",
+					"type": "Text",
+					"data": null
 				}
 			],
 			"selectedFeatureID": ""
 		},
 		{
 			"id": "ef73b796-03fd-4512-9d80-2deca5c24437",
-			"name": "Sith Lord (TODO)",
+			"name": "Sith Lord",
 			"description": "“There can only be one master. Thank you — for everything you taught me.”",
 			"echelon": 3,
 			"prerequisites": "You have the Sith Apprentice title, and you defeat your own Sith master in single combat — or, if another has already claimed that kill, you defeat a different Sith Lord and take their place instead.",
 			"features": [
 				{
-					"id": "aef76ca8-995b-4c77-86f5-ac47b2e88c43",
-					"name": "Devil Lore",
-					"description": "You know the Anjali language, and your understanding of this language helps you create irresistible supernatural effects. The potencies of your magic or psionic abilities that target Reason, Intuition, or Presence increase by 1.",
+					"id": "4256ce2a-6ca3-400b-9eaa-2885cb7eeb09",
+					"name": "Ultimate Power",
+					"description": "The dark side has swollen within you until no other mind can find a way in. You have psychic immunity 10, creatures can’t use magic or psionic abilities or other effects to determine your location or read your thoughts unless you allow them to, and you gain a +3 bonus to stability against magic or psionic abilities.",
 					"type": "Text",
 					"data": null
 				},
 				{
-					"id": "19a6ffec-8f46-4a02-8605-b9b79b550199",
-					"name": "Infernal Legacy",
-					"description": "You gain 3 ancestry points to spend on purchased devil ancestry traits.",
+					"id": "315bd918-448a-4d8a-8756-e028462e0b13",
+					"name": "Dark Lore",
+					"description": "You know Sith (Old Tongue), and your understanding of the dark side helps you create irresistible effects. The potencies of your magic or psionic abilities that target Reason, Intuition, or Presence increase by 1.",
 					"type": "Text",
 					"data": null
 				},
 				{
-					"id": "303289e9-302d-44e2-a3af-66de5b7b442c",
-					"name": "Sly Devil",
-					"description": "You gain the Silver Tongue signature trait from the devil ancestry.",
-					"type": "Text",
-					"data": null
-				},
-				{
-					"id": "33deae6d-d288-4662-bf41-ab936005b123",
-					"name": "Untouched by Corruption",
-					"description": "Whenever you use a damage-dealing ability, that ability can deal ion damage instead of its usual damage type.",
+					"id": "fe4c4331-9b4d-49b5-aebb-bd375f390ff5",
+					"name": "Lifebane",
+					"description": "While you are winded, your strikes gain a +5 damage bonus.",
 					"type": "Text",
 					"data": null
 				}
