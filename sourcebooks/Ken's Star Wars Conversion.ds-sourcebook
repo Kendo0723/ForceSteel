@@ -1,7 +1,7 @@
 {
 	"id": "8cc13b2e-6f37-4bd4-93fe-5bd15aae826c",
-	"name": "Ken's Star Wars Conversion (v0.63)",
-	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned, plus the Beastheart and the Legion-Master (Summoner).\n\nStill to do: fill in the placeholder mechanical benefits on the Force Sensitivity Titles. A full text audit of the book is mostly complete: its fixes have been applied, and only smaller issues remain outstanding. See the Remaining Work To-Do List for full details.\n\nBuild v0.63 (2026-10-25) — work in progress, for testing only.",
+	"name": "Ken's Star Wars Conversion (v0.64)",
+	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned, plus the Beastheart and the Legion-Master (Summoner).\n\nStill to do: fill in the placeholder mechanical benefits on the Force Sensitivity Titles. A full text audit of the book is mostly complete: its fixes have been applied, and only smaller issues remain outstanding. See the Remaining Work To-Do List for full details.\n\nBuild v0.64 (2026-10-28) — work in progress, for testing only.",
 	"type": "Homebrew",
 	"adventures": [],
 	"ancestries": [
@@ -3650,7 +3650,7 @@
 						"count": 1,
 						"selectAt": "build",
 						"selected": [
-							"Magic"
+							"Force"
 						]
 					}
 				},
@@ -6990,7 +6990,7 @@
 										"count": 1,
 										"selectAt": "build",
 										"selected": [
-											"Magic"
+											"Force"
 										]
 									}
 								},
@@ -10621,7 +10621,7 @@
 								"count": 1,
 								"selectAt": "build",
 								"selected": [
-									"Magic"
+									"Technology"
 								]
 							}
 						},
@@ -18435,7 +18435,7 @@
 		{
 			"id": "405e0bc1-724f-4c31-8d2f-f70eeefbec32",
 			"name": "Ascetic",
-			"description": "(Previously Null)\n\nThe mind is not separate from the body. Perfection of one requires perfection of the other. You strive for perfect discipline, perfect order, mastery over mind and body becoming an unarmed psionic warrior who dampens and absorbs the Force and psionics. You require no weapons, no tools. You suffice.\n\nAs an ascetic, you resist the supernatural forces of the universe with composure and confidence. As you strive for perfect order, you are an enemy of the ultimate expression of chaos: the supernatural. Those who break the laws of nature using the Force or psionics should fear you.\n\n*\"Any weapon can be turned against the hand that wields it.\"* - Master Ivo Kest",
+			"description": "(Previously Null)\n\nThe mind is not separate from the body. Perfection of one requires perfection of the other. You strive for perfect discipline, perfect order, mastery over mind and body becoming an unarmed psionic warrior who dampens and absorbs the Force and offensive hardware or systems. You require no weapons, no tools. You suffice.\n\nAs an ascetic, you resist the supernatural forces of the universe with composure and confidence. As you strive for perfect order, you are an enemy of the ultimate expression of chaos: the supernatural. Those who break the laws of nature using the Force or advanced technology should fear you.\n\n*\"Any weapon can be turned against the hand that wields it.\"* - Master Ivo Kest",
 			"type": "standard",
 			"subclassName": "Tradition",
 			"subclassCount": 1,
@@ -18533,7 +18533,7 @@
 								"count": 1,
 								"selectAt": "build",
 								"selected": [
-									"Psionics"
+									"Force"
 								]
 							}
 						},
@@ -24930,7 +24930,7 @@
 										"count": 1,
 										"selectAt": "build",
 										"selected": [
-											"Magic"
+											"Technology"
 										]
 									}
 								},
@@ -30154,7 +30154,7 @@
 								"count": 2,
 								"selectAt": "build",
 								"selected": [
-									"Psionics",
+									"Force",
 									"Read Person"
 								]
 							}
@@ -41083,7 +41083,7 @@
 														"count": 1,
 														"selectAt": "build",
 														"selected": [
-															"Magic"
+															"Technology"
 														]
 													}
 												},
@@ -46739,7 +46739,7 @@
 										"count": 1,
 										"selectAt": "build",
 										"selected": [
-											"Magic"
+											"Technology"
 										]
 									}
 								},
@@ -47429,7 +47429,7 @@
 								"count": 2,
 								"selectAt": "build",
 								"selected": [
-									"Magic",
+									"Technology",
 									"Strategy"
 								]
 							}
@@ -76464,7 +76464,7 @@
 				"isCustom": false,
 				"progress": null
 			},
-			"effect": "Using a lightsaber's bonuses and benefits requires the Awakened Force Sensitivity perk. Without that perk, you can still swing this lightsaber as an improvised weapon, but you don't get any of its bonuses or benefits.",
+			"effect": "",
 			"featuresByLevel": [
 				{
 					"level": 1,
@@ -76573,7 +76573,7 @@
 				"isCustom": false,
 				"progress": null
 			},
-			"effect": "Using a lightsaber's bonuses and benefits requires the Awakened Force Sensitivity perk. Without that perk, you can still swing this lightsaber as an improvised weapon, but you don't get any of its bonuses or benefits.",
+			"effect": "",
 			"featuresByLevel": [
 				{
 					"level": 1,
@@ -76682,7 +76682,7 @@
 				"isCustom": false,
 				"progress": null
 			},
-			"effect": "Using a lightsaber's bonuses and benefits requires the Awakened Force Sensitivity perk. Without that perk, you can still swing this lightsaber as an improvised weapon, but you don't get any of its bonuses or benefits.",
+			"effect": "",
 			"featuresByLevel": [
 				{
 					"level": 1,
@@ -76791,7 +76791,7 @@
 				"isCustom": false,
 				"progress": null
 			},
-			"effect": "Using a lightsaber's bonuses and benefits requires the Awakened Force Sensitivity perk. Without that perk, you can still swing this lightsaber as an improvised weapon, but you don't get any of its bonuses or benefits.",
+			"effect": "",
 			"featuresByLevel": [
 				{
 					"level": 1,
@@ -80234,13 +80234,13 @@
 		{
 			"id": "6b1ad4de-2e16-4ecb-ac09-900565c3c0cd",
 			"name": "Awakened Force Sensitivity",
-			"description": "You reach out with a flicker of the Force and nudge the world, just slightly.\n\nYou've done the mental preparation needed to use a lightsaber the way it's meant to be used. This perk allows you to use lightsaber Treasures and gain their bonuses and benefits. Without this perk, you can still swing a lightsaber Treasure as an improvised weapon, but you don't get any of its bonuses or benefits.",
+			"description": "You reach out with a flicker of the Force and nudge the world, just slightly.",
 			"type": "Ability",
 			"data": {
 				"ability": {
 					"id": "6b1ad4de-2e16-4ecb-ac09-900565c3c0cd",
 					"name": "Awakened Force Sensitivity",
-					"description": "You reach out with a flicker of the Force and nudge the world, just slightly.\n\nYou've done the mental preparation needed to use a lightsaber the way it's meant to be used. This perk allows you to use lightsaber Treasures and gain their bonuses and benefits. Without this perk, you can still swing a lightsaber Treasure as an improvised weapon, but you don't get any of its bonuses or benefits.",
+					"description": "You reach out with a flicker of the Force and nudge the world, just slightly.",
 					"type": {
 						"usage": "Maneuver",
 						"free": false,
@@ -84139,8 +84139,8 @@
 			"list": "Lore"
 		},
 		{
-			"name": "Magic",
-			"description": "Knowing about magical places, spells, rituals, items, and phenomena",
+			"name": "Technology",
+			"description": "Knowing about technological places, devices, droids, cybernetics, and exotic phenomena",
 			"list": "Lore"
 		},
 		{
@@ -84154,8 +84154,8 @@
 			"list": "Lore"
 		},
 		{
-			"name": "Psionics",
-			"description": "Knowing about psionic places, spells, rituals, items, and phenomena",
+			"name": "Force",
+			"description": "Knowing about the Force: its places, traditions, rituals, artifacts, and phenomena",
 			"list": "Lore"
 		},
 		{
