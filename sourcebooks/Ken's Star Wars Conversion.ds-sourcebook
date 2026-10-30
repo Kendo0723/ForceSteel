@@ -1,7 +1,7 @@
 {
 	"id": "8cc13b2e-6f37-4bd4-93fe-5bd15aae826c",
-	"name": "Ken's Star Wars Conversion (v0.66)",
-	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. Covers Ancestries, Cultures, Kits (including 7 lightsaber-form Kits), Perks, Titles (including the Jedi/Grey/Sith Force Sensitivity track), Domains, Careers, Skills, Complications, Treasures (including 4 lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore. All 9 core Classes are fully reskinned, plus the Beastheart and the Legion-Master (Summoner).\n\nStill to do: fill in the placeholder mechanical benefits on the Force Sensitivity Titles. A full text audit of the book is mostly complete: its fixes have been applied, and only smaller issues remain outstanding. See the Remaining Work To-Do List for full details.\n\nBuild v0.66 (2026-10-30) — work in progress, for testing only.",
+	"name": "Ken's Star Wars Conversion (v1.0)",
+	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. All nine core Classes are reskinned, along with the Beastheart and the Legion-Master (Summoner). The book also covers Ancestries, Cultures, Careers, Complications, Skills, Perks, Titles (including the Jedi, Grey and Sith Force Sensitivity track), Domains, Kits (including seven lightsaber-form Kits and seven blaster Kits), Treasures (including four lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore.\n\nVersion 1.0 (2026-10-30).",
 	"type": "Homebrew",
 	"adventures": [],
 	"ancestries": [
