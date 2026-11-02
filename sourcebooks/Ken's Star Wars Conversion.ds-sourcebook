@@ -1,7 +1,7 @@
 {
 	"id": "8cc13b2e-6f37-4bd4-93fe-5bd15aae826c",
-	"name": "Ken's Star Wars Conversion (v1.0)",
-	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. All nine core Classes are reskinned, along with the Beastheart and the Legion-Master (Summoner). The book also covers Ancestries, Cultures, Careers, Complications, Skills, Perks, Titles (including the Jedi, Grey and Sith Force Sensitivity track), Domains, Kits (including seven lightsaber-form Kits and seven blaster Kits), Treasures (including four lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore.\n\nVersion 1.0 (2026-10-30).",
+	"name": "Ken's Star Wars Conversion (v1.1)",
+	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. All nine core Classes are reskinned, along with the Beastheart and the Legion-Master (Summoner). The book also covers Ancestries, Cultures, Careers, Complications, Skills, Perks, Titles (including the Jedi, Grey and Sith Force Sensitivity track), Domains, Kits (including seven lightsaber-form Kits and seven blaster Kits), Treasures (including four lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore.\n\nVersion 1.1 (2026-11-02).",
 	"type": "Homebrew",
 	"adventures": [],
 	"ancestries": [
@@ -80161,7 +80161,7 @@
 		{
 			"id": "c36ae0b3-50d6-4a42-8ac7-dba469c0058c",
 			"name": "Danger Sense",
-			"description": "Whenever you are in a natural environment (but not in a settlement in that environment), you gain an edge on tests made using the Alertness skill, and you can’t be surprised. Additionally, you have a Force attunement to the living world that warns you if any natural disaster is imminent within the next 72 hours, though you don’t know exactly what it will entail (an earthquake, a wildfire, and so forth).",
+			"description": "Whenever you are somewhere with few living beings nearby, where the Force is quiet enough to hear clearly (such as untamed wilderness, a sparsely crewed ship or station, or an abandoned ruin, but not a crowded city, spaceport, or packed vessel), you gain an edge on tests made using the Alertness skill, and you can’t be surprised. Additionally, you have a Force attunement to the living world that warns you if any natural disaster is imminent within the next 72 hours, though you don’t know exactly what it will entail (an earthquake, a wildfire, and so forth).",
 			"type": "Text",
 			"data": null,
 			"list": "Exploration"
