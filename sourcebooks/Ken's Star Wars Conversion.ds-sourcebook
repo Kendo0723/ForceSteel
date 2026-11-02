@@ -1,7 +1,7 @@
 {
 	"id": "8cc13b2e-6f37-4bd4-93fe-5bd15aae826c",
-	"name": "Ken's Star Wars Conversion (v1.1)",
-	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. All nine core Classes are reskinned, along with the Beastheart and the Legion-Master (Summoner). The book also covers Ancestries, Cultures, Careers, Complications, Skills, Perks, Titles (including the Jedi, Grey and Sith Force Sensitivity track), Domains, Kits (including seven lightsaber-form Kits and seven blaster Kits), Treasures (including four lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore.\n\nVersion 1.1 (2026-11-02).",
+	"name": "Ken's Star Wars Conversion (v1.2)",
+	"description": "A full Star Wars reskin of Draw Steel: smugglers, Jedi and Sith, bounty hunters, and rebels adventuring across a galaxy far, far away. All nine core Classes are reskinned, along with the Beastheart and the Legion-Master (Summoner). The book also covers Ancestries, Cultures, Careers, Complications, Skills, Perks, Titles (including the Jedi, Grey and Sith Force Sensitivity track), Domains, Kits (including seven lightsaber-form Kits and seven blaster Kits), Treasures (including four lightsaber Treasures), Imbuements, and a Languages family tree remapped to real Star Wars lore.\n\nVersion 1.2 (2026-11-02).",
 	"type": "Homebrew",
 	"adventures": [],
 	"ancestries": [
@@ -84032,7 +84032,7 @@
 			"name": "Jedi Padawan",
 			"description": "“Patience, young one. Let the Force guide your hand, and it will not fail you.”",
 			"echelon": 1,
-			"prerequisites": "You have the Awakened Force Sensitivity perk, and a Force-sensitive mentor takes you on as their apprentice.",
+			"prerequisites": "You show aptitude for wielding the Force, such as via the Awakened Force Sensitivity perk, and a Jedi (or similarly light-side) mentor takes you on as their apprentice.",
 			"features": [
 				{
 					"id": "df528602-56ca-462c-952a-006450c6fb5b",
@@ -84350,7 +84350,7 @@
 			"name": "Sith Acolyte",
 			"description": "“Embrace what you fear, and it will make you strong. Now — begin.”",
 			"echelon": 1,
-			"prerequisites": "You have the Awakened Force Sensitivity perk, and a Sith (or similarly dark-side) master takes you on as their student — willingly or not.",
+			"prerequisites": "You show aptitude for wielding the Force, such as via the Awakened Force Sensitivity perk, and a Sith (or similarly dark-side) master takes you on as their student — willingly or not.",
 			"features": [
 				{
 					"id": "bbae9344-46c4-49c3-ad8f-e6be413ef01e",
