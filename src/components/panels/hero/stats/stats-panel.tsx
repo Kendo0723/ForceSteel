@@ -19,6 +19,14 @@ interface Props {
 	onShowState: (type: HeroModalType) => void;
 }
 
+const characteristicAccents: Record<string, string> = {
+	[Characteristic.Might]: 'var(--fs-char-might)',
+	[Characteristic.Agility]: 'var(--fs-char-agility)',
+	[Characteristic.Reason]: 'var(--fs-char-reason)',
+	[Characteristic.Intuition]: 'var(--fs-char-intuition)',
+	[Characteristic.Presence]: 'var(--fs-char-presence)'
+};
+
 export const StatsPanel = (props: Props) => {
 	const isSmall = useIsSmall();
 	const options = useOptions();
@@ -63,6 +71,7 @@ export const StatsPanel = (props: Props) => {
 								key={ch}
 								caption={isSmall ? ch.substring(0, 1) : ch}
 								captionExtra={rollModifiers.length > 0 ? <RollModifierMarker modifier={rollModifiers[0]} multiple={rollModifiers.length > 1} /> : null}
+								accent={characteristicAccents[ch]}
 								onClick={() => props.onSelectCharacteristic(ch)}
 								style={{ flex: '1 1 0' }}
 							>

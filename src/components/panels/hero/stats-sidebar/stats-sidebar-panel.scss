@@ -48,6 +48,17 @@
 			&:hover {
 				background-color: rgba(0, 0, 0, 0.1);
 			}
+
+			.field-label {
+				opacity: 1;
+				font-weight: 600;
+			}
+
+			&.char-might .field-label { color: var(--fs-char-might); }
+			&.char-agility .field-label { color: var(--fs-char-agility); }
+			&.char-reason .field-label { color: var(--fs-char-reason); }
+			&.char-intuition .field-label { color: var(--fs-char-intuition); }
+			&.char-presence .field-label { color: var(--fs-char-presence); }
 		}
 	}
 }

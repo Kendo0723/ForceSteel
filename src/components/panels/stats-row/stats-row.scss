@@ -41,4 +41,9 @@
 			opacity: 0.5;
 		}
 	}
+
+	&.has-accent .stats-row-caption {
+		border-top: 2px solid var(--stats-row-accent);
+		padding-top: 9px;
+	}
 }

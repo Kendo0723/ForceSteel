@@ -21,35 +21,35 @@ export const StatsSidebarPanel = (props: Props) => {
 				{props.hero.name || 'Unnamed Hero'} - {HeroLogic.getHeroDescription(props.hero)}
 			</div>
 			<div className={props.showStats ? 'stats-section' : 'stats-section ghost'}>
-				<div className='characteristic-btn' onClick={() => props.onSelectCharacteristic(Characteristic.Might)}>
+				<div className='characteristic-btn char-might' onClick={() => props.onSelectCharacteristic(Characteristic.Might)}>
 					<Field
 						orientation='vertical'
 						label='M'
 						value={HeroLogic.getCharacteristic(props.hero, Characteristic.Might)}
 					/>
 				</div>
-				<div className='characteristic-btn' onClick={() => props.onSelectCharacteristic(Characteristic.Agility)}>
+				<div className='characteristic-btn char-agility' onClick={() => props.onSelectCharacteristic(Characteristic.Agility)}>
 					<Field
 						orientation='vertical'
 						label='A'
 						value={HeroLogic.getCharacteristic(props.hero, Characteristic.Agility)}
 					/>
 				</div>
-				<div className='characteristic-btn' onClick={() => props.onSelectCharacteristic(Characteristic.Reason)}>
+				<div className='characteristic-btn char-reason' onClick={() => props.onSelectCharacteristic(Characteristic.Reason)}>
 					<Field
 						orientation='vertical'
 						label='R'
 						value={HeroLogic.getCharacteristic(props.hero, Characteristic.Reason)}
 					/>
 				</div>
-				<div className='characteristic-btn' onClick={() => props.onSelectCharacteristic(Characteristic.Intuition)}>
+				<div className='characteristic-btn char-intuition' onClick={() => props.onSelectCharacteristic(Characteristic.Intuition)}>
 					<Field
 						orientation='vertical'
 						label='I'
 						value={HeroLogic.getCharacteristic(props.hero, Characteristic.Intuition)}
 					/>
 				</div>
-				<div className='characteristic-btn' onClick={() => props.onSelectCharacteristic(Characteristic.Presence)}>
+				<div className='characteristic-btn char-presence' onClick={() => props.onSelectCharacteristic(Characteristic.Presence)}>
 					<Field
 						orientation='vertical'
 						label='P'

@@ -6,13 +6,23 @@ interface Props {
 	children: ReactNode;
 	caption?: string;
 	captionExtra?: ReactNode;
+	accent?: string;
 	style?: CSSProperties;
 	onClick?: () => void;
 }
 
 export const StatsRow = (props: Props) => {
+	const classes = [ 'stats-row' ];
+	if (props.onClick) {
+		classes.push('clickable');
+	}
+	if (props.accent) {
+		classes.push('has-accent');
+	}
+	const style = props.accent ? { ...props.style, '--stats-row-accent': props.accent } as CSSProperties : props.style;
+
 	return (
-		<div className={props.onClick ? 'stats-row clickable' : 'stats-row'} style={props.style} onClick={props.onClick}>
+		<div className={classes.join(' ')} style={style} onClick={props.onClick}>
 			<div className='stats-row-content'>
 				{props.children}
 			</div>

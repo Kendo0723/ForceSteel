@@ -64,6 +64,13 @@
 	--fs-vital-resource: #4F6FAD;
 	--fs-vital-surges: #A78229;
 
+	/// Characteristics: accent line under each characteristic tile on the character sheet.
+	--fs-char-might: #C24240;
+	--fs-char-agility: #D4702A;
+	--fs-char-reason: #4F6FAD;
+	--fs-char-intuition: #647C30;
+	--fs-char-presence: #8A5FA8;
+
 	// ---------------------------------------------------------------
 	// Theme-invariant tokens.
 	//
@@ -99,4 +106,9 @@ html[data-theme='dark'] {
 	--fs-vital-stamina-temp: #647C30;
 	--fs-vital-resource: #4F6FAD;
 	--fs-vital-surges: #A78229;
+	--fs-char-might: #D05A57;
+	--fs-char-agility: #E58446;
+	--fs-char-reason: #6B8CC8;
+	--fs-char-intuition: #7E9A45;
+	--fs-char-presence: #A27CBF;
 }
